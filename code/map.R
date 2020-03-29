@@ -4,58 +4,68 @@ library(leaflet)
 library(sf)
 
 cases <- 
-  read_csv('data/cases-by-neighborhood-2020-03-27.csv') %>%
-  mutate(cases = if_else(is.na(cases), 0, cases))
+  read_csv('data/temp/cases-update-2020-03-28.csv') 
 
-neighborhood_spatial <- 
-  read_sf('data/la-county-neighborhoods-current/') %>%
-  select(name) %>%
-  st_transform("+proj=longlat +datum=WGS84")
+cases$community %>% unique()
 
+cases %>% 
+  filter( community != 'LOS ANGELES COUNTY (EXCL. LB AND PAS)') %>% 
+  group_by( date ) %>% 
+  summarise( sum(cases, na.rm = T))
 
-combined_df <- 
-  neighborhood_spatial %>%
-  left_join(cases, by=c('name'='neighborhood'))
+cases %>% 
+  filter( community == 'LOS ANGELES COUNTY (EXCL. LB AND PAS)') %>% 
+  group_by( date ) %>% 
+  summarise( sum(cases, na.rm = T))
 
-combined_df %>%
-  filter(date=="2020-03-27") %>%
-  ggplot() + 
-  geom_sf(aes(fill=cases),color='grey') +
-  scale_fill_viridis_c("cases",option = "plasma",na.value=NA)+
-  theme_minimal() +
-  theme(panel.grid = element_blank(),
-        axis.text = element_blank(),
-        axis.ticks = element_blank()) + 
-  coord_sf(datum=NA) 
+cases$cases[ cases$cases == 0 ] <- NA
 
+county_pops <- read_csv('data/county_populations.csv')
 
+load( 'data/BASA_shapes.rda')
+
+# FIX KAGEL/LOPEZ Canyon 
+BASA <- 
+  BASA %>% mutate( region = ifelse( region == 'UNINCORPORATE', 'UNINCORPORATED', region))
+# 
+
+# Remove LONG BEACH UNINCORPORATED 
+BASA <- 
+  BASA %>% filter( ! (region == 'UNINCORPORATED' & community == 'LONG BEACH'))
+#
+
+BASA <- 
+  BASA %>% 
+  left_join(cases %>% spread( date, cases ))
 
 ################leaflet################
 library(leaflet)
 library(RColorBrewer)
 library(viridis)
 
-filter_df<- combined_df %>% filter(date=="2020-03-27")
+BASA <- 
+  BASA %>% 
+  st_transform(4326)
 
-pal <- colorNumeric(palette = "YlOrRd", domain =filter_df$cases)
+pal <- colorNumeric(palette = "YlOrRd", domain = BASA$`2020-03-28`)
 
-labels <- sprintf(
-  "<strong>%s:</strong><br/>%g cases",
-  filter_df$name, filter_df$cases
-) %>% lapply(htmltools::HTML)
+labels <- 
+  sprintf("<strong>%s:</strong><br/>%g cases",
+          BASA$community, BASA$`2020-03-28`) %>% 
+  lapply(htmltools::HTML)
 
-filter_df%>%
+BASA %>%
   leaflet() %>%
     addProviderTiles(providers$Stamen.TonerLite) %>%
-    addPolygons(stroke = FALSE,
-              fillColor = ~pal(cases),
+    addPolygons(stroke = FALSE, fillOpacity = 0.8, 
+              fillColor = ~pal(`2020-03-28`),
               highlight = highlightOptions( color = "Cyan",fillOpacity = 0.8,bringToFront = TRUE),
               label = labels,
               labelOptions = labelOptions(
                 style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "15px",
                 direction = "auto")) 
-  addLegend(position = "bottomright", pal = pal, values = filter_df$cases, title = "Number of cases", opacity = 0.8) 
+  addLegend(position = "bottomright", pal = pal, values = BASA$`2020-03-28`, title = "Number of cases", opacity = 0.8) 
   
 
 

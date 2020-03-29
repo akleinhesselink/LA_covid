@@ -5,60 +5,118 @@ library(httr)
 library(rvest)
 library(lubridate)
 
-community_names <- read_csv('data/community_names.csv')
 updates <- dir( 'data/update_archive', '*.html', full.names = T)
 
-temp <- list()
 cases_dat <- list() 
 
-for( i in 1:length(updates)) { 
-  
-  cur_date <- ymd( str_extract( updates[i], '2020[0-9 -]+') )
-  
-  temp[[i]] <- 
-    read_html(updates[i]) %>% 
-    html_nodes('li') %>% 
-    html_text() 
-    
+posting_dates <- lapply( updates, function(x) ymd( str_extract( x, '2020[0-9 -]+' )))
+
+# updates 1 use below: 
+
+cases_dat[[1]] <- 
+  read_html(updates[1]) %>% 
+  html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[4]/li" ) %>% 
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '--') 
+
+# updates 2-4: 
+for( i in 2:4 ) { 
   cases_dat[[i]] <- 
-    data.frame( text = 
-                  temp[[i]][ temp[[i]] %>% 
-                               str_trim(.) %>% 
-                               str_detect( . , '^[A-Z]+.*\\d+$') ] ) %>% 
-    mutate( text = str_trim( text )) %>% 
-    mutate( community = str_extract( text, "^[A-Za-z -\\.]+" ), 
-            cases = str_extract(text, '\\d+$')) %>%
-    separate( community, c('city', 'neighborhood'), sep = '[-]+ ') %>% 
-    mutate( date = cur_date) %>% 
-    mutate( city = str_trim(city) , neighborhood = str_trim(neighborhood )) 
+    read_html(updates[i]) %>% 
+    html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[3]/li" ) %>% 
+    html_text() %>% 
+    data.frame( cases = . )  %>% 
+    filter( !str_detect(cases , 'Investigat')) %>% 
+    separate(cases, c('community', 'cases'), sep = '--') 
+}
+
+# update 5 
+cases_dat[[5]] <- 
+  read_html(updates[5]) %>% 
+  html_nodes( xpath ="//body/table[2]/tr[2]/td/li" ) %>% 
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t') 
+
+# updates 6 - 7 current use below: 
+for( i in 6:7 ) { 
+  cases_dat[[i]] <- 
+    read_html(updates[i]) %>%
+    html_nodes(xpath ="//body//table[2]//td//ul[6]//li") %>%
+    html_text() %>% 
+    data.frame( cases = . ) %>% 
+    filter( !str_detect(cases , 'Investigat')) %>% 
+    separate(cases, c('community', 'cases'), sep = '\\t')
+}
+
+# update 8  ------------ # 
+cases_dat[[8]] <- 
+  read_html(updates[8]) %>%
+  html_nodes(xpath ="//body//table[2]//td//ul[5]//li") %>%
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t')
+
+# updates 9 - current --------- # 
+for(i in 9:length(updates)){ 
+    cases_dat[[i]] <- 
+      read_html(updates[i]) %>%
+      html_nodes(xpath ="//body//table[2]//td//ul[6]//li") %>%
+      html_text() %>% 
+      data.frame( cases = . ) %>% 
+      filter( !str_detect(cases , 'Investigat')) %>% 
+      separate(cases, c('community', 'cases'), sep = '\\t') 
+}
+
+LA_LBC_PASADENA_cases <- list()
+LA_LBC_PASADENA_cases[[1]] <- 
+  read_html(updates[1]) %>%
+  html_nodes(xpath ="//body//table[2]//td//ul[3]//li")  %>% 
+  html_text()  %>% 
+  data.frame( cases = . ) %>%
+  separate(cases, c('community', 'cases'), sep = '--') %>% 
+  mutate_all( .fun = function(x) str_trim(str_to_upper(x))) %>% 
+  mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+
+for( i in 2:length(updates)){ 
+  LA_LBC_PASADENA_cases[[i]] <- 
+    read_html(updates[i]) %>%
+    html_nodes(xpath ="//body//table[2]//td//ul[2]//li") %>%
+    html_text() %>%
+    data.frame( cases = . ) %>%
+    separate(cases, c('community', 'cases'), sep = '--') %>% 
+    mutate_all( .fun = function(x) str_trim(str_to_upper(x))) %>% 
+    mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+}  
+
+for( i in 1:length(cases_dat)){ 
+  
+  cases_dat[[i]]$date <- posting_dates[[i]]
+  LA_LBC_PASADENA_cases[[i]]$date <- posting_dates[[i]]
+  
+  cases_dat[[i]] <- 
+    cases_dat[[i]] %>% 
+    transmute_all( .funs = str_trim ) %>% 
+    mutate( community = str_to_upper(community)) %>% 
+    mutate( cases = as.numeric(str_extract(cases, "\\d+"))) %>% 
+    mutate( community = str_remove(community, '\\*')) %>% 
+    separate( community, c('region', 'community'), sep = ' - ', fill = 'left') %>% 
+    mutate( community = str_remove( community, '^CITY OF ')) 
   
 }
 
-cases_dat  <- 
-  do.call( bind_rows, cases_dat ) %>% 
-  mutate(neighborhood = ifelse( is.na(neighborhood) | neighborhood == "", city, neighborhood)) %>% 
-  select(date,  city, neighborhood, cases)  %>% 
-  mutate(neighborhood = str_remove( neighborhood, '\\*')) %>% 
-  mutate(neighborhood = str_remove( neighborhood, '^[Cc]ity of ')) %>% 
-  filter( complete.cases( . ) )  %>% 
-  distinct() %>% 
-  group_by( date, city, neighborhood) %>%
-  mutate( cases = as.numeric( str_trim(cases))) %>% 
-  filter( cases == max(cases)) %>% 
-  filter( !str_detect( neighborhood, 'ospital|death|[iI]nvesti'))  %>% 
-  ungroup() %>% 
-  mutate( neighborhood = str_remove(neighborhood, ' --$'))
-
-latest_update <- max(cases_dat$date)
-
-date_seq <- seq.Date(ymd('2020-03-10'), latest_update, by = 1)
-
-case_grid <- expand.grid( date = date_seq  ,  neighborhood = community_names$name)
-
-neighborhood_data <- 
-  case_grid %>% 
-  left_join(cases_dat) %>% 
-  arrange( neighborhood, date )  %>% 
-  write_csv(paste0('data/cases-by-neighborhood-', latest_update, '.csv'))
-
+do.call( bind_rows, cases_dat  ) %>% 
+  mutate( community = ifelse( str_detect(community, '<'), 'OTHER', community)) %>% 
+  arrange( community, date ) %>% 
+  filter( !community == '')  %>% 
+  filter( !community %in% c('LONG BEACH', 'PASADENA', 'OTHER')) %>% 
+  mutate( date = ymd(date)) %>% 
+  bind_rows( 
+    do.call(bind_rows, LA_LBC_PASADENA_cases) %>% 
+      mutate( region = community)) %>% 
+  write_csv('data/temp/first_scrape.csv')
 
