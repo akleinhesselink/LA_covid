@@ -13,12 +13,7 @@ cases_dat <-
   mutate( community = str_replace_all(community, pattern = name_replacements))
 
 # Process BASA Shapefile -------------------------------- #   
-BASA <- read_sf( 'data/EGIS_BG10FIPxx_CSA_20170118')
-
-BASA <- 
-  BASA %>% 
-  group_by( CITY_TYPE, LCITY, LABEL) %>% 
-  summarise() 
+BASA <- read_sf( 'data/BOS_Countywide_Statistical_Areas')
 
 BASA <- 
   BASA %>% 
@@ -35,7 +30,6 @@ BASA_names <-
   st_drop_geometry() %>% 
   select(CITY_TYPE, LCITY, LABEL, region, community) %>% 
   distinct() 
-
 
 communities_with_blank_regions <- 
   cases_dat %>% 

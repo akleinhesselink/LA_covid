@@ -20,8 +20,6 @@ cases %>%
 
 cases$cases[ cases$cases == 0 ] <- NA
 
-county_pops <- read_csv('data/county_populations.csv')
-
 load( 'data/BASA_shapes.rda')
 
 # FIX KAGEL/LOPEZ Canyon 
@@ -34,40 +32,48 @@ BASA <-
   BASA %>% filter( ! (region == 'UNINCORPORATED' & community == 'LONG BEACH'))
 #
 
-BASA <- 
-  BASA %>% 
-  left_join(cases %>% spread( date, cases ))
+cases <- 
+  cases %>% 
+  left_join(BASA %>% st_drop_geometry %>% distinct(region, community, POPULATION)) %>% 
+  group_by( region, community ) %>% 
+  arrange( region, community, date) %>% 
+  mutate( case_growth = log(cases) - log(lag(cases))) %>% 
+  mutate( cases_per_10k = (cases/POPULATION)*10000 )
 
+BASA_map <- 
+  BASA %>% 
+  left_join(cases) %>% 
+  filter( date == max(date)) 
+  
 ################leaflet################
 library(leaflet)
 library(RColorBrewer)
 library(viridis)
 
-BASA <- 
-  BASA %>% 
+BASA_map <- 
+  BASA_map %>% 
   st_transform(4326)
 
-pal <- colorNumeric(palette = "YlOrRd", domain = BASA$`2020-03-28`)
+pal <- colorNumeric(palette = "YlOrRd", domain = BASA_map$cases_per_10k)
 
 labels <- 
   sprintf("<strong>%s:</strong><br/>%g cases",
-          BASA$community, BASA$`2020-03-28`) %>% 
+          BASA_map$community, BASA_map$cases_per_10k) %>% 
   lapply(htmltools::HTML)
 
-BASA %>%
+BASA_map %>%
   leaflet() %>%
     addProviderTiles(providers$Stamen.TonerLite) %>%
     addPolygons(stroke = FALSE, fillOpacity = 0.8, 
-              fillColor = ~pal(`2020-03-28`),
+              fillColor = ~pal(cases_per_10k),
               highlight = highlightOptions( color = "Cyan",fillOpacity = 0.8,bringToFront = TRUE),
               label = labels,
               labelOptions = labelOptions(
                 style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "15px",
                 direction = "auto")) 
-  addLegend(position = "bottomright", pal = pal, values = BASA$`2020-03-28`, title = "Number of cases", opacity = 0.8) 
+  addLegend(position = "bottomright", pal = pal, values = BASA_map$cases_per_10k, title = "Number of cases", opacity = 0.8) 
   
-
 
 
 
