@@ -1,0 +1,4914 @@
+date,neighborhood,city,cases
+2020-03-10,Acton,NA,NA
+2020-03-11,Acton,NA,NA
+2020-03-12,Acton,NA,NA
+2020-03-13,Acton,NA,NA
+2020-03-14,Acton,NA,NA
+2020-03-15,Acton,NA,NA
+2020-03-16,Acton,NA,NA
+2020-03-17,Acton,NA,NA
+2020-03-18,Acton,NA,NA
+2020-03-19,Acton,NA,NA
+2020-03-20,Acton,NA,NA
+2020-03-21,Acton,NA,NA
+2020-03-22,Acton,NA,NA
+2020-03-23,Acton,NA,NA
+2020-03-24,Acton,NA,NA
+2020-03-25,Acton,NA,NA
+2020-03-26,Acton,NA,NA
+2020-03-27,Acton,Unincorporated,0
+2020-03-10,Adams-Normandie,NA,NA
+2020-03-11,Adams-Normandie,NA,NA
+2020-03-12,Adams-Normandie,NA,NA
+2020-03-13,Adams-Normandie,NA,NA
+2020-03-14,Adams-Normandie,NA,NA
+2020-03-15,Adams-Normandie,NA,NA
+2020-03-16,Adams-Normandie,NA,NA
+2020-03-17,Adams-Normandie,NA,NA
+2020-03-18,Adams-Normandie,NA,NA
+2020-03-19,Adams-Normandie,NA,NA
+2020-03-20,Adams-Normandie,NA,NA
+2020-03-21,Adams-Normandie,NA,NA
+2020-03-22,Adams-Normandie,NA,NA
+2020-03-23,Adams-Normandie,NA,NA
+2020-03-24,Adams-Normandie,NA,NA
+2020-03-25,Adams-Normandie,NA,NA
+2020-03-26,Adams-Normandie,NA,NA
+2020-03-27,Adams-Normandie,NA,NA
+2020-03-10,Agoura Hills,NA,NA
+2020-03-11,Agoura Hills,NA,NA
+2020-03-12,Agoura Hills,NA,NA
+2020-03-13,Agoura Hills,NA,NA
+2020-03-14,Agoura Hills,NA,NA
+2020-03-15,Agoura Hills,NA,NA
+2020-03-16,Agoura Hills,NA,NA
+2020-03-17,Agoura Hills,NA,NA
+2020-03-18,Agoura Hills,NA,NA
+2020-03-19,Agoura Hills,NA,NA
+2020-03-20,Agoura Hills,NA,NA
+2020-03-21,Agoura Hills,NA,NA
+2020-03-22,Agoura Hills,NA,NA
+2020-03-23,Agoura Hills,Agoura Hills,1
+2020-03-24,Agoura Hills,Agoura Hills,3
+2020-03-25,Agoura Hills,Agoura Hills,3
+2020-03-26,Agoura Hills,Agoura Hills*,5
+2020-03-27,Agoura Hills,City of Agoura Hills,6
+2020-03-10,Agua Dulce,NA,NA
+2020-03-11,Agua Dulce,NA,NA
+2020-03-12,Agua Dulce,NA,NA
+2020-03-13,Agua Dulce,NA,NA
+2020-03-14,Agua Dulce,NA,NA
+2020-03-15,Agua Dulce,NA,NA
+2020-03-16,Agua Dulce,NA,NA
+2020-03-17,Agua Dulce,NA,NA
+2020-03-18,Agua Dulce,NA,NA
+2020-03-19,Agua Dulce,NA,NA
+2020-03-20,Agua Dulce,NA,NA
+2020-03-21,Agua Dulce,NA,NA
+2020-03-22,Agua Dulce,NA,NA
+2020-03-23,Agua Dulce,NA,NA
+2020-03-24,Agua Dulce,NA,NA
+2020-03-25,Agua Dulce,NA,NA
+2020-03-26,Agua Dulce,NA,NA
+2020-03-27,Agua Dulce,Unincorporated,0
+2020-03-10,Alhambra,NA,NA
+2020-03-11,Alhambra,NA,NA
+2020-03-12,Alhambra,NA,NA
+2020-03-13,Alhambra,NA,NA
+2020-03-14,Alhambra,NA,NA
+2020-03-15,Alhambra,NA,NA
+2020-03-16,Alhambra,NA,NA
+2020-03-17,Alhambra,Alhambra,1
+2020-03-18,Alhambra,Alhambra,1
+2020-03-19,Alhambra,Alhambra,2
+2020-03-20,Alhambra,Alhambra --,3
+2020-03-21,Alhambra,Alhambra,3
+2020-03-22,Alhambra,Alhambra,3
+2020-03-23,Alhambra,Alhambra,4
+2020-03-24,Alhambra,Alhambra,5
+2020-03-25,Alhambra,Alhambra,6
+2020-03-26,Alhambra,Alhambra,8
+2020-03-27,Alhambra,City of Alhambra,8
+2020-03-10,Alondra Park,NA,NA
+2020-03-11,Alondra Park,NA,NA
+2020-03-12,Alondra Park,NA,NA
+2020-03-13,Alondra Park,NA,NA
+2020-03-14,Alondra Park,NA,NA
+2020-03-15,Alondra Park,NA,NA
+2020-03-16,Alondra Park,NA,NA
+2020-03-17,Alondra Park,NA,NA
+2020-03-18,Alondra Park,NA,NA
+2020-03-19,Alondra Park,NA,NA
+2020-03-20,Alondra Park,NA,NA
+2020-03-21,Alondra Park,NA,NA
+2020-03-22,Alondra Park,NA,NA
+2020-03-23,Alondra Park,NA,NA
+2020-03-24,Alondra Park,NA,NA
+2020-03-25,Alondra Park,NA,NA
+2020-03-26,Alondra Park,NA,NA
+2020-03-27,Alondra Park,NA,NA
+2020-03-10,Altadena,NA,NA
+2020-03-11,Altadena,NA,NA
+2020-03-12,Altadena,NA,NA
+2020-03-13,Altadena,NA,NA
+2020-03-14,Altadena,NA,NA
+2020-03-15,Altadena,NA,NA
+2020-03-16,Altadena,NA,NA
+2020-03-17,Altadena,Altadena,1
+2020-03-18,Altadena,NA,NA
+2020-03-19,Altadena,NA,NA
+2020-03-20,Altadena,Altadena --,2
+2020-03-21,Altadena,Altadena,3
+2020-03-22,Altadena,Altadena,3
+2020-03-23,Altadena,Altadena,5
+2020-03-24,Altadena,Altadena,5
+2020-03-25,Altadena,Altadena,5
+2020-03-26,Altadena,Altadena*,6
+2020-03-27,Altadena,Unincorporated,9
+2020-03-10,Angeles Crest,NA,NA
+2020-03-11,Angeles Crest,NA,NA
+2020-03-12,Angeles Crest,NA,NA
+2020-03-13,Angeles Crest,NA,NA
+2020-03-14,Angeles Crest,NA,NA
+2020-03-15,Angeles Crest,NA,NA
+2020-03-16,Angeles Crest,NA,NA
+2020-03-17,Angeles Crest,NA,NA
+2020-03-18,Angeles Crest,NA,NA
+2020-03-19,Angeles Crest,NA,NA
+2020-03-20,Angeles Crest,NA,NA
+2020-03-21,Angeles Crest,NA,NA
+2020-03-22,Angeles Crest,NA,NA
+2020-03-23,Angeles Crest,NA,NA
+2020-03-24,Angeles Crest,NA,NA
+2020-03-25,Angeles Crest,NA,NA
+2020-03-26,Angeles Crest,NA,NA
+2020-03-27,Angeles Crest,NA,NA
+2020-03-10,Arcadia,NA,NA
+2020-03-11,Arcadia,NA,NA
+2020-03-12,Arcadia,NA,NA
+2020-03-13,Arcadia,NA,NA
+2020-03-14,Arcadia,NA,NA
+2020-03-15,Arcadia,NA,NA
+2020-03-16,Arcadia,NA,NA
+2020-03-17,Arcadia,Arcadia,1
+2020-03-18,Arcadia,Arcadia --,2
+2020-03-19,Arcadia,Arcadia --,2
+2020-03-20,Arcadia,Arcadia --,2
+2020-03-21,Arcadia,Arcadia,2
+2020-03-22,Arcadia,Arcadia,2
+2020-03-23,Arcadia,Arcadia,3
+2020-03-24,Arcadia,Arcadia,4
+2020-03-25,Arcadia,Arcadia,4
+2020-03-26,Arcadia,Arcadia,6
+2020-03-27,Arcadia,City of Arcadia,6
+2020-03-27,Arcadia,Unincorporated,0
+2020-03-10,Arleta,NA,NA
+2020-03-11,Arleta,NA,NA
+2020-03-12,Arleta,NA,NA
+2020-03-13,Arleta,NA,NA
+2020-03-14,Arleta,NA,NA
+2020-03-15,Arleta,NA,NA
+2020-03-16,Arleta,NA,NA
+2020-03-17,Arleta,NA,NA
+2020-03-18,Arleta,NA,NA
+2020-03-19,Arleta,NA,NA
+2020-03-20,Arleta,NA,NA
+2020-03-21,Arleta,NA,NA
+2020-03-22,Arleta,NA,NA
+2020-03-23,Arleta,NA,NA
+2020-03-24,Arleta,NA,NA
+2020-03-25,Arleta,Arleta,1
+2020-03-26,Arleta,Arleta,2
+2020-03-27,Arleta,Los Angeles,2
+2020-03-10,Arlington Heights,NA,NA
+2020-03-11,Arlington Heights,NA,NA
+2020-03-12,Arlington Heights,NA,NA
+2020-03-13,Arlington Heights,NA,NA
+2020-03-14,Arlington Heights,NA,NA
+2020-03-15,Arlington Heights,NA,NA
+2020-03-16,Arlington Heights,NA,NA
+2020-03-17,Arlington Heights,NA,NA
+2020-03-18,Arlington Heights,NA,NA
+2020-03-19,Arlington Heights,NA,NA
+2020-03-20,Arlington Heights,NA,NA
+2020-03-21,Arlington Heights,NA,NA
+2020-03-22,Arlington Heights,NA,NA
+2020-03-23,Arlington Heights,NA,NA
+2020-03-24,Arlington Heights,NA,NA
+2020-03-25,Arlington Heights,NA,NA
+2020-03-26,Arlington Heights,NA,NA
+2020-03-27,Arlington Heights,NA,NA
+2020-03-10,Artesia,NA,NA
+2020-03-11,Artesia,NA,NA
+2020-03-12,Artesia,NA,NA
+2020-03-13,Artesia,NA,NA
+2020-03-14,Artesia,NA,NA
+2020-03-15,Artesia,NA,NA
+2020-03-16,Artesia,NA,NA
+2020-03-17,Artesia,NA,NA
+2020-03-18,Artesia,NA,NA
+2020-03-19,Artesia,NA,NA
+2020-03-20,Artesia,NA,NA
+2020-03-21,Artesia,NA,NA
+2020-03-22,Artesia,NA,NA
+2020-03-23,Artesia,NA,NA
+2020-03-24,Artesia,NA,NA
+2020-03-25,Artesia,NA,NA
+2020-03-26,Artesia,NA,NA
+2020-03-27,Artesia,NA,NA
+2020-03-10,Athens,NA,NA
+2020-03-11,Athens,NA,NA
+2020-03-12,Athens,NA,NA
+2020-03-13,Athens,NA,NA
+2020-03-14,Athens,NA,NA
+2020-03-15,Athens,NA,NA
+2020-03-16,Athens,NA,NA
+2020-03-17,Athens,NA,NA
+2020-03-18,Athens,NA,NA
+2020-03-19,Athens,NA,NA
+2020-03-20,Athens,NA,NA
+2020-03-21,Athens,NA,NA
+2020-03-22,Athens,Athens,1
+2020-03-23,Athens,Athens,1
+2020-03-24,Athens,Athens,1
+2020-03-25,Athens,Athens,1
+2020-03-26,Athens,Athens,3
+2020-03-27,Athens,NA,NA
+2020-03-10,Atwater Village,NA,NA
+2020-03-11,Atwater Village,NA,NA
+2020-03-12,Atwater Village,NA,NA
+2020-03-13,Atwater Village,NA,NA
+2020-03-14,Atwater Village,NA,NA
+2020-03-15,Atwater Village,NA,NA
+2020-03-16,Atwater Village,NA,NA
+2020-03-17,Atwater Village,NA,NA
+2020-03-18,Atwater Village,NA,NA
+2020-03-19,Atwater Village,NA,NA
+2020-03-20,Atwater Village,NA,NA
+2020-03-21,Atwater Village,NA,NA
+2020-03-22,Atwater Village,NA,NA
+2020-03-23,Atwater Village,NA,NA
+2020-03-24,Atwater Village,NA,NA
+2020-03-25,Atwater Village,NA,NA
+2020-03-26,Atwater Village,NA,NA
+2020-03-27,Atwater Village,Los Angeles,0
+2020-03-10,Avalon,NA,NA
+2020-03-11,Avalon,NA,NA
+2020-03-12,Avalon,NA,NA
+2020-03-13,Avalon,NA,NA
+2020-03-14,Avalon,NA,NA
+2020-03-15,Avalon,NA,NA
+2020-03-16,Avalon,NA,NA
+2020-03-17,Avalon,NA,NA
+2020-03-18,Avalon,NA,NA
+2020-03-19,Avalon,NA,NA
+2020-03-20,Avalon,NA,NA
+2020-03-21,Avalon,NA,NA
+2020-03-22,Avalon,NA,NA
+2020-03-23,Avalon,NA,NA
+2020-03-24,Avalon,NA,NA
+2020-03-25,Avalon,NA,NA
+2020-03-26,Avalon,NA,NA
+2020-03-27,Avalon,City of Avalon,0
+2020-03-10,Avocado Heights,NA,NA
+2020-03-11,Avocado Heights,NA,NA
+2020-03-12,Avocado Heights,NA,NA
+2020-03-13,Avocado Heights,NA,NA
+2020-03-14,Avocado Heights,NA,NA
+2020-03-15,Avocado Heights,NA,NA
+2020-03-16,Avocado Heights,NA,NA
+2020-03-17,Avocado Heights,NA,NA
+2020-03-18,Avocado Heights,NA,NA
+2020-03-19,Avocado Heights,NA,NA
+2020-03-20,Avocado Heights,NA,NA
+2020-03-21,Avocado Heights,NA,NA
+2020-03-22,Avocado Heights,NA,NA
+2020-03-23,Avocado Heights,NA,NA
+2020-03-24,Avocado Heights,NA,NA
+2020-03-25,Avocado Heights,NA,NA
+2020-03-26,Avocado Heights,NA,NA
+2020-03-27,Avocado Heights,Unincorporated,0
+2020-03-10,Azusa,NA,NA
+2020-03-11,Azusa,NA,NA
+2020-03-12,Azusa,NA,NA
+2020-03-13,Azusa,NA,NA
+2020-03-14,Azusa,NA,NA
+2020-03-15,Azusa,NA,NA
+2020-03-16,Azusa,NA,NA
+2020-03-17,Azusa,NA,NA
+2020-03-18,Azusa,NA,NA
+2020-03-19,Azusa,NA,NA
+2020-03-20,Azusa,NA,NA
+2020-03-21,Azusa,NA,NA
+2020-03-22,Azusa,NA,NA
+2020-03-23,Azusa,NA,NA
+2020-03-24,Azusa,NA,NA
+2020-03-25,Azusa,NA,NA
+2020-03-26,Azusa,Azusa*,1
+2020-03-27,Azusa,City of Azusa,1
+2020-03-27,Azusa,Unincorporated,0
+2020-03-10,Baldwin Hills/Crenshaw,NA,NA
+2020-03-11,Baldwin Hills/Crenshaw,NA,NA
+2020-03-12,Baldwin Hills/Crenshaw,NA,NA
+2020-03-13,Baldwin Hills/Crenshaw,NA,NA
+2020-03-14,Baldwin Hills/Crenshaw,NA,NA
+2020-03-15,Baldwin Hills/Crenshaw,NA,NA
+2020-03-16,Baldwin Hills/Crenshaw,NA,NA
+2020-03-17,Baldwin Hills/Crenshaw,NA,NA
+2020-03-18,Baldwin Hills/Crenshaw,NA,NA
+2020-03-19,Baldwin Hills/Crenshaw,NA,NA
+2020-03-20,Baldwin Hills/Crenshaw,NA,NA
+2020-03-21,Baldwin Hills/Crenshaw,NA,NA
+2020-03-22,Baldwin Hills/Crenshaw,NA,NA
+2020-03-23,Baldwin Hills/Crenshaw,NA,NA
+2020-03-24,Baldwin Hills/Crenshaw,NA,NA
+2020-03-25,Baldwin Hills/Crenshaw,NA,NA
+2020-03-26,Baldwin Hills/Crenshaw,NA,NA
+2020-03-27,Baldwin Hills/Crenshaw,NA,NA
+2020-03-10,Baldwin Park,NA,NA
+2020-03-11,Baldwin Park,NA,NA
+2020-03-12,Baldwin Park,NA,NA
+2020-03-13,Baldwin Park,NA,NA
+2020-03-14,Baldwin Park,NA,NA
+2020-03-15,Baldwin Park,NA,NA
+2020-03-16,Baldwin Park,NA,NA
+2020-03-17,Baldwin Park,NA,NA
+2020-03-18,Baldwin Park,NA,NA
+2020-03-19,Baldwin Park,NA,NA
+2020-03-20,Baldwin Park,NA,NA
+2020-03-21,Baldwin Park,NA,NA
+2020-03-22,Baldwin Park,NA,NA
+2020-03-23,Baldwin Park,NA,NA
+2020-03-24,Baldwin Park,NA,NA
+2020-03-25,Baldwin Park,NA,NA
+2020-03-26,Baldwin Park,NA,NA
+2020-03-27,Baldwin Park,City of Baldwin Park,0
+2020-03-10,Bel-Air,NA,NA
+2020-03-11,Bel-Air,NA,NA
+2020-03-12,Bel-Air,NA,NA
+2020-03-13,Bel-Air,NA,NA
+2020-03-14,Bel-Air,NA,NA
+2020-03-15,Bel-Air,NA,NA
+2020-03-16,Bel-Air,NA,NA
+2020-03-17,Bel-Air,NA,NA
+2020-03-18,Bel-Air,NA,NA
+2020-03-19,Bel-Air,NA,NA
+2020-03-20,Bel-Air,NA,NA
+2020-03-21,Bel-Air,NA,NA
+2020-03-22,Bel-Air,NA,NA
+2020-03-23,Bel-Air,NA,NA
+2020-03-24,Bel-Air,NA,NA
+2020-03-25,Bel-Air,NA,NA
+2020-03-26,Bel-Air,NA,NA
+2020-03-27,Bel-Air,NA,NA
+2020-03-10,Bell,NA,NA
+2020-03-11,Bell,NA,NA
+2020-03-12,Bell,NA,NA
+2020-03-13,Bell,NA,NA
+2020-03-14,Bell,NA,NA
+2020-03-15,Bell,NA,NA
+2020-03-16,Bell,NA,NA
+2020-03-17,Bell,NA,NA
+2020-03-18,Bell,NA,NA
+2020-03-19,Bell,NA,NA
+2020-03-20,Bell,NA,NA
+2020-03-21,Bell,NA,NA
+2020-03-22,Bell,NA,NA
+2020-03-23,Bell,NA,NA
+2020-03-24,Bell,NA,NA
+2020-03-25,Bell,NA,NA
+2020-03-26,Bell,Bell,2
+2020-03-27,Bell,City of Bell,4
+2020-03-10,Bell Gardens,NA,NA
+2020-03-11,Bell Gardens,NA,NA
+2020-03-12,Bell Gardens,NA,NA
+2020-03-13,Bell Gardens,NA,NA
+2020-03-14,Bell Gardens,NA,NA
+2020-03-15,Bell Gardens,NA,NA
+2020-03-16,Bell Gardens,NA,NA
+2020-03-17,Bell Gardens,NA,NA
+2020-03-18,Bell Gardens,NA,NA
+2020-03-19,Bell Gardens,NA,NA
+2020-03-20,Bell Gardens,NA,NA
+2020-03-21,Bell Gardens,NA,NA
+2020-03-22,Bell Gardens,NA,NA
+2020-03-23,Bell Gardens,NA,NA
+2020-03-24,Bell Gardens,NA,NA
+2020-03-25,Bell Gardens,Bell Gardens,3
+2020-03-26,Bell Gardens,Bell Gardens*,3
+2020-03-27,Bell Gardens,City of Bell Gardens,1
+2020-03-10,Bellflower,NA,NA
+2020-03-11,Bellflower,NA,NA
+2020-03-12,Bellflower,NA,NA
+2020-03-13,Bellflower,NA,NA
+2020-03-14,Bellflower,NA,NA
+2020-03-15,Bellflower,NA,NA
+2020-03-16,Bellflower,NA,NA
+2020-03-17,Bellflower,NA,NA
+2020-03-18,Bellflower,NA,NA
+2020-03-19,Bellflower,NA,NA
+2020-03-20,Bellflower,NA,NA
+2020-03-21,Bellflower,NA,NA
+2020-03-22,Bellflower,Bellflower,1
+2020-03-23,Bellflower,Bellflower,3
+2020-03-24,Bellflower,Bellflower,3
+2020-03-25,Bellflower,Bellflower,7
+2020-03-26,Bellflower,Bellflower*,8
+2020-03-27,Bellflower,City of Bellflower,10
+2020-03-10,Beverly Crest,NA,NA
+2020-03-11,Beverly Crest,NA,NA
+2020-03-12,Beverly Crest,NA,NA
+2020-03-13,Beverly Crest,NA,NA
+2020-03-14,Beverly Crest,NA,NA
+2020-03-15,Beverly Crest,NA,NA
+2020-03-16,Beverly Crest,NA,NA
+2020-03-17,Beverly Crest,NA,NA
+2020-03-18,Beverly Crest,NA,NA
+2020-03-19,Beverly Crest,NA,NA
+2020-03-20,Beverly Crest,NA,NA
+2020-03-21,Beverly Crest,NA,NA
+2020-03-22,Beverly Crest,NA,NA
+2020-03-23,Beverly Crest,NA,NA
+2020-03-24,Beverly Crest,NA,NA
+2020-03-25,Beverly Crest,NA,NA
+2020-03-26,Beverly Crest,NA,NA
+2020-03-27,Beverly Crest,Los Angeles,14
+2020-03-10,Beverly Grove,NA,NA
+2020-03-11,Beverly Grove,NA,NA
+2020-03-12,Beverly Grove,NA,NA
+2020-03-13,Beverly Grove,NA,NA
+2020-03-14,Beverly Grove,NA,NA
+2020-03-15,Beverly Grove,NA,NA
+2020-03-16,Beverly Grove,NA,NA
+2020-03-17,Beverly Grove,NA,NA
+2020-03-18,Beverly Grove,NA,NA
+2020-03-19,Beverly Grove,NA,NA
+2020-03-20,Beverly Grove,NA,NA
+2020-03-21,Beverly Grove,NA,NA
+2020-03-22,Beverly Grove,NA,NA
+2020-03-23,Beverly Grove,NA,NA
+2020-03-24,Beverly Grove,NA,NA
+2020-03-25,Beverly Grove,NA,NA
+2020-03-26,Beverly Grove,NA,NA
+2020-03-27,Beverly Grove,NA,NA
+2020-03-10,Beverly Hills,NA,NA
+2020-03-11,Beverly Hills,NA,NA
+2020-03-12,Beverly Hills,NA,NA
+2020-03-13,Beverly Hills,NA,NA
+2020-03-14,Beverly Hills,NA,NA
+2020-03-15,Beverly Hills,NA,NA
+2020-03-16,Beverly Hills,NA,NA
+2020-03-17,Beverly Hills,Beverly Hills,1
+2020-03-18,Beverly Hills,Beverly Hills,4
+2020-03-19,Beverly Hills,Beverly Hills,4
+2020-03-20,Beverly Hills,Beverly Hills --,5
+2020-03-21,Beverly Hills,Beverly Hills,7
+2020-03-22,Beverly Hills,Beverly Hills,8
+2020-03-23,Beverly Hills,Beverly Hills,12
+2020-03-24,Beverly Hills,Beverly Hills,12
+2020-03-25,Beverly Hills,Beverly Hills,13
+2020-03-26,Beverly Hills,Beverly Hills,15
+2020-03-27,Beverly Hills,City of Beverly Hills,21
+2020-03-10,Beverlywood,NA,NA
+2020-03-11,Beverlywood,NA,NA
+2020-03-12,Beverlywood,NA,NA
+2020-03-13,Beverlywood,NA,NA
+2020-03-14,Beverlywood,NA,NA
+2020-03-15,Beverlywood,NA,NA
+2020-03-16,Beverlywood,NA,NA
+2020-03-17,Beverlywood,NA,NA
+2020-03-18,Beverlywood,NA,NA
+2020-03-19,Beverlywood,Beverlywood --,2
+2020-03-20,Beverlywood,Beverlywood --,2
+2020-03-21,Beverlywood,Beverlywood,5
+2020-03-22,Beverlywood,Beverlywood,6
+2020-03-23,Beverlywood,Beverlywood,7
+2020-03-24,Beverlywood,Beverlywood,7
+2020-03-25,Beverlywood,Beverlywood,8
+2020-03-26,Beverlywood,Beverlywood*,10
+2020-03-27,Beverlywood,Los Angeles,8
+2020-03-10,Boyle Heights,NA,NA
+2020-03-11,Boyle Heights,NA,NA
+2020-03-12,Boyle Heights,NA,NA
+2020-03-13,Boyle Heights,NA,NA
+2020-03-14,Boyle Heights,NA,NA
+2020-03-15,Boyle Heights,NA,NA
+2020-03-16,Boyle Heights,NA,NA
+2020-03-17,Boyle Heights,Boyle Heights,5
+2020-03-18,Boyle Heights,Los Angeles,5
+2020-03-19,Boyle Heights,Boyle Heights --,5
+2020-03-20,Boyle Heights,Boyle Heights --,5
+2020-03-21,Boyle Heights,Boyle Heights,5
+2020-03-22,Boyle Heights,Boyle Heights,5
+2020-03-23,Boyle Heights,Boyle Heights,5
+2020-03-24,Boyle Heights,Boyle Heights,5
+2020-03-25,Boyle Heights,Boyle Heights,5
+2020-03-26,Boyle Heights,Boyle Heights,7
+2020-03-27,Boyle Heights,Los Angeles,8
+2020-03-10,Bradbury,NA,NA
+2020-03-11,Bradbury,NA,NA
+2020-03-12,Bradbury,NA,NA
+2020-03-13,Bradbury,NA,NA
+2020-03-14,Bradbury,NA,NA
+2020-03-15,Bradbury,NA,NA
+2020-03-16,Bradbury,NA,NA
+2020-03-17,Bradbury,NA,NA
+2020-03-18,Bradbury,NA,NA
+2020-03-19,Bradbury,NA,NA
+2020-03-20,Bradbury,NA,NA
+2020-03-21,Bradbury,NA,NA
+2020-03-22,Bradbury,NA,NA
+2020-03-23,Bradbury,NA,NA
+2020-03-24,Bradbury,NA,NA
+2020-03-25,Bradbury,NA,NA
+2020-03-26,Bradbury,NA,NA
+2020-03-27,Bradbury,City of Bradbury,0
+2020-03-27,Bradbury,Unincorporated,0
+2020-03-10,Brentwood,NA,NA
+2020-03-11,Brentwood,NA,NA
+2020-03-12,Brentwood,NA,NA
+2020-03-13,Brentwood,NA,NA
+2020-03-14,Brentwood,NA,NA
+2020-03-15,Brentwood,NA,NA
+2020-03-16,Brentwood,NA,NA
+2020-03-17,Brentwood,Brentwood --,1
+2020-03-18,Brentwood,Los Angeles,2
+2020-03-19,Brentwood,Brentwood,13
+2020-03-20,Brentwood,Brentwood --,16
+2020-03-21,Brentwood,Brentwood,18
+2020-03-22,Brentwood,Brentwood,23
+2020-03-23,Brentwood,Brentwood,27
+2020-03-24,Brentwood,Brentwood,31
+2020-03-25,Brentwood,Brentwood,34
+2020-03-26,Brentwood,Brentwood*,42
+2020-03-27,Brentwood,Los Angeles,30
+2020-03-10,Broadway-Manchester,NA,NA
+2020-03-11,Broadway-Manchester,NA,NA
+2020-03-12,Broadway-Manchester,NA,NA
+2020-03-13,Broadway-Manchester,NA,NA
+2020-03-14,Broadway-Manchester,NA,NA
+2020-03-15,Broadway-Manchester,NA,NA
+2020-03-16,Broadway-Manchester,NA,NA
+2020-03-17,Broadway-Manchester,NA,NA
+2020-03-18,Broadway-Manchester,NA,NA
+2020-03-19,Broadway-Manchester,NA,NA
+2020-03-20,Broadway-Manchester,NA,NA
+2020-03-21,Broadway-Manchester,NA,NA
+2020-03-22,Broadway-Manchester,NA,NA
+2020-03-23,Broadway-Manchester,NA,NA
+2020-03-24,Broadway-Manchester,NA,NA
+2020-03-25,Broadway-Manchester,NA,NA
+2020-03-26,Broadway-Manchester,NA,NA
+2020-03-27,Broadway-Manchester,NA,NA
+2020-03-10,Burbank,NA,NA
+2020-03-11,Burbank,NA,NA
+2020-03-12,Burbank,NA,NA
+2020-03-13,Burbank,NA,NA
+2020-03-14,Burbank,NA,NA
+2020-03-15,Burbank,NA,NA
+2020-03-16,Burbank,NA,NA
+2020-03-17,Burbank,NA,NA
+2020-03-18,Burbank,NA,NA
+2020-03-19,Burbank,Burbank --,1
+2020-03-20,Burbank,Burbank,1
+2020-03-21,Burbank,Burbank,1
+2020-03-22,Burbank,Burbank,2
+2020-03-23,Burbank,Burbank,2
+2020-03-24,Burbank,Burbank,2
+2020-03-25,Burbank,Burbank,3
+2020-03-26,Burbank,Burbank,6
+2020-03-27,Burbank,City of Burbank,7
+2020-03-10,Calabasas,NA,NA
+2020-03-11,Calabasas,NA,NA
+2020-03-12,Calabasas,NA,NA
+2020-03-13,Calabasas,NA,NA
+2020-03-14,Calabasas,NA,NA
+2020-03-15,Calabasas,NA,NA
+2020-03-16,Calabasas,NA,NA
+2020-03-17,Calabasas,NA,NA
+2020-03-18,Calabasas,NA,NA
+2020-03-19,Calabasas,Calabasas,1
+2020-03-20,Calabasas,Calabasas --,1
+2020-03-21,Calabasas,Calabasas,1
+2020-03-22,Calabasas,Calabasas,2
+2020-03-23,Calabasas,Calabasas,3
+2020-03-24,Calabasas,Calabasas,4
+2020-03-25,Calabasas,Calabasas,4
+2020-03-26,Calabasas,Calabasas*,5
+2020-03-27,Calabasas,City of Calabasas,7
+2020-03-10,Canoga Park,NA,NA
+2020-03-11,Canoga Park,NA,NA
+2020-03-12,Canoga Park,NA,NA
+2020-03-13,Canoga Park,NA,NA
+2020-03-14,Canoga Park,NA,NA
+2020-03-15,Canoga Park,NA,NA
+2020-03-16,Canoga Park,NA,NA
+2020-03-17,Canoga Park,NA,NA
+2020-03-18,Canoga Park,NA,NA
+2020-03-19,Canoga Park,NA,NA
+2020-03-20,Canoga Park,NA,NA
+2020-03-21,Canoga Park,NA,NA
+2020-03-22,Canoga Park,Canoga Park,1
+2020-03-23,Canoga Park,Canoga Park,2
+2020-03-24,Canoga Park,Canoga Park,2
+2020-03-25,Canoga Park,Canoga Park,2
+2020-03-26,Canoga Park,Canoga Park,3
+2020-03-27,Canoga Park,Los Angeles,2
+2020-03-10,Carson,NA,NA
+2020-03-11,Carson,NA,NA
+2020-03-12,Carson,NA,NA
+2020-03-13,Carson,NA,NA
+2020-03-14,Carson,NA,NA
+2020-03-15,Carson,NA,NA
+2020-03-16,Carson,NA,NA
+2020-03-17,Carson,Carson,1
+2020-03-18,Carson,Carson,1
+2020-03-19,Carson,Carson,1
+2020-03-20,Carson,Carson --,3
+2020-03-21,Carson,Carson,3
+2020-03-22,Carson,Carson,4
+2020-03-23,Carson,Carson,6
+2020-03-24,Carson,Carson,8
+2020-03-25,Carson,Carson,9
+2020-03-26,Carson,Carson*,21
+2020-03-27,Carson,City of Carson,21
+2020-03-10,Carthay,NA,NA
+2020-03-11,Carthay,NA,NA
+2020-03-12,Carthay,NA,NA
+2020-03-13,Carthay,NA,NA
+2020-03-14,Carthay,NA,NA
+2020-03-15,Carthay,NA,NA
+2020-03-16,Carthay,NA,NA
+2020-03-17,Carthay,NA,NA
+2020-03-18,Carthay,NA,NA
+2020-03-19,Carthay,NA,NA
+2020-03-20,Carthay,NA,NA
+2020-03-21,Carthay,NA,NA
+2020-03-22,Carthay,NA,NA
+2020-03-23,Carthay,NA,NA
+2020-03-24,Carthay,NA,NA
+2020-03-25,Carthay,NA,NA
+2020-03-26,Carthay,NA,NA
+2020-03-27,Carthay,Los Angeles,7
+2020-03-10,Castaic,NA,NA
+2020-03-11,Castaic,NA,NA
+2020-03-12,Castaic,NA,NA
+2020-03-13,Castaic,NA,NA
+2020-03-14,Castaic,NA,NA
+2020-03-15,Castaic,NA,NA
+2020-03-16,Castaic,NA,NA
+2020-03-17,Castaic,NA,NA
+2020-03-18,Castaic,NA,NA
+2020-03-19,Castaic,Castaic --,1
+2020-03-20,Castaic,Castaic --,1
+2020-03-21,Castaic,Castaic,1
+2020-03-22,Castaic,Castaic,1
+2020-03-23,Castaic,Castaic,1
+2020-03-24,Castaic,Castaic,2
+2020-03-25,Castaic,Castaic,2
+2020-03-26,Castaic,Castaic,2
+2020-03-27,Castaic,Unincorporated,3
+2020-03-10,Castaic Canyons,NA,NA
+2020-03-11,Castaic Canyons,NA,NA
+2020-03-12,Castaic Canyons,NA,NA
+2020-03-13,Castaic Canyons,NA,NA
+2020-03-14,Castaic Canyons,NA,NA
+2020-03-15,Castaic Canyons,NA,NA
+2020-03-16,Castaic Canyons,NA,NA
+2020-03-17,Castaic Canyons,NA,NA
+2020-03-18,Castaic Canyons,NA,NA
+2020-03-19,Castaic Canyons,NA,NA
+2020-03-20,Castaic Canyons,NA,NA
+2020-03-21,Castaic Canyons,NA,NA
+2020-03-22,Castaic Canyons,NA,NA
+2020-03-23,Castaic Canyons,NA,NA
+2020-03-24,Castaic Canyons,NA,NA
+2020-03-25,Castaic Canyons,NA,NA
+2020-03-26,Castaic Canyons,NA,NA
+2020-03-27,Castaic Canyons,NA,NA
+2020-03-10,Central-Alameda,NA,NA
+2020-03-11,Central-Alameda,NA,NA
+2020-03-12,Central-Alameda,NA,NA
+2020-03-13,Central-Alameda,NA,NA
+2020-03-14,Central-Alameda,NA,NA
+2020-03-15,Central-Alameda,NA,NA
+2020-03-16,Central-Alameda,NA,NA
+2020-03-17,Central-Alameda,NA,NA
+2020-03-18,Central-Alameda,NA,NA
+2020-03-19,Central-Alameda,NA,NA
+2020-03-20,Central-Alameda,NA,NA
+2020-03-21,Central-Alameda,NA,NA
+2020-03-22,Central-Alameda,NA,NA
+2020-03-23,Central-Alameda,NA,NA
+2020-03-24,Central-Alameda,NA,NA
+2020-03-25,Central-Alameda,NA,NA
+2020-03-26,Central-Alameda,NA,NA
+2020-03-27,Central-Alameda,NA,NA
+2020-03-10,Century City,NA,NA
+2020-03-11,Century City,NA,NA
+2020-03-12,Century City,NA,NA
+2020-03-13,Century City,NA,NA
+2020-03-14,Century City,NA,NA
+2020-03-15,Century City,NA,NA
+2020-03-16,Century City,NA,NA
+2020-03-17,Century City,NA,NA
+2020-03-18,Century City,NA,NA
+2020-03-19,Century City,NA,NA
+2020-03-20,Century City,Century City --,4
+2020-03-21,Century City,Century City,4
+2020-03-22,Century City,Century City,4
+2020-03-23,Century City,Century City,4
+2020-03-24,Century City,Century City,6
+2020-03-25,Century City,Century City,7
+2020-03-26,Century City,Century City*,9
+2020-03-27,Century City,Los Angeles,6
+2020-03-10,Cerritos,NA,NA
+2020-03-11,Cerritos,NA,NA
+2020-03-12,Cerritos,NA,NA
+2020-03-13,Cerritos,NA,NA
+2020-03-14,Cerritos,NA,NA
+2020-03-15,Cerritos,NA,NA
+2020-03-16,Cerritos,NA,NA
+2020-03-17,Cerritos,NA,NA
+2020-03-18,Cerritos,NA,NA
+2020-03-19,Cerritos,NA,NA
+2020-03-20,Cerritos,NA,NA
+2020-03-21,Cerritos,Cerritos,1
+2020-03-22,Cerritos,Cerritos,2
+2020-03-23,Cerritos,Cerritos,2
+2020-03-24,Cerritos,Cerritos,2
+2020-03-25,Cerritos,Cerritos,2
+2020-03-26,Cerritos,Cerritos*,2
+2020-03-27,Cerritos,City of Cerritos,1
+2020-03-27,Cerritos,Unincorporated,0
+2020-03-10,Charter Oak,NA,NA
+2020-03-11,Charter Oak,NA,NA
+2020-03-12,Charter Oak,NA,NA
+2020-03-13,Charter Oak,NA,NA
+2020-03-14,Charter Oak,NA,NA
+2020-03-15,Charter Oak,NA,NA
+2020-03-16,Charter Oak,NA,NA
+2020-03-17,Charter Oak,NA,NA
+2020-03-18,Charter Oak,NA,NA
+2020-03-19,Charter Oak,NA,NA
+2020-03-20,Charter Oak,NA,NA
+2020-03-21,Charter Oak,NA,NA
+2020-03-22,Charter Oak,NA,NA
+2020-03-23,Charter Oak,NA,NA
+2020-03-24,Charter Oak,NA,NA
+2020-03-25,Charter Oak,NA,NA
+2020-03-26,Charter Oak,NA,NA
+2020-03-27,Charter Oak,NA,NA
+2020-03-10,Chatsworth,NA,NA
+2020-03-11,Chatsworth,NA,NA
+2020-03-12,Chatsworth,NA,NA
+2020-03-13,Chatsworth,NA,NA
+2020-03-14,Chatsworth,NA,NA
+2020-03-15,Chatsworth,NA,NA
+2020-03-16,Chatsworth,NA,NA
+2020-03-17,Chatsworth,NA,NA
+2020-03-18,Chatsworth,NA,NA
+2020-03-19,Chatsworth,NA,NA
+2020-03-20,Chatsworth,NA,NA
+2020-03-21,Chatsworth,NA,NA
+2020-03-22,Chatsworth,NA,NA
+2020-03-23,Chatsworth,NA,NA
+2020-03-24,Chatsworth,NA,NA
+2020-03-25,Chatsworth,NA,NA
+2020-03-26,Chatsworth,Chatsworth,1
+2020-03-27,Chatsworth,Los Angeles,3
+2020-03-10,Chatsworth Reservoir,NA,NA
+2020-03-11,Chatsworth Reservoir,NA,NA
+2020-03-12,Chatsworth Reservoir,NA,NA
+2020-03-13,Chatsworth Reservoir,NA,NA
+2020-03-14,Chatsworth Reservoir,NA,NA
+2020-03-15,Chatsworth Reservoir,NA,NA
+2020-03-16,Chatsworth Reservoir,NA,NA
+2020-03-17,Chatsworth Reservoir,NA,NA
+2020-03-18,Chatsworth Reservoir,NA,NA
+2020-03-19,Chatsworth Reservoir,NA,NA
+2020-03-20,Chatsworth Reservoir,NA,NA
+2020-03-21,Chatsworth Reservoir,NA,NA
+2020-03-22,Chatsworth Reservoir,NA,NA
+2020-03-23,Chatsworth Reservoir,NA,NA
+2020-03-24,Chatsworth Reservoir,NA,NA
+2020-03-25,Chatsworth Reservoir,NA,NA
+2020-03-26,Chatsworth Reservoir,NA,NA
+2020-03-27,Chatsworth Reservoir,NA,NA
+2020-03-10,Chesterfield Square,NA,NA
+2020-03-11,Chesterfield Square,NA,NA
+2020-03-12,Chesterfield Square,NA,NA
+2020-03-13,Chesterfield Square,NA,NA
+2020-03-14,Chesterfield Square,NA,NA
+2020-03-15,Chesterfield Square,NA,NA
+2020-03-16,Chesterfield Square,NA,NA
+2020-03-17,Chesterfield Square,NA,NA
+2020-03-18,Chesterfield Square,NA,NA
+2020-03-19,Chesterfield Square,NA,NA
+2020-03-20,Chesterfield Square,NA,NA
+2020-03-21,Chesterfield Square,NA,NA
+2020-03-22,Chesterfield Square,NA,NA
+2020-03-23,Chesterfield Square,NA,NA
+2020-03-24,Chesterfield Square,NA,NA
+2020-03-25,Chesterfield Square,NA,NA
+2020-03-26,Chesterfield Square,NA,NA
+2020-03-27,Chesterfield Square,NA,NA
+2020-03-10,Cheviot Hills,NA,NA
+2020-03-11,Cheviot Hills,NA,NA
+2020-03-12,Cheviot Hills,NA,NA
+2020-03-13,Cheviot Hills,NA,NA
+2020-03-14,Cheviot Hills,NA,NA
+2020-03-15,Cheviot Hills,NA,NA
+2020-03-16,Cheviot Hills,NA,NA
+2020-03-17,Cheviot Hills,NA,NA
+2020-03-18,Cheviot Hills,NA,NA
+2020-03-19,Cheviot Hills,NA,NA
+2020-03-20,Cheviot Hills,NA,NA
+2020-03-21,Cheviot Hills,NA,NA
+2020-03-22,Cheviot Hills,NA,NA
+2020-03-23,Cheviot Hills,NA,NA
+2020-03-24,Cheviot Hills,NA,NA
+2020-03-25,Cheviot Hills,NA,NA
+2020-03-26,Cheviot Hills,NA,NA
+2020-03-27,Cheviot Hills,NA,NA
+2020-03-10,Chinatown,NA,NA
+2020-03-11,Chinatown,NA,NA
+2020-03-12,Chinatown,NA,NA
+2020-03-13,Chinatown,NA,NA
+2020-03-14,Chinatown,NA,NA
+2020-03-15,Chinatown,NA,NA
+2020-03-16,Chinatown,NA,NA
+2020-03-17,Chinatown,NA,NA
+2020-03-18,Chinatown,NA,NA
+2020-03-19,Chinatown,NA,NA
+2020-03-20,Chinatown,NA,NA
+2020-03-21,Chinatown,NA,NA
+2020-03-22,Chinatown,NA,NA
+2020-03-23,Chinatown,NA,NA
+2020-03-24,Chinatown,NA,NA
+2020-03-25,Chinatown,NA,NA
+2020-03-26,Chinatown,NA,NA
+2020-03-27,Chinatown,Los Angeles,0
+2020-03-10,Citrus,NA,NA
+2020-03-11,Citrus,NA,NA
+2020-03-12,Citrus,NA,NA
+2020-03-13,Citrus,NA,NA
+2020-03-14,Citrus,NA,NA
+2020-03-15,Citrus,NA,NA
+2020-03-16,Citrus,NA,NA
+2020-03-17,Citrus,NA,NA
+2020-03-18,Citrus,NA,NA
+2020-03-19,Citrus,NA,NA
+2020-03-20,Citrus,NA,NA
+2020-03-21,Citrus,NA,NA
+2020-03-22,Citrus,NA,NA
+2020-03-23,Citrus,NA,NA
+2020-03-24,Citrus,NA,NA
+2020-03-25,Citrus,NA,NA
+2020-03-26,Citrus,NA,NA
+2020-03-27,Citrus,NA,NA
+2020-03-10,Claremont,NA,NA
+2020-03-11,Claremont,NA,NA
+2020-03-12,Claremont,NA,NA
+2020-03-13,Claremont,NA,NA
+2020-03-14,Claremont,NA,NA
+2020-03-15,Claremont,NA,NA
+2020-03-16,Claremont,NA,NA
+2020-03-17,Claremont,NA,NA
+2020-03-18,Claremont,NA,NA
+2020-03-19,Claremont,NA,NA
+2020-03-20,Claremont,NA,NA
+2020-03-21,Claremont,NA,NA
+2020-03-22,Claremont,NA,NA
+2020-03-23,Claremont,NA,NA
+2020-03-24,Claremont,Claremont,1
+2020-03-25,Claremont,Claremont,1
+2020-03-26,Claremont,Claremont*,1
+2020-03-27,Claremont,City of Claremont,1
+2020-03-27,Claremont,Unincorporated,0
+2020-03-10,Commerce,NA,NA
+2020-03-11,Commerce,NA,NA
+2020-03-12,Commerce,NA,NA
+2020-03-13,Commerce,NA,NA
+2020-03-14,Commerce,NA,NA
+2020-03-15,Commerce,NA,NA
+2020-03-16,Commerce,NA,NA
+2020-03-17,Commerce,NA,NA
+2020-03-18,Commerce,NA,NA
+2020-03-19,Commerce,NA,NA
+2020-03-20,Commerce,NA,NA
+2020-03-21,Commerce,NA,NA
+2020-03-22,Commerce,NA,NA
+2020-03-23,Commerce,NA,NA
+2020-03-24,Commerce,NA,NA
+2020-03-25,Commerce,NA,NA
+2020-03-26,Commerce,NA,NA
+2020-03-27,Commerce,City of Commerce,0
+2020-03-10,Compton,NA,NA
+2020-03-11,Compton,NA,NA
+2020-03-12,Compton,NA,NA
+2020-03-13,Compton,NA,NA
+2020-03-14,Compton,NA,NA
+2020-03-15,Compton,NA,NA
+2020-03-16,Compton,NA,NA
+2020-03-17,Compton,NA,NA
+2020-03-18,Compton,NA,NA
+2020-03-19,Compton,NA,NA
+2020-03-20,Compton,NA,NA
+2020-03-21,Compton,NA,NA
+2020-03-22,Compton,NA,NA
+2020-03-23,Compton,Compton,1
+2020-03-24,Compton,Compton,1
+2020-03-25,Compton,Compton,2
+2020-03-26,Compton,Compton*,5
+2020-03-27,Compton,City of Compton,7
+2020-03-10,Covina,NA,NA
+2020-03-11,Covina,NA,NA
+2020-03-12,Covina,NA,NA
+2020-03-13,Covina,NA,NA
+2020-03-14,Covina,NA,NA
+2020-03-15,Covina,NA,NA
+2020-03-16,Covina,NA,NA
+2020-03-17,Covina,NA,NA
+2020-03-18,Covina,NA,NA
+2020-03-19,Covina,Covina,1
+2020-03-20,Covina,Covina --,1
+2020-03-21,Covina,Covina,1
+2020-03-22,Covina,Covina,1
+2020-03-23,Covina,Covina,1
+2020-03-24,Covina,Covina,3
+2020-03-25,Covina,Covina,3
+2020-03-26,Covina,Covina*,4
+2020-03-27,Covina,City of Covina,3
+2020-03-10,Cudahy,NA,NA
+2020-03-11,Cudahy,NA,NA
+2020-03-12,Cudahy,NA,NA
+2020-03-13,Cudahy,NA,NA
+2020-03-14,Cudahy,NA,NA
+2020-03-15,Cudahy,NA,NA
+2020-03-16,Cudahy,NA,NA
+2020-03-17,Cudahy,NA,NA
+2020-03-18,Cudahy,NA,NA
+2020-03-19,Cudahy,NA,NA
+2020-03-20,Cudahy,NA,NA
+2020-03-21,Cudahy,NA,NA
+2020-03-22,Cudahy,NA,NA
+2020-03-23,Cudahy,NA,NA
+2020-03-24,Cudahy,NA,NA
+2020-03-25,Cudahy,NA,NA
+2020-03-26,Cudahy,NA,NA
+2020-03-27,Cudahy,NA,NA
+2020-03-10,Culver City,NA,NA
+2020-03-11,Culver City,NA,NA
+2020-03-12,Culver City,NA,NA
+2020-03-13,Culver City,NA,NA
+2020-03-14,Culver City,NA,NA
+2020-03-15,Culver City,NA,NA
+2020-03-16,Culver City,NA,NA
+2020-03-17,Culver City,Culver City,2
+2020-03-18,Culver City,Culver City --,2
+2020-03-19,Culver City,Culver City --,3
+2020-03-20,Culver City,Culver City --,4
+2020-03-21,Culver City,Culver City,4
+2020-03-22,Culver City,Culver City,4
+2020-03-23,Culver City,Culver City,5
+2020-03-24,Culver City,Culver City,7
+2020-03-25,Culver City,Culver City,6
+2020-03-26,Culver City,Culver City*,8
+2020-03-27,Culver City,City of Culver City,6
+2020-03-10,Cypress Park,NA,NA
+2020-03-11,Cypress Park,NA,NA
+2020-03-12,Cypress Park,NA,NA
+2020-03-13,Cypress Park,NA,NA
+2020-03-14,Cypress Park,NA,NA
+2020-03-15,Cypress Park,NA,NA
+2020-03-16,Cypress Park,NA,NA
+2020-03-17,Cypress Park,NA,NA
+2020-03-18,Cypress Park,NA,NA
+2020-03-19,Cypress Park,NA,NA
+2020-03-20,Cypress Park,NA,NA
+2020-03-21,Cypress Park,NA,NA
+2020-03-22,Cypress Park,NA,NA
+2020-03-23,Cypress Park,NA,NA
+2020-03-24,Cypress Park,NA,NA
+2020-03-25,Cypress Park,NA,NA
+2020-03-26,Cypress Park,NA,NA
+2020-03-27,Cypress Park,NA,NA
+2020-03-10,Del Aire,NA,NA
+2020-03-11,Del Aire,NA,NA
+2020-03-12,Del Aire,NA,NA
+2020-03-13,Del Aire,NA,NA
+2020-03-14,Del Aire,NA,NA
+2020-03-15,Del Aire,NA,NA
+2020-03-16,Del Aire,NA,NA
+2020-03-17,Del Aire,NA,NA
+2020-03-18,Del Aire,NA,NA
+2020-03-19,Del Aire,NA,NA
+2020-03-20,Del Aire,NA,NA
+2020-03-21,Del Aire,NA,NA
+2020-03-22,Del Aire,NA,NA
+2020-03-23,Del Aire,NA,NA
+2020-03-24,Del Aire,NA,NA
+2020-03-25,Del Aire,NA,NA
+2020-03-26,Del Aire,NA,NA
+2020-03-27,Del Aire,Unincorporated,0
+2020-03-10,Del Rey,NA,NA
+2020-03-11,Del Rey,NA,NA
+2020-03-12,Del Rey,NA,NA
+2020-03-13,Del Rey,NA,NA
+2020-03-14,Del Rey,NA,NA
+2020-03-15,Del Rey,NA,NA
+2020-03-16,Del Rey,NA,NA
+2020-03-17,Del Rey,NA,NA
+2020-03-18,Del Rey,NA,NA
+2020-03-19,Del Rey,NA,NA
+2020-03-20,Del Rey,NA,NA
+2020-03-21,Del Rey,Del Rey,2
+2020-03-22,Del Rey,Del Rey,2
+2020-03-23,Del Rey,Del Rey,2
+2020-03-24,Del Rey,Del Rey,3
+2020-03-25,Del Rey,Del Rey,5
+2020-03-26,Del Rey,Del Rey,9
+2020-03-27,Del Rey,Los Angeles,9
+2020-03-27,Del Rey,Unincorporated,0
+2020-03-10,Desert View Highlands,NA,NA
+2020-03-11,Desert View Highlands,NA,NA
+2020-03-12,Desert View Highlands,NA,NA
+2020-03-13,Desert View Highlands,NA,NA
+2020-03-14,Desert View Highlands,NA,NA
+2020-03-15,Desert View Highlands,NA,NA
+2020-03-16,Desert View Highlands,NA,NA
+2020-03-17,Desert View Highlands,NA,NA
+2020-03-18,Desert View Highlands,NA,NA
+2020-03-19,Desert View Highlands,NA,NA
+2020-03-20,Desert View Highlands,NA,NA
+2020-03-21,Desert View Highlands,NA,NA
+2020-03-22,Desert View Highlands,NA,NA
+2020-03-23,Desert View Highlands,NA,NA
+2020-03-24,Desert View Highlands,NA,NA
+2020-03-25,Desert View Highlands,NA,NA
+2020-03-26,Desert View Highlands,NA,NA
+2020-03-27,Desert View Highlands,Unincorporated,0
+2020-03-10,Diamond Bar,NA,NA
+2020-03-11,Diamond Bar,NA,NA
+2020-03-12,Diamond Bar,NA,NA
+2020-03-13,Diamond Bar,NA,NA
+2020-03-14,Diamond Bar,NA,NA
+2020-03-15,Diamond Bar,NA,NA
+2020-03-16,Diamond Bar,NA,NA
+2020-03-17,Diamond Bar,Diamond Bar,2
+2020-03-18,Diamond Bar,Diamond Bar --,2
+2020-03-19,Diamond Bar,Diamond Bar --,2
+2020-03-20,Diamond Bar,Diamond Bar --,2
+2020-03-21,Diamond Bar,Diamond Bar,2
+2020-03-22,Diamond Bar,Diamond Bar,2
+2020-03-23,Diamond Bar,Diamond Bar,2
+2020-03-24,Diamond Bar,Diamond Bar,2
+2020-03-25,Diamond Bar,Diamond Bar,2
+2020-03-26,Diamond Bar,Diamond Bar,2
+2020-03-27,Diamond Bar,City of Diamond Bar,2
+2020-03-10,Downey,NA,NA
+2020-03-11,Downey,NA,NA
+2020-03-12,Downey,NA,NA
+2020-03-13,Downey,NA,NA
+2020-03-14,Downey,NA,NA
+2020-03-15,Downey,NA,NA
+2020-03-16,Downey,NA,NA
+2020-03-17,Downey,NA,NA
+2020-03-18,Downey,NA,NA
+2020-03-19,Downey,NA,NA
+2020-03-20,Downey,NA,NA
+2020-03-21,Downey,NA,NA
+2020-03-22,Downey,NA,NA
+2020-03-23,Downey,NA,NA
+2020-03-24,Downey,Downey,1
+2020-03-25,Downey,Downey,5
+2020-03-26,Downey,Downey,10
+2020-03-27,Downey,City of Downey,12
+2020-03-10,Downtown,NA,NA
+2020-03-11,Downtown,NA,NA
+2020-03-12,Downtown,NA,NA
+2020-03-13,Downtown,NA,NA
+2020-03-14,Downtown,NA,NA
+2020-03-15,Downtown,NA,NA
+2020-03-16,Downtown,NA,NA
+2020-03-17,Downtown,NA,NA
+2020-03-18,Downtown,NA,NA
+2020-03-19,Downtown,NA,NA
+2020-03-20,Downtown,Downtown --,1
+2020-03-21,Downtown,Downtown,1
+2020-03-22,Downtown,Downtown,1
+2020-03-23,Downtown,Downtown,2
+2020-03-24,Downtown,Downtown,3
+2020-03-25,Downtown,Downtown,6
+2020-03-26,Downtown,Downtown*,7
+2020-03-27,Downtown,Los Angeles,8
+2020-03-10,Duarte,NA,NA
+2020-03-11,Duarte,NA,NA
+2020-03-12,Duarte,NA,NA
+2020-03-13,Duarte,NA,NA
+2020-03-14,Duarte,NA,NA
+2020-03-15,Duarte,NA,NA
+2020-03-16,Duarte,NA,NA
+2020-03-17,Duarte,NA,NA
+2020-03-18,Duarte,NA,NA
+2020-03-19,Duarte,NA,NA
+2020-03-20,Duarte,NA,NA
+2020-03-21,Duarte,NA,NA
+2020-03-22,Duarte,NA,NA
+2020-03-23,Duarte,Duarte,1
+2020-03-24,Duarte,Duarte,1
+2020-03-25,Duarte,Duarte,1
+2020-03-26,Duarte,Duarte*,2
+2020-03-27,Duarte,Unincorporated,0
+2020-03-10,Eagle Rock,NA,NA
+2020-03-11,Eagle Rock,NA,NA
+2020-03-12,Eagle Rock,NA,NA
+2020-03-13,Eagle Rock,NA,NA
+2020-03-14,Eagle Rock,NA,NA
+2020-03-15,Eagle Rock,NA,NA
+2020-03-16,Eagle Rock,NA,NA
+2020-03-17,Eagle Rock,Eagle Rock --,1
+2020-03-18,Eagle Rock,Los Angeles,1
+2020-03-19,Eagle Rock,Eagle Rock,1
+2020-03-20,Eagle Rock,Eagle Rock --,1
+2020-03-21,Eagle Rock,Eagle Rock,1
+2020-03-22,Eagle Rock,Eagle Rock,1
+2020-03-23,Eagle Rock,Eagle Rock,2
+2020-03-24,Eagle Rock,Eagle Rock,2
+2020-03-25,Eagle Rock,Eagle Rock,2
+2020-03-26,Eagle Rock,Eagle Rock,3
+2020-03-27,Eagle Rock,Los Angeles,4
+2020-03-10,East Compton,NA,NA
+2020-03-11,East Compton,NA,NA
+2020-03-12,East Compton,NA,NA
+2020-03-13,East Compton,NA,NA
+2020-03-14,East Compton,NA,NA
+2020-03-15,East Compton,NA,NA
+2020-03-16,East Compton,NA,NA
+2020-03-17,East Compton,NA,NA
+2020-03-18,East Compton,NA,NA
+2020-03-19,East Compton,NA,NA
+2020-03-20,East Compton,NA,NA
+2020-03-21,East Compton,NA,NA
+2020-03-22,East Compton,NA,NA
+2020-03-23,East Compton,NA,NA
+2020-03-24,East Compton,NA,NA
+2020-03-25,East Compton,NA,NA
+2020-03-26,East Compton,NA,NA
+2020-03-27,East Compton,NA,NA
+2020-03-10,East Hollywood,NA,NA
+2020-03-11,East Hollywood,NA,NA
+2020-03-12,East Hollywood,NA,NA
+2020-03-13,East Hollywood,NA,NA
+2020-03-14,East Hollywood,NA,NA
+2020-03-15,East Hollywood,NA,NA
+2020-03-16,East Hollywood,NA,NA
+2020-03-17,East Hollywood,NA,NA
+2020-03-18,East Hollywood,NA,NA
+2020-03-19,East Hollywood,NA,NA
+2020-03-20,East Hollywood,NA,NA
+2020-03-21,East Hollywood,NA,NA
+2020-03-22,East Hollywood,East Hollywood,1
+2020-03-23,East Hollywood,East Hollywood,1
+2020-03-24,East Hollywood,East Hollywood,1
+2020-03-25,East Hollywood,East Hollywood,1
+2020-03-26,East Hollywood,East Hollywood,2
+2020-03-27,East Hollywood,Los Angeles,3
+2020-03-10,East La Mirada,NA,NA
+2020-03-11,East La Mirada,NA,NA
+2020-03-12,East La Mirada,NA,NA
+2020-03-13,East La Mirada,NA,NA
+2020-03-14,East La Mirada,NA,NA
+2020-03-15,East La Mirada,NA,NA
+2020-03-16,East La Mirada,NA,NA
+2020-03-17,East La Mirada,NA,NA
+2020-03-18,East La Mirada,NA,NA
+2020-03-19,East La Mirada,NA,NA
+2020-03-20,East La Mirada,NA,NA
+2020-03-21,East La Mirada,NA,NA
+2020-03-22,East La Mirada,NA,NA
+2020-03-23,East La Mirada,NA,NA
+2020-03-24,East La Mirada,NA,NA
+2020-03-25,East La Mirada,NA,NA
+2020-03-26,East La Mirada,NA,NA
+2020-03-27,East La Mirada,Unincorporated,0
+2020-03-10,East Los Angeles,NA,NA
+2020-03-11,East Los Angeles,NA,NA
+2020-03-12,East Los Angeles,NA,NA
+2020-03-13,East Los Angeles,NA,NA
+2020-03-14,East Los Angeles,NA,NA
+2020-03-15,East Los Angeles,NA,NA
+2020-03-16,East Los Angeles,NA,NA
+2020-03-17,East Los Angeles,NA,NA
+2020-03-18,East Los Angeles,NA,NA
+2020-03-19,East Los Angeles,East Los Angeles --,1
+2020-03-20,East Los Angeles,East Los Angeles,1
+2020-03-21,East Los Angeles,East Los Angeles,1
+2020-03-22,East Los Angeles,East Los Angeles,2
+2020-03-23,East Los Angeles,East Los Angeles,2
+2020-03-24,East Los Angeles,East Los Angeles,3
+2020-03-25,East Los Angeles,East Los Angeles,3
+2020-03-26,East Los Angeles,East Los Angeles,4
+2020-03-27,East Los Angeles,Unincorporated,6
+2020-03-10,East Pasadena,NA,NA
+2020-03-11,East Pasadena,NA,NA
+2020-03-12,East Pasadena,NA,NA
+2020-03-13,East Pasadena,NA,NA
+2020-03-14,East Pasadena,NA,NA
+2020-03-15,East Pasadena,NA,NA
+2020-03-16,East Pasadena,NA,NA
+2020-03-17,East Pasadena,NA,NA
+2020-03-18,East Pasadena,NA,NA
+2020-03-19,East Pasadena,NA,NA
+2020-03-20,East Pasadena,NA,NA
+2020-03-21,East Pasadena,NA,NA
+2020-03-22,East Pasadena,NA,NA
+2020-03-23,East Pasadena,NA,NA
+2020-03-24,East Pasadena,NA,NA
+2020-03-25,East Pasadena,NA,NA
+2020-03-26,East Pasadena,NA,NA
+2020-03-27,East Pasadena,Unincorporated,0
+2020-03-10,East San Gabriel,NA,NA
+2020-03-11,East San Gabriel,NA,NA
+2020-03-12,East San Gabriel,NA,NA
+2020-03-13,East San Gabriel,NA,NA
+2020-03-14,East San Gabriel,NA,NA
+2020-03-15,East San Gabriel,NA,NA
+2020-03-16,East San Gabriel,NA,NA
+2020-03-17,East San Gabriel,NA,NA
+2020-03-18,East San Gabriel,NA,NA
+2020-03-19,East San Gabriel,NA,NA
+2020-03-20,East San Gabriel,NA,NA
+2020-03-21,East San Gabriel,NA,NA
+2020-03-22,East San Gabriel,NA,NA
+2020-03-23,East San Gabriel,NA,NA
+2020-03-24,East San Gabriel,NA,NA
+2020-03-25,East San Gabriel,NA,NA
+2020-03-26,East San Gabriel,NA,NA
+2020-03-27,East San Gabriel,NA,NA
+2020-03-10,Echo Park,NA,NA
+2020-03-11,Echo Park,NA,NA
+2020-03-12,Echo Park,NA,NA
+2020-03-13,Echo Park,NA,NA
+2020-03-14,Echo Park,NA,NA
+2020-03-15,Echo Park,NA,NA
+2020-03-16,Echo Park,NA,NA
+2020-03-17,Echo Park,NA,NA
+2020-03-18,Echo Park,NA,NA
+2020-03-19,Echo Park,Echo Park,1
+2020-03-20,Echo Park,Echo Park --,1
+2020-03-21,Echo Park,Echo Park,1
+2020-03-22,Echo Park,Echo Park,1
+2020-03-23,Echo Park,Echo Park,2
+2020-03-24,Echo Park,Echo Park,2
+2020-03-25,Echo Park,Echo Park,4
+2020-03-26,Echo Park,Echo Park*,7
+2020-03-27,Echo Park,NA,NA
+2020-03-10,El Monte,NA,NA
+2020-03-11,El Monte,NA,NA
+2020-03-12,El Monte,NA,NA
+2020-03-13,El Monte,NA,NA
+2020-03-14,El Monte,NA,NA
+2020-03-15,El Monte,NA,NA
+2020-03-16,El Monte,NA,NA
+2020-03-17,El Monte,NA,NA
+2020-03-18,El Monte,NA,NA
+2020-03-19,El Monte,NA,NA
+2020-03-20,El Monte,NA,NA
+2020-03-21,El Monte,NA,NA
+2020-03-22,El Monte,NA,NA
+2020-03-23,El Monte,NA,NA
+2020-03-24,El Monte,NA,NA
+2020-03-25,El Monte,NA,NA
+2020-03-26,El Monte,NA,NA
+2020-03-27,El Monte,City of El Monte,0
+2020-03-27,El Monte,Unincorporated,0
+2020-03-10,El Segundo,NA,NA
+2020-03-11,El Segundo,NA,NA
+2020-03-12,El Segundo,NA,NA
+2020-03-13,El Segundo,NA,NA
+2020-03-14,El Segundo,NA,NA
+2020-03-15,El Segundo,NA,NA
+2020-03-16,El Segundo,NA,NA
+2020-03-17,El Segundo,NA,NA
+2020-03-18,El Segundo,NA,NA
+2020-03-19,El Segundo,NA,NA
+2020-03-20,El Segundo,El Segundo --,1
+2020-03-21,El Segundo,El Segundo,2
+2020-03-22,El Segundo,El Segundo,1
+2020-03-23,El Segundo,El Segundo,1
+2020-03-24,El Segundo,El Segundo,2
+2020-03-25,El Segundo,El Segundo,2
+2020-03-26,El Segundo,El Segundo*,2
+2020-03-27,El Segundo,NA,NA
+2020-03-10,El Sereno,NA,NA
+2020-03-11,El Sereno,NA,NA
+2020-03-12,El Sereno,NA,NA
+2020-03-13,El Sereno,NA,NA
+2020-03-14,El Sereno,NA,NA
+2020-03-15,El Sereno,NA,NA
+2020-03-16,El Sereno,NA,NA
+2020-03-17,El Sereno,NA,NA
+2020-03-18,El Sereno,NA,NA
+2020-03-19,El Sereno,NA,NA
+2020-03-20,El Sereno,NA,NA
+2020-03-21,El Sereno,NA,NA
+2020-03-22,El Sereno,NA,NA
+2020-03-23,El Sereno,NA,NA
+2020-03-24,El Sereno,NA,NA
+2020-03-25,El Sereno,NA,NA
+2020-03-26,El Sereno,NA,NA
+2020-03-27,El Sereno,Los Angeles,0
+2020-03-10,Elizabeth Lake,NA,NA
+2020-03-11,Elizabeth Lake,NA,NA
+2020-03-12,Elizabeth Lake,NA,NA
+2020-03-13,Elizabeth Lake,NA,NA
+2020-03-14,Elizabeth Lake,NA,NA
+2020-03-15,Elizabeth Lake,NA,NA
+2020-03-16,Elizabeth Lake,NA,NA
+2020-03-17,Elizabeth Lake,NA,NA
+2020-03-18,Elizabeth Lake,NA,NA
+2020-03-19,Elizabeth Lake,NA,NA
+2020-03-20,Elizabeth Lake,NA,NA
+2020-03-21,Elizabeth Lake,NA,NA
+2020-03-22,Elizabeth Lake,NA,NA
+2020-03-23,Elizabeth Lake,NA,NA
+2020-03-24,Elizabeth Lake,NA,NA
+2020-03-25,Elizabeth Lake,NA,NA
+2020-03-26,Elizabeth Lake,NA,NA
+2020-03-27,Elizabeth Lake,Unincorporated,0
+2020-03-10,Elysian Park,NA,NA
+2020-03-11,Elysian Park,NA,NA
+2020-03-12,Elysian Park,NA,NA
+2020-03-13,Elysian Park,NA,NA
+2020-03-14,Elysian Park,NA,NA
+2020-03-15,Elysian Park,NA,NA
+2020-03-16,Elysian Park,NA,NA
+2020-03-17,Elysian Park,NA,NA
+2020-03-18,Elysian Park,NA,NA
+2020-03-19,Elysian Park,NA,NA
+2020-03-20,Elysian Park,NA,NA
+2020-03-21,Elysian Park,NA,NA
+2020-03-22,Elysian Park,NA,NA
+2020-03-23,Elysian Park,NA,NA
+2020-03-24,Elysian Park,NA,NA
+2020-03-25,Elysian Park,NA,NA
+2020-03-26,Elysian Park,NA,NA
+2020-03-27,Elysian Park,NA,NA
+2020-03-10,Elysian Valley,NA,NA
+2020-03-11,Elysian Valley,NA,NA
+2020-03-12,Elysian Valley,NA,NA
+2020-03-13,Elysian Valley,NA,NA
+2020-03-14,Elysian Valley,NA,NA
+2020-03-15,Elysian Valley,NA,NA
+2020-03-16,Elysian Valley,NA,NA
+2020-03-17,Elysian Valley,NA,NA
+2020-03-18,Elysian Valley,NA,NA
+2020-03-19,Elysian Valley,NA,NA
+2020-03-20,Elysian Valley,NA,NA
+2020-03-21,Elysian Valley,NA,NA
+2020-03-22,Elysian Valley,NA,NA
+2020-03-23,Elysian Valley,NA,NA
+2020-03-24,Elysian Valley,NA,NA
+2020-03-25,Elysian Valley,NA,NA
+2020-03-26,Elysian Valley,NA,NA
+2020-03-27,Elysian Valley,NA,NA
+2020-03-10,Encino,NA,NA
+2020-03-11,Encino,NA,NA
+2020-03-12,Encino,NA,NA
+2020-03-13,Encino,NA,NA
+2020-03-14,Encino,NA,NA
+2020-03-15,Encino,NA,NA
+2020-03-16,Encino,NA,NA
+2020-03-17,Encino,Encino,5
+2020-03-18,Encino,Los Angeles,6
+2020-03-19,Encino,Encino,6
+2020-03-20,Encino,Encino --,8
+2020-03-21,Encino,Encino,10
+2020-03-22,Encino,Encino,10
+2020-03-23,Encino,Encino,10
+2020-03-24,Encino,Encino,12
+2020-03-25,Encino,Encino,13
+2020-03-26,Encino,Encino,21
+2020-03-27,Encino,Los Angeles,23
+2020-03-10,Exposition Park,NA,NA
+2020-03-11,Exposition Park,NA,NA
+2020-03-12,Exposition Park,NA,NA
+2020-03-13,Exposition Park,NA,NA
+2020-03-14,Exposition Park,NA,NA
+2020-03-15,Exposition Park,NA,NA
+2020-03-16,Exposition Park,NA,NA
+2020-03-17,Exposition Park,NA,NA
+2020-03-18,Exposition Park,NA,NA
+2020-03-19,Exposition Park,NA,NA
+2020-03-20,Exposition Park,NA,NA
+2020-03-21,Exposition Park,NA,NA
+2020-03-22,Exposition Park,NA,NA
+2020-03-23,Exposition Park,Exposition Park,1
+2020-03-24,Exposition Park,Exposition Park,1
+2020-03-25,Exposition Park,Exposition Park,1
+2020-03-26,Exposition Park,Exposition Park,2
+2020-03-27,Exposition Park,Los Angeles,2
+2020-03-10,Fairfax,NA,NA
+2020-03-11,Fairfax,NA,NA
+2020-03-12,Fairfax,NA,NA
+2020-03-13,Fairfax,NA,NA
+2020-03-14,Fairfax,NA,NA
+2020-03-15,Fairfax,NA,NA
+2020-03-16,Fairfax,NA,NA
+2020-03-17,Fairfax,NA,NA
+2020-03-18,Fairfax,NA,NA
+2020-03-19,Fairfax,NA,NA
+2020-03-20,Fairfax,NA,NA
+2020-03-21,Fairfax,NA,NA
+2020-03-22,Fairfax,NA,NA
+2020-03-23,Fairfax,NA,NA
+2020-03-24,Fairfax,NA,NA
+2020-03-25,Fairfax,NA,NA
+2020-03-26,Fairfax,NA,NA
+2020-03-27,Fairfax,NA,NA
+2020-03-10,Florence,NA,NA
+2020-03-11,Florence,NA,NA
+2020-03-12,Florence,NA,NA
+2020-03-13,Florence,NA,NA
+2020-03-14,Florence,NA,NA
+2020-03-15,Florence,NA,NA
+2020-03-16,Florence,NA,NA
+2020-03-17,Florence,NA,NA
+2020-03-18,Florence,NA,NA
+2020-03-19,Florence,NA,NA
+2020-03-20,Florence,NA,NA
+2020-03-21,Florence,NA,NA
+2020-03-22,Florence,NA,NA
+2020-03-23,Florence,Florence,1
+2020-03-24,Florence,Florence,1
+2020-03-25,Florence,Florence,4
+2020-03-26,Florence,Florence*,7
+2020-03-27,Florence,NA,NA
+2020-03-10,Florence-Firestone,NA,NA
+2020-03-11,Florence-Firestone,NA,NA
+2020-03-12,Florence-Firestone,NA,NA
+2020-03-13,Florence-Firestone,NA,NA
+2020-03-14,Florence-Firestone,NA,NA
+2020-03-15,Florence-Firestone,NA,NA
+2020-03-16,Florence-Firestone,NA,NA
+2020-03-17,Florence-Firestone,NA,NA
+2020-03-18,Florence-Firestone,NA,NA
+2020-03-19,Florence-Firestone,NA,NA
+2020-03-20,Florence-Firestone,NA,NA
+2020-03-21,Florence-Firestone,NA,NA
+2020-03-22,Florence-Firestone,NA,NA
+2020-03-23,Florence-Firestone,NA,NA
+2020-03-24,Florence-Firestone,NA,NA
+2020-03-25,Florence-Firestone,NA,NA
+2020-03-26,Florence-Firestone,NA,NA
+2020-03-27,Florence-Firestone,Los Angeles,3
+2020-03-27,Florence-Firestone,Unincorporated,0
+2020-03-10,Gardena,NA,NA
+2020-03-11,Gardena,NA,NA
+2020-03-12,Gardena,NA,NA
+2020-03-13,Gardena,NA,NA
+2020-03-14,Gardena,NA,NA
+2020-03-15,Gardena,NA,NA
+2020-03-16,Gardena,NA,NA
+2020-03-17,Gardena,Gardena,1
+2020-03-18,Gardena,Gardena --,1
+2020-03-19,Gardena,Gardena --,1
+2020-03-20,Gardena,Gardena --,1
+2020-03-21,Gardena,Gardena,1
+2020-03-22,Gardena,Gardena,1
+2020-03-23,Gardena,Gardena,1
+2020-03-24,Gardena,Gardena,1
+2020-03-25,Gardena,Gardena,1
+2020-03-26,Gardena,Gardena,4
+2020-03-27,Gardena,City of Gardena,5
+2020-03-10,Glassell Park,NA,NA
+2020-03-11,Glassell Park,NA,NA
+2020-03-12,Glassell Park,NA,NA
+2020-03-13,Glassell Park,NA,NA
+2020-03-14,Glassell Park,NA,NA
+2020-03-15,Glassell Park,NA,NA
+2020-03-16,Glassell Park,NA,NA
+2020-03-17,Glassell Park,NA,NA
+2020-03-18,Glassell Park,NA,NA
+2020-03-19,Glassell Park,NA,NA
+2020-03-20,Glassell Park,NA,NA
+2020-03-21,Glassell Park,NA,NA
+2020-03-22,Glassell Park,NA,NA
+2020-03-23,Glassell Park,NA,NA
+2020-03-24,Glassell Park,NA,NA
+2020-03-25,Glassell Park,Glassell Park,1
+2020-03-26,Glassell Park,Glassell Park,2
+2020-03-27,Glassell Park,Los Angeles,4
+2020-03-10,Glendale,NA,NA
+2020-03-11,Glendale,NA,NA
+2020-03-12,Glendale,NA,NA
+2020-03-13,Glendale,NA,NA
+2020-03-14,Glendale,NA,NA
+2020-03-15,Glendale,NA,NA
+2020-03-16,Glendale,NA,NA
+2020-03-17,Glendale,Glendale,3
+2020-03-18,Glendale,Glendale,4
+2020-03-19,Glendale,Glendale,4
+2020-03-20,Glendale,Glendale --,4
+2020-03-21,Glendale,Glendale,5
+2020-03-22,Glendale,Glendale,6
+2020-03-23,Glendale,Glendale,9
+2020-03-24,Glendale,Glendale,10
+2020-03-25,Glendale,Glendale,12
+2020-03-26,Glendale,Glendale,23
+2020-03-27,Glendale,City of Glendale,29
+2020-03-10,Glendora,NA,NA
+2020-03-11,Glendora,NA,NA
+2020-03-12,Glendora,NA,NA
+2020-03-13,Glendora,NA,NA
+2020-03-14,Glendora,NA,NA
+2020-03-15,Glendora,NA,NA
+2020-03-16,Glendora,NA,NA
+2020-03-17,Glendora,NA,NA
+2020-03-18,Glendora,NA,NA
+2020-03-19,Glendora,NA,NA
+2020-03-20,Glendora,NA,NA
+2020-03-21,Glendora,NA,NA
+2020-03-22,Glendora,Glendora,1
+2020-03-23,Glendora,Glendora,1
+2020-03-24,Glendora,Glendora,1
+2020-03-25,Glendora,Glendora,2
+2020-03-26,Glendora,Glendora*,2
+2020-03-27,Glendora,City of Glendora,4
+2020-03-27,Glendora,Unincorporated,0
+2020-03-10,Gramercy Park,NA,NA
+2020-03-11,Gramercy Park,NA,NA
+2020-03-12,Gramercy Park,NA,NA
+2020-03-13,Gramercy Park,NA,NA
+2020-03-14,Gramercy Park,NA,NA
+2020-03-15,Gramercy Park,NA,NA
+2020-03-16,Gramercy Park,NA,NA
+2020-03-17,Gramercy Park,NA,NA
+2020-03-18,Gramercy Park,NA,NA
+2020-03-19,Gramercy Park,NA,NA
+2020-03-20,Gramercy Park,NA,NA
+2020-03-21,Gramercy Park,NA,NA
+2020-03-22,Gramercy Park,NA,NA
+2020-03-23,Gramercy Park,NA,NA
+2020-03-24,Gramercy Park,NA,NA
+2020-03-25,Gramercy Park,NA,NA
+2020-03-26,Gramercy Park,NA,NA
+2020-03-27,Gramercy Park,NA,NA
+2020-03-10,Granada Hills,NA,NA
+2020-03-11,Granada Hills,NA,NA
+2020-03-12,Granada Hills,NA,NA
+2020-03-13,Granada Hills,NA,NA
+2020-03-14,Granada Hills,NA,NA
+2020-03-15,Granada Hills,NA,NA
+2020-03-16,Granada Hills,NA,NA
+2020-03-17,Granada Hills,Granada Hills,3
+2020-03-18,Granada Hills,Los Angeles,3
+2020-03-19,Granada Hills,Granada Hills --,4
+2020-03-20,Granada Hills,Granada Hills --,4
+2020-03-21,Granada Hills,Granada Hills,4
+2020-03-22,Granada Hills,Granada Hills,4
+2020-03-23,Granada Hills,Granada Hills,5
+2020-03-24,Granada Hills,Granada Hills,5
+2020-03-25,Granada Hills,Granada Hills,7
+2020-03-26,Granada Hills,Granada Hills,8
+2020-03-27,Granada Hills,Los Angeles,8
+2020-03-10,Green Meadows,NA,NA
+2020-03-11,Green Meadows,NA,NA
+2020-03-12,Green Meadows,NA,NA
+2020-03-13,Green Meadows,NA,NA
+2020-03-14,Green Meadows,NA,NA
+2020-03-15,Green Meadows,NA,NA
+2020-03-16,Green Meadows,NA,NA
+2020-03-17,Green Meadows,NA,NA
+2020-03-18,Green Meadows,NA,NA
+2020-03-19,Green Meadows,NA,NA
+2020-03-20,Green Meadows,NA,NA
+2020-03-21,Green Meadows,NA,NA
+2020-03-22,Green Meadows,NA,NA
+2020-03-23,Green Meadows,NA,NA
+2020-03-24,Green Meadows,NA,NA
+2020-03-25,Green Meadows,NA,NA
+2020-03-26,Green Meadows,NA,NA
+2020-03-27,Green Meadows,NA,NA
+2020-03-10,Green Valley,NA,NA
+2020-03-11,Green Valley,NA,NA
+2020-03-12,Green Valley,NA,NA
+2020-03-13,Green Valley,NA,NA
+2020-03-14,Green Valley,NA,NA
+2020-03-15,Green Valley,NA,NA
+2020-03-16,Green Valley,NA,NA
+2020-03-17,Green Valley,NA,NA
+2020-03-18,Green Valley,NA,NA
+2020-03-19,Green Valley,NA,NA
+2020-03-20,Green Valley,NA,NA
+2020-03-21,Green Valley,NA,NA
+2020-03-22,Green Valley,NA,NA
+2020-03-23,Green Valley,NA,NA
+2020-03-24,Green Valley,NA,NA
+2020-03-25,Green Valley,NA,NA
+2020-03-26,Green Valley,NA,NA
+2020-03-27,Green Valley,NA,NA
+2020-03-10,Griffith Park,NA,NA
+2020-03-11,Griffith Park,NA,NA
+2020-03-12,Griffith Park,NA,NA
+2020-03-13,Griffith Park,NA,NA
+2020-03-14,Griffith Park,NA,NA
+2020-03-15,Griffith Park,NA,NA
+2020-03-16,Griffith Park,NA,NA
+2020-03-17,Griffith Park,NA,NA
+2020-03-18,Griffith Park,NA,NA
+2020-03-19,Griffith Park,NA,NA
+2020-03-20,Griffith Park,NA,NA
+2020-03-21,Griffith Park,NA,NA
+2020-03-22,Griffith Park,NA,NA
+2020-03-23,Griffith Park,NA,NA
+2020-03-24,Griffith Park,NA,NA
+2020-03-25,Griffith Park,NA,NA
+2020-03-26,Griffith Park,NA,NA
+2020-03-27,Griffith Park,NA,NA
+2020-03-10,Hacienda Heights,NA,NA
+2020-03-11,Hacienda Heights,NA,NA
+2020-03-12,Hacienda Heights,NA,NA
+2020-03-13,Hacienda Heights,NA,NA
+2020-03-14,Hacienda Heights,NA,NA
+2020-03-15,Hacienda Heights,NA,NA
+2020-03-16,Hacienda Heights,NA,NA
+2020-03-17,Hacienda Heights,NA,NA
+2020-03-18,Hacienda Heights,NA,NA
+2020-03-19,Hacienda Heights,NA,NA
+2020-03-20,Hacienda Heights,NA,NA
+2020-03-21,Hacienda Heights,NA,NA
+2020-03-22,Hacienda Heights,NA,NA
+2020-03-23,Hacienda Heights,NA,NA
+2020-03-24,Hacienda Heights,NA,NA
+2020-03-25,Hacienda Heights,NA,NA
+2020-03-26,Hacienda Heights,Hacienda Heights,2
+2020-03-27,Hacienda Heights,Unincorporated,2
+2020-03-10,Hancock Park,NA,NA
+2020-03-11,Hancock Park,NA,NA
+2020-03-12,Hancock Park,NA,NA
+2020-03-13,Hancock Park,NA,NA
+2020-03-14,Hancock Park,NA,NA
+2020-03-15,Hancock Park,NA,NA
+2020-03-16,Hancock Park,NA,NA
+2020-03-17,Hancock Park,NA,NA
+2020-03-18,Hancock Park,NA,NA
+2020-03-19,Hancock Park,Hancock Park,2
+2020-03-20,Hancock Park,Hancock Park --,2
+2020-03-21,Hancock Park,Hancock Park,4
+2020-03-22,Hancock Park,Hancock Park,5
+2020-03-23,Hancock Park,Hancock Park,6
+2020-03-24,Hancock Park,Hancock Park,7
+2020-03-25,Hancock Park,Hancock Park,8
+2020-03-26,Hancock Park,Hancock Park*,10
+2020-03-27,Hancock Park,Los Angeles,14
+2020-03-10,Hansen Dam,NA,NA
+2020-03-11,Hansen Dam,NA,NA
+2020-03-12,Hansen Dam,NA,NA
+2020-03-13,Hansen Dam,NA,NA
+2020-03-14,Hansen Dam,NA,NA
+2020-03-15,Hansen Dam,NA,NA
+2020-03-16,Hansen Dam,NA,NA
+2020-03-17,Hansen Dam,NA,NA
+2020-03-18,Hansen Dam,NA,NA
+2020-03-19,Hansen Dam,NA,NA
+2020-03-20,Hansen Dam,NA,NA
+2020-03-21,Hansen Dam,NA,NA
+2020-03-22,Hansen Dam,NA,NA
+2020-03-23,Hansen Dam,NA,NA
+2020-03-24,Hansen Dam,NA,NA
+2020-03-25,Hansen Dam,NA,NA
+2020-03-26,Hansen Dam,NA,NA
+2020-03-27,Hansen Dam,NA,NA
+2020-03-10,Harbor City,NA,NA
+2020-03-11,Harbor City,NA,NA
+2020-03-12,Harbor City,NA,NA
+2020-03-13,Harbor City,NA,NA
+2020-03-14,Harbor City,NA,NA
+2020-03-15,Harbor City,NA,NA
+2020-03-16,Harbor City,NA,NA
+2020-03-17,Harbor City,NA,NA
+2020-03-18,Harbor City,NA,NA
+2020-03-19,Harbor City,NA,NA
+2020-03-20,Harbor City,NA,NA
+2020-03-21,Harbor City,NA,NA
+2020-03-22,Harbor City,NA,NA
+2020-03-23,Harbor City,NA,NA
+2020-03-24,Harbor City,NA,NA
+2020-03-25,Harbor City,NA,NA
+2020-03-26,Harbor City,Harbor City*,1
+2020-03-27,Harbor City,Los Angeles,1
+2020-03-10,Harbor Gateway,NA,NA
+2020-03-11,Harbor Gateway,NA,NA
+2020-03-12,Harbor Gateway,NA,NA
+2020-03-13,Harbor Gateway,NA,NA
+2020-03-14,Harbor Gateway,NA,NA
+2020-03-15,Harbor Gateway,NA,NA
+2020-03-16,Harbor Gateway,NA,NA
+2020-03-17,Harbor Gateway,NA,NA
+2020-03-18,Harbor Gateway,NA,NA
+2020-03-19,Harbor Gateway,NA,NA
+2020-03-20,Harbor Gateway,NA,NA
+2020-03-21,Harbor Gateway,NA,NA
+2020-03-22,Harbor Gateway,NA,NA
+2020-03-23,Harbor Gateway,NA,NA
+2020-03-24,Harbor Gateway,Harbor Gateway,1
+2020-03-25,Harbor Gateway,Harbor Gateway,2
+2020-03-26,Harbor Gateway,Harbor Gateway*,3
+2020-03-27,Harbor Gateway,Los Angeles,4
+2020-03-10,Harvard Heights,NA,NA
+2020-03-11,Harvard Heights,NA,NA
+2020-03-12,Harvard Heights,NA,NA
+2020-03-13,Harvard Heights,NA,NA
+2020-03-14,Harvard Heights,NA,NA
+2020-03-15,Harvard Heights,NA,NA
+2020-03-16,Harvard Heights,NA,NA
+2020-03-17,Harvard Heights,NA,NA
+2020-03-18,Harvard Heights,NA,NA
+2020-03-19,Harvard Heights,NA,NA
+2020-03-20,Harvard Heights,NA,NA
+2020-03-21,Harvard Heights,NA,NA
+2020-03-22,Harvard Heights,NA,NA
+2020-03-23,Harvard Heights,NA,NA
+2020-03-24,Harvard Heights,Harvard Heights,1
+2020-03-25,Harvard Heights,Harvard Heights,1
+2020-03-26,Harvard Heights,Harvard Heights*,2
+2020-03-27,Harvard Heights,NA,NA
+2020-03-10,Harvard Park,NA,NA
+2020-03-11,Harvard Park,NA,NA
+2020-03-12,Harvard Park,NA,NA
+2020-03-13,Harvard Park,NA,NA
+2020-03-14,Harvard Park,NA,NA
+2020-03-15,Harvard Park,NA,NA
+2020-03-16,Harvard Park,NA,NA
+2020-03-17,Harvard Park,NA,NA
+2020-03-18,Harvard Park,NA,NA
+2020-03-19,Harvard Park,NA,NA
+2020-03-20,Harvard Park,NA,NA
+2020-03-21,Harvard Park,NA,NA
+2020-03-22,Harvard Park,NA,NA
+2020-03-23,Harvard Park,NA,NA
+2020-03-24,Harvard Park,NA,NA
+2020-03-25,Harvard Park,NA,NA
+2020-03-26,Harvard Park,NA,NA
+2020-03-27,Harvard Park,Los Angeles,1
+2020-03-10,Hasley Canyon,NA,NA
+2020-03-11,Hasley Canyon,NA,NA
+2020-03-12,Hasley Canyon,NA,NA
+2020-03-13,Hasley Canyon,NA,NA
+2020-03-14,Hasley Canyon,NA,NA
+2020-03-15,Hasley Canyon,NA,NA
+2020-03-16,Hasley Canyon,NA,NA
+2020-03-17,Hasley Canyon,NA,NA
+2020-03-18,Hasley Canyon,NA,NA
+2020-03-19,Hasley Canyon,NA,NA
+2020-03-20,Hasley Canyon,NA,NA
+2020-03-21,Hasley Canyon,NA,NA
+2020-03-22,Hasley Canyon,NA,NA
+2020-03-23,Hasley Canyon,NA,NA
+2020-03-24,Hasley Canyon,NA,NA
+2020-03-25,Hasley Canyon,NA,NA
+2020-03-26,Hasley Canyon,NA,NA
+2020-03-27,Hasley Canyon,NA,NA
+2020-03-10,Hawaiian Gardens,NA,NA
+2020-03-11,Hawaiian Gardens,NA,NA
+2020-03-12,Hawaiian Gardens,NA,NA
+2020-03-13,Hawaiian Gardens,NA,NA
+2020-03-14,Hawaiian Gardens,NA,NA
+2020-03-15,Hawaiian Gardens,NA,NA
+2020-03-16,Hawaiian Gardens,NA,NA
+2020-03-17,Hawaiian Gardens,NA,NA
+2020-03-18,Hawaiian Gardens,NA,NA
+2020-03-19,Hawaiian Gardens,NA,NA
+2020-03-20,Hawaiian Gardens,NA,NA
+2020-03-21,Hawaiian Gardens,NA,NA
+2020-03-22,Hawaiian Gardens,NA,NA
+2020-03-23,Hawaiian Gardens,NA,NA
+2020-03-24,Hawaiian Gardens,NA,NA
+2020-03-25,Hawaiian Gardens,NA,NA
+2020-03-26,Hawaiian Gardens,NA,NA
+2020-03-27,Hawaiian Gardens,NA,NA
+2020-03-10,Hawthorne,NA,NA
+2020-03-11,Hawthorne,NA,NA
+2020-03-12,Hawthorne,NA,NA
+2020-03-13,Hawthorne,NA,NA
+2020-03-14,Hawthorne,NA,NA
+2020-03-15,Hawthorne,NA,NA
+2020-03-16,Hawthorne,NA,NA
+2020-03-17,Hawthorne,NA,NA
+2020-03-18,Hawthorne,NA,NA
+2020-03-19,Hawthorne,Hawthorne,1
+2020-03-20,Hawthorne,Hawthorne --,2
+2020-03-21,Hawthorne,Hawthorne,2
+2020-03-22,Hawthorne,Hawthorne,2
+2020-03-23,Hawthorne,Hawthorne,3
+2020-03-24,Hawthorne,Hawthorne,6
+2020-03-25,Hawthorne,Hawthorne,8
+2020-03-26,Hawthorne,Hawthorne*,9
+2020-03-27,Hawthorne,City of Hawthorne,7
+2020-03-10,Hermosa Beach,NA,NA
+2020-03-11,Hermosa Beach,NA,NA
+2020-03-12,Hermosa Beach,NA,NA
+2020-03-13,Hermosa Beach,NA,NA
+2020-03-14,Hermosa Beach,NA,NA
+2020-03-15,Hermosa Beach,NA,NA
+2020-03-16,Hermosa Beach,NA,NA
+2020-03-17,Hermosa Beach,NA,NA
+2020-03-18,Hermosa Beach,NA,NA
+2020-03-19,Hermosa Beach,NA,NA
+2020-03-20,Hermosa Beach,NA,NA
+2020-03-21,Hermosa Beach,NA,NA
+2020-03-22,Hermosa Beach,NA,NA
+2020-03-23,Hermosa Beach,NA,NA
+2020-03-24,Hermosa Beach,NA,NA
+2020-03-25,Hermosa Beach,NA,NA
+2020-03-26,Hermosa Beach,NA,NA
+2020-03-27,Hermosa Beach,NA,NA
+2020-03-10,Hidden Hills,NA,NA
+2020-03-11,Hidden Hills,NA,NA
+2020-03-12,Hidden Hills,NA,NA
+2020-03-13,Hidden Hills,NA,NA
+2020-03-14,Hidden Hills,NA,NA
+2020-03-15,Hidden Hills,NA,NA
+2020-03-16,Hidden Hills,NA,NA
+2020-03-17,Hidden Hills,NA,NA
+2020-03-18,Hidden Hills,NA,NA
+2020-03-19,Hidden Hills,NA,NA
+2020-03-20,Hidden Hills,NA,NA
+2020-03-21,Hidden Hills,NA,NA
+2020-03-22,Hidden Hills,NA,NA
+2020-03-23,Hidden Hills,NA,NA
+2020-03-24,Hidden Hills,NA,NA
+2020-03-25,Hidden Hills,NA,NA
+2020-03-26,Hidden Hills,NA,NA
+2020-03-27,Hidden Hills,City of Hidden Hills,0
+2020-03-10,Highland Park,NA,NA
+2020-03-11,Highland Park,NA,NA
+2020-03-12,Highland Park,NA,NA
+2020-03-13,Highland Park,NA,NA
+2020-03-14,Highland Park,NA,NA
+2020-03-15,Highland Park,NA,NA
+2020-03-16,Highland Park,NA,NA
+2020-03-17,Highland Park,NA,NA
+2020-03-18,Highland Park,NA,NA
+2020-03-19,Highland Park,NA,NA
+2020-03-20,Highland Park,NA,NA
+2020-03-21,Highland Park,NA,NA
+2020-03-22,Highland Park,NA,NA
+2020-03-23,Highland Park,NA,NA
+2020-03-24,Highland Park,Highland Park,1
+2020-03-25,Highland Park,Highland Park,2
+2020-03-26,Highland Park,Highland Park,3
+2020-03-27,Highland Park,Los Angeles,5
+2020-03-10,Historic South-Central,NA,NA
+2020-03-11,Historic South-Central,NA,NA
+2020-03-12,Historic South-Central,NA,NA
+2020-03-13,Historic South-Central,NA,NA
+2020-03-14,Historic South-Central,NA,NA
+2020-03-15,Historic South-Central,NA,NA
+2020-03-16,Historic South-Central,NA,NA
+2020-03-17,Historic South-Central,NA,NA
+2020-03-18,Historic South-Central,NA,NA
+2020-03-19,Historic South-Central,NA,NA
+2020-03-20,Historic South-Central,NA,NA
+2020-03-21,Historic South-Central,NA,NA
+2020-03-22,Historic South-Central,NA,NA
+2020-03-23,Historic South-Central,NA,NA
+2020-03-24,Historic South-Central,NA,NA
+2020-03-25,Historic South-Central,NA,NA
+2020-03-26,Historic South-Central,NA,NA
+2020-03-27,Historic South-Central,NA,NA
+2020-03-10,Hollywood,NA,NA
+2020-03-11,Hollywood,NA,NA
+2020-03-12,Hollywood,NA,NA
+2020-03-13,Hollywood,NA,NA
+2020-03-14,Hollywood,NA,NA
+2020-03-15,Hollywood,NA,NA
+2020-03-16,Hollywood,NA,NA
+2020-03-17,Hollywood,Hollywood --,1
+2020-03-18,Hollywood,Los Angeles,5
+2020-03-19,Hollywood,Hollywood,5
+2020-03-20,Hollywood,Hollywood --,7
+2020-03-21,Hollywood,Hollywood,12
+2020-03-22,Hollywood,Hollywood,12
+2020-03-23,Hollywood,Hollywood,14
+2020-03-24,Hollywood,Hollywood,19
+2020-03-25,Hollywood,Hollywood,23
+2020-03-26,Hollywood,Hollywood,27
+2020-03-27,Hollywood,Los Angeles,30
+2020-03-10,Hollywood Hills,NA,NA
+2020-03-11,Hollywood Hills,NA,NA
+2020-03-12,Hollywood Hills,NA,NA
+2020-03-13,Hollywood Hills,NA,NA
+2020-03-14,Hollywood Hills,NA,NA
+2020-03-15,Hollywood Hills,NA,NA
+2020-03-16,Hollywood Hills,NA,NA
+2020-03-17,Hollywood Hills,Hollywood Hills --,2
+2020-03-18,Hollywood Hills,Los Angeles,2
+2020-03-19,Hollywood Hills,Hollywood Hills,2
+2020-03-20,Hollywood Hills,Hollywood Hills,2
+2020-03-21,Hollywood Hills,Hollywood Hills,2
+2020-03-22,Hollywood Hills,Hollywood Hills,5
+2020-03-23,Hollywood Hills,Hollywood Hills,7
+2020-03-24,Hollywood Hills,Hollywood Hills,8
+2020-03-25,Hollywood Hills,Hollywood Hills,8
+2020-03-26,Hollywood Hills,Hollywood Hills,17
+2020-03-27,Hollywood Hills,Los Angeles,19
+2020-03-10,Hollywood Hills West,NA,NA
+2020-03-11,Hollywood Hills West,NA,NA
+2020-03-12,Hollywood Hills West,NA,NA
+2020-03-13,Hollywood Hills West,NA,NA
+2020-03-14,Hollywood Hills West,NA,NA
+2020-03-15,Hollywood Hills West,NA,NA
+2020-03-16,Hollywood Hills West,NA,NA
+2020-03-17,Hollywood Hills West,NA,NA
+2020-03-18,Hollywood Hills West,NA,NA
+2020-03-19,Hollywood Hills West,NA,NA
+2020-03-20,Hollywood Hills West,NA,NA
+2020-03-21,Hollywood Hills West,NA,NA
+2020-03-22,Hollywood Hills West,NA,NA
+2020-03-23,Hollywood Hills West,NA,NA
+2020-03-24,Hollywood Hills West,NA,NA
+2020-03-25,Hollywood Hills West,NA,NA
+2020-03-26,Hollywood Hills West,NA,NA
+2020-03-27,Hollywood Hills West,NA,NA
+2020-03-10,Huntington Park,NA,NA
+2020-03-11,Huntington Park,NA,NA
+2020-03-12,Huntington Park,NA,NA
+2020-03-13,Huntington Park,NA,NA
+2020-03-14,Huntington Park,NA,NA
+2020-03-15,Huntington Park,NA,NA
+2020-03-16,Huntington Park,NA,NA
+2020-03-17,Huntington Park,NA,NA
+2020-03-18,Huntington Park,NA,NA
+2020-03-19,Huntington Park,NA,NA
+2020-03-20,Huntington Park,NA,NA
+2020-03-21,Huntington Park,NA,NA
+2020-03-22,Huntington Park,NA,NA
+2020-03-23,Huntington Park,NA,NA
+2020-03-24,Huntington Park,NA,NA
+2020-03-25,Huntington Park,NA,NA
+2020-03-26,Huntington Park,NA,NA
+2020-03-27,Huntington Park,City of Huntington Park,0
+2020-03-10,Hyde Park,NA,NA
+2020-03-11,Hyde Park,NA,NA
+2020-03-12,Hyde Park,NA,NA
+2020-03-13,Hyde Park,NA,NA
+2020-03-14,Hyde Park,NA,NA
+2020-03-15,Hyde Park,NA,NA
+2020-03-16,Hyde Park,NA,NA
+2020-03-17,Hyde Park,NA,NA
+2020-03-18,Hyde Park,NA,NA
+2020-03-19,Hyde Park,NA,NA
+2020-03-20,Hyde Park,NA,NA
+2020-03-21,Hyde Park,NA,NA
+2020-03-22,Hyde Park,NA,NA
+2020-03-23,Hyde Park,Hyde Park,1
+2020-03-24,Hyde Park,Hyde Park,1
+2020-03-25,Hyde Park,Hyde Park,1
+2020-03-26,Hyde Park,Hyde Park*,1
+2020-03-27,Hyde Park,Los Angeles,2
+2020-03-10,Industry,NA,NA
+2020-03-11,Industry,NA,NA
+2020-03-12,Industry,NA,NA
+2020-03-13,Industry,NA,NA
+2020-03-14,Industry,NA,NA
+2020-03-15,Industry,NA,NA
+2020-03-16,Industry,NA,NA
+2020-03-17,Industry,NA,NA
+2020-03-18,Industry,NA,NA
+2020-03-19,Industry,NA,NA
+2020-03-20,Industry,NA,NA
+2020-03-21,Industry,NA,NA
+2020-03-22,Industry,NA,NA
+2020-03-23,Industry,NA,NA
+2020-03-24,Industry,NA,NA
+2020-03-25,Industry,NA,NA
+2020-03-26,Industry,NA,NA
+2020-03-27,Industry,City of Industry,0
+2020-03-10,Inglewood,NA,NA
+2020-03-11,Inglewood,NA,NA
+2020-03-12,Inglewood,NA,NA
+2020-03-13,Inglewood,NA,NA
+2020-03-14,Inglewood,NA,NA
+2020-03-15,Inglewood,NA,NA
+2020-03-16,Inglewood,NA,NA
+2020-03-17,Inglewood,Inglewood,1
+2020-03-18,Inglewood,Inglewood,1
+2020-03-19,Inglewood,Inglewood,2
+2020-03-20,Inglewood,Inglewood --,2
+2020-03-21,Inglewood,Inglewood,2
+2020-03-22,Inglewood,Inglewood,3
+2020-03-23,Inglewood,Inglewood,3
+2020-03-24,Inglewood,Inglewood,5
+2020-03-25,Inglewood,Inglewood,5
+2020-03-26,Inglewood,Inglewood,12
+2020-03-27,Inglewood,City of Inglewood,12
+2020-03-10,Irwindale,NA,NA
+2020-03-11,Irwindale,NA,NA
+2020-03-12,Irwindale,NA,NA
+2020-03-13,Irwindale,NA,NA
+2020-03-14,Irwindale,NA,NA
+2020-03-15,Irwindale,NA,NA
+2020-03-16,Irwindale,NA,NA
+2020-03-17,Irwindale,NA,NA
+2020-03-18,Irwindale,NA,NA
+2020-03-19,Irwindale,NA,NA
+2020-03-20,Irwindale,NA,NA
+2020-03-21,Irwindale,NA,NA
+2020-03-22,Irwindale,NA,NA
+2020-03-23,Irwindale,NA,NA
+2020-03-24,Irwindale,NA,NA
+2020-03-25,Irwindale,NA,NA
+2020-03-26,Irwindale,NA,NA
+2020-03-27,Irwindale,City of Irwindale,0
+2020-03-10,Jefferson Park,NA,NA
+2020-03-11,Jefferson Park,NA,NA
+2020-03-12,Jefferson Park,NA,NA
+2020-03-13,Jefferson Park,NA,NA
+2020-03-14,Jefferson Park,NA,NA
+2020-03-15,Jefferson Park,NA,NA
+2020-03-16,Jefferson Park,NA,NA
+2020-03-17,Jefferson Park,NA,NA
+2020-03-18,Jefferson Park,NA,NA
+2020-03-19,Jefferson Park,NA,NA
+2020-03-20,Jefferson Park,NA,NA
+2020-03-21,Jefferson Park,NA,NA
+2020-03-22,Jefferson Park,NA,NA
+2020-03-23,Jefferson Park,NA,NA
+2020-03-24,Jefferson Park,NA,NA
+2020-03-25,Jefferson Park,NA,NA
+2020-03-26,Jefferson Park,NA,NA
+2020-03-27,Jefferson Park,Los Angeles,0
+2020-03-10,Koreatown,NA,NA
+2020-03-11,Koreatown,NA,NA
+2020-03-12,Koreatown,NA,NA
+2020-03-13,Koreatown,NA,NA
+2020-03-14,Koreatown,NA,NA
+2020-03-15,Koreatown,NA,NA
+2020-03-16,Koreatown,NA,NA
+2020-03-17,Koreatown,Koreatown --,1
+2020-03-18,Koreatown,Los Angeles,1
+2020-03-19,Koreatown,Koreatown,1
+2020-03-20,Koreatown,Koreatown --,1
+2020-03-21,Koreatown,Koreatown,1
+2020-03-22,Koreatown,Koreatown,2
+2020-03-23,Koreatown,Koreatown,3
+2020-03-24,Koreatown,Koreatown,5
+2020-03-25,Koreatown,Koreatown,5
+2020-03-26,Koreatown,Koreatown,7
+2020-03-27,Koreatown,Los Angeles,7
+2020-03-10,La Canada Flintridge,NA,NA
+2020-03-11,La Canada Flintridge,NA,NA
+2020-03-12,La Canada Flintridge,NA,NA
+2020-03-13,La Canada Flintridge,NA,NA
+2020-03-14,La Canada Flintridge,NA,NA
+2020-03-15,La Canada Flintridge,NA,NA
+2020-03-16,La Canada Flintridge,NA,NA
+2020-03-17,La Canada Flintridge,NA,NA
+2020-03-18,La Canada Flintridge,NA,NA
+2020-03-19,La Canada Flintridge,NA,NA
+2020-03-20,La Canada Flintridge,NA,NA
+2020-03-21,La Canada Flintridge,La Canada Flintridge,1
+2020-03-22,La Canada Flintridge,La Canada Flintridge,1
+2020-03-23,La Canada Flintridge,La Canada Flintridge,2
+2020-03-24,La Canada Flintridge,La Canada Flintridge,2
+2020-03-25,La Canada Flintridge,La Canada Flintridge,3
+2020-03-26,La Canada Flintridge,La Canada Flintridge*,6
+2020-03-27,La Canada Flintridge,City of La Canada Flintridge,5
+2020-03-10,La Crescenta-Montrose,NA,NA
+2020-03-11,La Crescenta-Montrose,NA,NA
+2020-03-12,La Crescenta-Montrose,NA,NA
+2020-03-13,La Crescenta-Montrose,NA,NA
+2020-03-14,La Crescenta-Montrose,NA,NA
+2020-03-15,La Crescenta-Montrose,NA,NA
+2020-03-16,La Crescenta-Montrose,NA,NA
+2020-03-17,La Crescenta-Montrose,NA,NA
+2020-03-18,La Crescenta-Montrose,NA,NA
+2020-03-19,La Crescenta-Montrose,NA,NA
+2020-03-20,La Crescenta-Montrose,NA,NA
+2020-03-21,La Crescenta-Montrose,NA,NA
+2020-03-22,La Crescenta-Montrose,NA,NA
+2020-03-23,La Crescenta-Montrose,NA,NA
+2020-03-24,La Crescenta-Montrose,NA,NA
+2020-03-25,La Crescenta-Montrose,NA,NA
+2020-03-26,La Crescenta-Montrose,NA,NA
+2020-03-27,La Crescenta-Montrose,Unincorporated,0
+2020-03-10,La Habra Heights,NA,NA
+2020-03-11,La Habra Heights,NA,NA
+2020-03-12,La Habra Heights,NA,NA
+2020-03-13,La Habra Heights,NA,NA
+2020-03-14,La Habra Heights,NA,NA
+2020-03-15,La Habra Heights,NA,NA
+2020-03-16,La Habra Heights,NA,NA
+2020-03-17,La Habra Heights,NA,NA
+2020-03-18,La Habra Heights,NA,NA
+2020-03-19,La Habra Heights,NA,NA
+2020-03-20,La Habra Heights,NA,NA
+2020-03-21,La Habra Heights,NA,NA
+2020-03-22,La Habra Heights,NA,NA
+2020-03-23,La Habra Heights,NA,NA
+2020-03-24,La Habra Heights,NA,NA
+2020-03-25,La Habra Heights,NA,NA
+2020-03-26,La Habra Heights,NA,NA
+2020-03-27,La Habra Heights,NA,NA
+2020-03-10,La Mirada,NA,NA
+2020-03-11,La Mirada,NA,NA
+2020-03-12,La Mirada,NA,NA
+2020-03-13,La Mirada,NA,NA
+2020-03-14,La Mirada,NA,NA
+2020-03-15,La Mirada,NA,NA
+2020-03-16,La Mirada,NA,NA
+2020-03-17,La Mirada,La Mirada,3
+2020-03-18,La Mirada,La Mirada --,3
+2020-03-19,La Mirada,La Mirada,3
+2020-03-20,La Mirada,La Mirada,3
+2020-03-21,La Mirada,La Mirada,3
+2020-03-22,La Mirada,La Mirada,3
+2020-03-23,La Mirada,La Mirada,3
+2020-03-24,La Mirada,La Mirada,3
+2020-03-25,La Mirada,La Mirada,4
+2020-03-26,La Mirada,La Mirada*,5
+2020-03-27,La Mirada,City of La Mirada,5
+2020-03-10,La Puente,NA,NA
+2020-03-11,La Puente,NA,NA
+2020-03-12,La Puente,NA,NA
+2020-03-13,La Puente,NA,NA
+2020-03-14,La Puente,NA,NA
+2020-03-15,La Puente,NA,NA
+2020-03-16,La Puente,NA,NA
+2020-03-17,La Puente,NA,NA
+2020-03-18,La Puente,NA,NA
+2020-03-19,La Puente,NA,NA
+2020-03-20,La Puente,NA,NA
+2020-03-21,La Puente,NA,NA
+2020-03-22,La Puente,NA,NA
+2020-03-23,La Puente,NA,NA
+2020-03-24,La Puente,La Puente,1
+2020-03-25,La Puente,NA,NA
+2020-03-26,La Puente,La Puente,1
+2020-03-27,La Puente,City of La Puente,1
+2020-03-10,La Verne,NA,NA
+2020-03-11,La Verne,NA,NA
+2020-03-12,La Verne,NA,NA
+2020-03-13,La Verne,NA,NA
+2020-03-14,La Verne,NA,NA
+2020-03-15,La Verne,NA,NA
+2020-03-16,La Verne,NA,NA
+2020-03-17,La Verne,NA,NA
+2020-03-18,La Verne,NA,NA
+2020-03-19,La Verne,NA,NA
+2020-03-20,La Verne,NA,NA
+2020-03-21,La Verne,La Verne,1
+2020-03-22,La Verne,La Verne,2
+2020-03-23,La Verne,La Verne,2
+2020-03-24,La Verne,La Verne,2
+2020-03-25,La Verne,La Verne,2
+2020-03-26,La Verne,La Verne*,2
+2020-03-27,La Verne,City of La Verne,1
+2020-03-10,Ladera Heights,NA,NA
+2020-03-11,Ladera Heights,NA,NA
+2020-03-12,Ladera Heights,NA,NA
+2020-03-13,Ladera Heights,NA,NA
+2020-03-14,Ladera Heights,NA,NA
+2020-03-15,Ladera Heights,NA,NA
+2020-03-16,Ladera Heights,NA,NA
+2020-03-17,Ladera Heights,NA,NA
+2020-03-18,Ladera Heights,NA,NA
+2020-03-19,Ladera Heights,NA,NA
+2020-03-20,Ladera Heights,NA,NA
+2020-03-21,Ladera Heights,NA,NA
+2020-03-22,Ladera Heights,NA,NA
+2020-03-23,Ladera Heights,NA,NA
+2020-03-24,Ladera Heights,NA,NA
+2020-03-25,Ladera Heights,NA,NA
+2020-03-26,Ladera Heights,NA,NA
+2020-03-27,Ladera Heights,Unincorporated,0
+2020-03-10,Lake Balboa,NA,NA
+2020-03-11,Lake Balboa,NA,NA
+2020-03-12,Lake Balboa,NA,NA
+2020-03-13,Lake Balboa,NA,NA
+2020-03-14,Lake Balboa,NA,NA
+2020-03-15,Lake Balboa,NA,NA
+2020-03-16,Lake Balboa,NA,NA
+2020-03-17,Lake Balboa,NA,NA
+2020-03-18,Lake Balboa,NA,NA
+2020-03-19,Lake Balboa,NA,NA
+2020-03-20,Lake Balboa,NA,NA
+2020-03-21,Lake Balboa,Lake Balboa,1
+2020-03-22,Lake Balboa,Lake Balboa,1
+2020-03-23,Lake Balboa,Lake Balboa,2
+2020-03-24,Lake Balboa,Lake Balboa,2
+2020-03-25,Lake Balboa,Lake Balboa,2
+2020-03-26,Lake Balboa,Lake Balboa,3
+2020-03-27,Lake Balboa,Los Angeles,3
+2020-03-10,Lake Hughes,NA,NA
+2020-03-11,Lake Hughes,NA,NA
+2020-03-12,Lake Hughes,NA,NA
+2020-03-13,Lake Hughes,NA,NA
+2020-03-14,Lake Hughes,NA,NA
+2020-03-15,Lake Hughes,NA,NA
+2020-03-16,Lake Hughes,NA,NA
+2020-03-17,Lake Hughes,NA,NA
+2020-03-18,Lake Hughes,NA,NA
+2020-03-19,Lake Hughes,NA,NA
+2020-03-20,Lake Hughes,NA,NA
+2020-03-21,Lake Hughes,NA,NA
+2020-03-22,Lake Hughes,NA,NA
+2020-03-23,Lake Hughes,NA,NA
+2020-03-24,Lake Hughes,NA,NA
+2020-03-25,Lake Hughes,NA,NA
+2020-03-26,Lake Hughes,NA,NA
+2020-03-27,Lake Hughes,Unincorporated,0
+2020-03-10,Lake Los Angeles,NA,NA
+2020-03-11,Lake Los Angeles,NA,NA
+2020-03-12,Lake Los Angeles,NA,NA
+2020-03-13,Lake Los Angeles,NA,NA
+2020-03-14,Lake Los Angeles,NA,NA
+2020-03-15,Lake Los Angeles,NA,NA
+2020-03-16,Lake Los Angeles,NA,NA
+2020-03-17,Lake Los Angeles,NA,NA
+2020-03-18,Lake Los Angeles,NA,NA
+2020-03-19,Lake Los Angeles,NA,NA
+2020-03-20,Lake Los Angeles,NA,NA
+2020-03-21,Lake Los Angeles,NA,NA
+2020-03-22,Lake Los Angeles,NA,NA
+2020-03-23,Lake Los Angeles,NA,NA
+2020-03-24,Lake Los Angeles,NA,NA
+2020-03-25,Lake Los Angeles,NA,NA
+2020-03-26,Lake Los Angeles,NA,NA
+2020-03-27,Lake Los Angeles,Unincorporated,0
+2020-03-10,Lake View Terrace,NA,NA
+2020-03-11,Lake View Terrace,NA,NA
+2020-03-12,Lake View Terrace,NA,NA
+2020-03-13,Lake View Terrace,NA,NA
+2020-03-14,Lake View Terrace,NA,NA
+2020-03-15,Lake View Terrace,NA,NA
+2020-03-16,Lake View Terrace,NA,NA
+2020-03-17,Lake View Terrace,NA,NA
+2020-03-18,Lake View Terrace,NA,NA
+2020-03-19,Lake View Terrace,NA,NA
+2020-03-20,Lake View Terrace,NA,NA
+2020-03-21,Lake View Terrace,NA,NA
+2020-03-22,Lake View Terrace,NA,NA
+2020-03-23,Lake View Terrace,NA,NA
+2020-03-24,Lake View Terrace,NA,NA
+2020-03-25,Lake View Terrace,NA,NA
+2020-03-26,Lake View Terrace,NA,NA
+2020-03-27,Lake View Terrace,NA,NA
+2020-03-10,Lakewood,NA,NA
+2020-03-11,Lakewood,NA,NA
+2020-03-12,Lakewood,NA,NA
+2020-03-13,Lakewood,NA,NA
+2020-03-14,Lakewood,NA,NA
+2020-03-15,Lakewood,NA,NA
+2020-03-16,Lakewood,NA,NA
+2020-03-17,Lakewood,NA,NA
+2020-03-18,Lakewood,NA,NA
+2020-03-19,Lakewood,NA,NA
+2020-03-20,Lakewood,Lakewood --,1
+2020-03-21,Lakewood,Lakewood,1
+2020-03-22,Lakewood,Lakewood,1
+2020-03-23,Lakewood,Lakewood,1
+2020-03-24,Lakewood,Lakewood,3
+2020-03-25,Lakewood,Lakewood,4
+2020-03-26,Lakewood,Lakewood*,7
+2020-03-27,Lakewood,City of Lakewood,8
+2020-03-27,Lakewood,Unincorporated,0
+2020-03-10,Lancaster,NA,NA
+2020-03-11,Lancaster,NA,NA
+2020-03-12,Lancaster,NA,NA
+2020-03-13,Lancaster,NA,NA
+2020-03-14,Lancaster,NA,NA
+2020-03-15,Lancaster,NA,NA
+2020-03-16,Lancaster,NA,NA
+2020-03-17,Lancaster,NA,NA
+2020-03-18,Lancaster,NA,NA
+2020-03-19,Lancaster,NA,NA
+2020-03-20,Lancaster,Lancaster --,3
+2020-03-21,Lancaster,Lancaster,3
+2020-03-22,Lancaster,Lancaster,4
+2020-03-23,Lancaster,Lancaster,7
+2020-03-24,Lancaster,Lancaster,8
+2020-03-25,Lancaster,Lancaster,13
+2020-03-26,Lancaster,Lancaster*,16
+2020-03-27,Lancaster,City of Lancaster,18
+2020-03-10,Larchmont,NA,NA
+2020-03-11,Larchmont,NA,NA
+2020-03-12,Larchmont,NA,NA
+2020-03-13,Larchmont,NA,NA
+2020-03-14,Larchmont,NA,NA
+2020-03-15,Larchmont,NA,NA
+2020-03-16,Larchmont,NA,NA
+2020-03-17,Larchmont,NA,NA
+2020-03-18,Larchmont,NA,NA
+2020-03-19,Larchmont,NA,NA
+2020-03-20,Larchmont,NA,NA
+2020-03-21,Larchmont,NA,NA
+2020-03-22,Larchmont,NA,NA
+2020-03-23,Larchmont,NA,NA
+2020-03-24,Larchmont,NA,NA
+2020-03-25,Larchmont,NA,NA
+2020-03-26,Larchmont,NA,NA
+2020-03-27,Larchmont,NA,NA
+2020-03-10,Lawndale,NA,NA
+2020-03-11,Lawndale,NA,NA
+2020-03-12,Lawndale,NA,NA
+2020-03-13,Lawndale,NA,NA
+2020-03-14,Lawndale,NA,NA
+2020-03-15,Lawndale,NA,NA
+2020-03-16,Lawndale,NA,NA
+2020-03-17,Lawndale,NA,NA
+2020-03-18,Lawndale,NA,NA
+2020-03-19,Lawndale,Lawndale --,1
+2020-03-20,Lawndale,Lawndale --,1
+2020-03-21,Lawndale,Lawndale,1
+2020-03-22,Lawndale,Lawndale,1
+2020-03-23,Lawndale,Lawndale,2
+2020-03-24,Lawndale,Lawndale,2
+2020-03-25,Lawndale,Lawndale,1
+2020-03-26,Lawndale,Lawndale*,2
+2020-03-27,Lawndale,City of Lawndale,2
+2020-03-10,Leimert Park,NA,NA
+2020-03-11,Leimert Park,NA,NA
+2020-03-12,Leimert Park,NA,NA
+2020-03-13,Leimert Park,NA,NA
+2020-03-14,Leimert Park,NA,NA
+2020-03-15,Leimert Park,NA,NA
+2020-03-16,Leimert Park,NA,NA
+2020-03-17,Leimert Park,NA,NA
+2020-03-18,Leimert Park,NA,NA
+2020-03-19,Leimert Park,NA,NA
+2020-03-20,Leimert Park,NA,NA
+2020-03-21,Leimert Park,NA,NA
+2020-03-22,Leimert Park,NA,NA
+2020-03-23,Leimert Park,NA,NA
+2020-03-24,Leimert Park,NA,NA
+2020-03-25,Leimert Park,NA,NA
+2020-03-26,Leimert Park,Leimert Park*,2
+2020-03-27,Leimert Park,NA,NA
+2020-03-10,Lennox,NA,NA
+2020-03-11,Lennox,NA,NA
+2020-03-12,Lennox,NA,NA
+2020-03-13,Lennox,NA,NA
+2020-03-14,Lennox,NA,NA
+2020-03-15,Lennox,NA,NA
+2020-03-16,Lennox,NA,NA
+2020-03-17,Lennox,NA,NA
+2020-03-18,Lennox,NA,NA
+2020-03-19,Lennox,NA,NA
+2020-03-20,Lennox,NA,NA
+2020-03-21,Lennox,NA,NA
+2020-03-22,Lennox,NA,NA
+2020-03-23,Lennox,NA,NA
+2020-03-24,Lennox,NA,NA
+2020-03-25,Lennox,NA,NA
+2020-03-26,Lennox,NA,NA
+2020-03-27,Lennox,NA,NA
+2020-03-10,Leona Valley,NA,NA
+2020-03-11,Leona Valley,NA,NA
+2020-03-12,Leona Valley,NA,NA
+2020-03-13,Leona Valley,NA,NA
+2020-03-14,Leona Valley,NA,NA
+2020-03-15,Leona Valley,NA,NA
+2020-03-16,Leona Valley,NA,NA
+2020-03-17,Leona Valley,NA,NA
+2020-03-18,Leona Valley,NA,NA
+2020-03-19,Leona Valley,NA,NA
+2020-03-20,Leona Valley,NA,NA
+2020-03-21,Leona Valley,NA,NA
+2020-03-22,Leona Valley,NA,NA
+2020-03-23,Leona Valley,NA,NA
+2020-03-24,Leona Valley,NA,NA
+2020-03-25,Leona Valley,NA,NA
+2020-03-26,Leona Valley,NA,NA
+2020-03-27,Leona Valley,Unincorporated,0
+2020-03-10,Lincoln Heights,NA,NA
+2020-03-11,Lincoln Heights,NA,NA
+2020-03-12,Lincoln Heights,NA,NA
+2020-03-13,Lincoln Heights,NA,NA
+2020-03-14,Lincoln Heights,NA,NA
+2020-03-15,Lincoln Heights,NA,NA
+2020-03-16,Lincoln Heights,NA,NA
+2020-03-17,Lincoln Heights,NA,NA
+2020-03-18,Lincoln Heights,NA,NA
+2020-03-19,Lincoln Heights,NA,NA
+2020-03-20,Lincoln Heights,NA,NA
+2020-03-21,Lincoln Heights,NA,NA
+2020-03-22,Lincoln Heights,NA,NA
+2020-03-23,Lincoln Heights,Lincoln Heights,1
+2020-03-24,Lincoln Heights,Lincoln Heights,1
+2020-03-25,Lincoln Heights,NA,NA
+2020-03-26,Lincoln Heights,Lincoln Heights,1
+2020-03-27,Lincoln Heights,Los Angeles,1
+2020-03-10,Littlerock,NA,NA
+2020-03-11,Littlerock,NA,NA
+2020-03-12,Littlerock,NA,NA
+2020-03-13,Littlerock,NA,NA
+2020-03-14,Littlerock,NA,NA
+2020-03-15,Littlerock,NA,NA
+2020-03-16,Littlerock,NA,NA
+2020-03-17,Littlerock,NA,NA
+2020-03-18,Littlerock,NA,NA
+2020-03-19,Littlerock,NA,NA
+2020-03-20,Littlerock,NA,NA
+2020-03-21,Littlerock,NA,NA
+2020-03-22,Littlerock,NA,NA
+2020-03-23,Littlerock,NA,NA
+2020-03-24,Littlerock,NA,NA
+2020-03-25,Littlerock,NA,NA
+2020-03-26,Littlerock,NA,NA
+2020-03-27,Littlerock,Unincorporated,0
+2020-03-10,Lomita,NA,NA
+2020-03-11,Lomita,NA,NA
+2020-03-12,Lomita,NA,NA
+2020-03-13,Lomita,NA,NA
+2020-03-14,Lomita,NA,NA
+2020-03-15,Lomita,NA,NA
+2020-03-16,Lomita,NA,NA
+2020-03-17,Lomita,NA,NA
+2020-03-18,Lomita,NA,NA
+2020-03-19,Lomita,Lomita,5
+2020-03-20,Lomita,Lomita --,5
+2020-03-21,Lomita,Lomita,7
+2020-03-22,Lomita,Lomita,8
+2020-03-23,Lomita,Lomita,8
+2020-03-24,Lomita,Lomita,9
+2020-03-25,Lomita,Lomita,9
+2020-03-26,Lomita,Lomita*,12
+2020-03-27,Lomita,City of Lomita,0
+2020-03-10,Long Beach,NA,NA
+2020-03-11,Long Beach,NA,NA
+2020-03-12,Long Beach,NA,NA
+2020-03-13,Long Beach,NA,NA
+2020-03-14,Long Beach,NA,NA
+2020-03-15,Long Beach,NA,NA
+2020-03-16,Long Beach,NA,NA
+2020-03-17,Long Beach,Long Beach,5
+2020-03-18,Long Beach,Long Beach,8
+2020-03-19,Long Beach,Long Beach,12
+2020-03-20,Long Beach,Long Beach,12
+2020-03-21,Long Beach,Long Beach,13
+2020-03-22,Long Beach,Long Beach,15
+2020-03-23,Long Beach,Long Beach,17
+2020-03-24,Long Beach,Long Beach,21
+2020-03-25,Long Beach,Long Beach,28
+2020-03-26,Long Beach,Long Beach,41
+2020-03-27,Long Beach,Long Beach,54
+2020-03-27,Long Beach,City of Long Beach,0
+2020-03-27,Long Beach,Unincorporated,0
+2020-03-10,Lopez/Kagel Canyons,NA,NA
+2020-03-11,Lopez/Kagel Canyons,NA,NA
+2020-03-12,Lopez/Kagel Canyons,NA,NA
+2020-03-13,Lopez/Kagel Canyons,NA,NA
+2020-03-14,Lopez/Kagel Canyons,NA,NA
+2020-03-15,Lopez/Kagel Canyons,NA,NA
+2020-03-16,Lopez/Kagel Canyons,NA,NA
+2020-03-17,Lopez/Kagel Canyons,NA,NA
+2020-03-18,Lopez/Kagel Canyons,NA,NA
+2020-03-19,Lopez/Kagel Canyons,NA,NA
+2020-03-20,Lopez/Kagel Canyons,NA,NA
+2020-03-21,Lopez/Kagel Canyons,NA,NA
+2020-03-22,Lopez/Kagel Canyons,NA,NA
+2020-03-23,Lopez/Kagel Canyons,NA,NA
+2020-03-24,Lopez/Kagel Canyons,NA,NA
+2020-03-25,Lopez/Kagel Canyons,NA,NA
+2020-03-26,Lopez/Kagel Canyons,NA,NA
+2020-03-27,Lopez/Kagel Canyons,NA,NA
+2020-03-10,Los Feliz,NA,NA
+2020-03-11,Los Feliz,NA,NA
+2020-03-12,Los Feliz,NA,NA
+2020-03-13,Los Feliz,NA,NA
+2020-03-14,Los Feliz,NA,NA
+2020-03-15,Los Feliz,NA,NA
+2020-03-16,Los Feliz,NA,NA
+2020-03-17,Los Feliz,NA,NA
+2020-03-18,Los Feliz,NA,NA
+2020-03-19,Los Feliz,NA,NA
+2020-03-20,Los Feliz,NA,NA
+2020-03-21,Los Feliz,NA,NA
+2020-03-22,Los Feliz,Los Feliz,1
+2020-03-23,Los Feliz,Los Feliz,2
+2020-03-24,Los Feliz,Los Feliz,2
+2020-03-25,Los Feliz,Los Feliz,3
+2020-03-26,Los Feliz,Los Feliz*,5
+2020-03-27,Los Feliz,Los Angeles,6
+2020-03-10,Lynwood,NA,NA
+2020-03-11,Lynwood,NA,NA
+2020-03-12,Lynwood,NA,NA
+2020-03-13,Lynwood,NA,NA
+2020-03-14,Lynwood,NA,NA
+2020-03-15,Lynwood,NA,NA
+2020-03-16,Lynwood,NA,NA
+2020-03-17,Lynwood,Lynwood,1
+2020-03-18,Lynwood,Lynwood,1
+2020-03-19,Lynwood,Lynwood,1
+2020-03-20,Lynwood,Lynwood,1
+2020-03-21,Lynwood,Lynwood,1
+2020-03-22,Lynwood,Lynwood,2
+2020-03-23,Lynwood,Lynwood,2
+2020-03-24,Lynwood,Lynwood,2
+2020-03-25,Lynwood,Lynwood,3
+2020-03-26,Lynwood,Lynwood,6
+2020-03-27,Lynwood,City of Lynwood,8
+2020-03-10,Malibu,NA,NA
+2020-03-11,Malibu,NA,NA
+2020-03-12,Malibu,NA,NA
+2020-03-13,Malibu,NA,NA
+2020-03-14,Malibu,NA,NA
+2020-03-15,Malibu,NA,NA
+2020-03-16,Malibu,NA,NA
+2020-03-17,Malibu,NA,NA
+2020-03-18,Malibu,NA,NA
+2020-03-19,Malibu,NA,NA
+2020-03-20,Malibu,NA,NA
+2020-03-21,Malibu,NA,NA
+2020-03-22,Malibu,NA,NA
+2020-03-23,Malibu,NA,NA
+2020-03-24,Malibu,NA,NA
+2020-03-25,Malibu,NA,NA
+2020-03-26,Malibu,NA,NA
+2020-03-27,Malibu,NA,NA
+2020-03-10,Manchester Square,NA,NA
+2020-03-11,Manchester Square,NA,NA
+2020-03-12,Manchester Square,NA,NA
+2020-03-13,Manchester Square,NA,NA
+2020-03-14,Manchester Square,NA,NA
+2020-03-15,Manchester Square,NA,NA
+2020-03-16,Manchester Square,NA,NA
+2020-03-17,Manchester Square,NA,NA
+2020-03-18,Manchester Square,NA,NA
+2020-03-19,Manchester Square,NA,NA
+2020-03-20,Manchester Square,NA,NA
+2020-03-21,Manchester Square,NA,NA
+2020-03-22,Manchester Square,NA,NA
+2020-03-23,Manchester Square,NA,NA
+2020-03-24,Manchester Square,NA,NA
+2020-03-25,Manchester Square,NA,NA
+2020-03-26,Manchester Square,NA,NA
+2020-03-27,Manchester Square,NA,NA
+2020-03-10,Manhattan Beach,NA,NA
+2020-03-11,Manhattan Beach,NA,NA
+2020-03-12,Manhattan Beach,NA,NA
+2020-03-13,Manhattan Beach,NA,NA
+2020-03-14,Manhattan Beach,NA,NA
+2020-03-15,Manhattan Beach,NA,NA
+2020-03-16,Manhattan Beach,NA,NA
+2020-03-17,Manhattan Beach,Manhattan Beach,4
+2020-03-18,Manhattan Beach,Manhattan Beach,4
+2020-03-19,Manhattan Beach,Manhattan Beach,5
+2020-03-20,Manhattan Beach,Manhattan Beach --,6
+2020-03-21,Manhattan Beach,Manhattan Beach,7
+2020-03-22,Manhattan Beach,Manhattan Beach,7
+2020-03-23,Manhattan Beach,Manhattan Beach,9
+2020-03-24,Manhattan Beach,Manhattan Beach,11
+2020-03-25,Manhattan Beach,Manhattan Beach,17
+2020-03-26,Manhattan Beach,Manhattan Beach*,21
+2020-03-27,Manhattan Beach,City of Manhattan Beach,22
+2020-03-10,Mar Vista,NA,NA
+2020-03-11,Mar Vista,NA,NA
+2020-03-12,Mar Vista,NA,NA
+2020-03-13,Mar Vista,NA,NA
+2020-03-14,Mar Vista,NA,NA
+2020-03-15,Mar Vista,NA,NA
+2020-03-16,Mar Vista,NA,NA
+2020-03-17,Mar Vista,Mar Vista,1
+2020-03-18,Mar Vista,Los Angeles,1
+2020-03-19,Mar Vista,Mar Vista,1
+2020-03-20,Mar Vista,Mar Vista,3
+2020-03-21,Mar Vista,Mar Vista,4
+2020-03-22,Mar Vista,Mar Vista,5
+2020-03-23,Mar Vista,Mar Vista,6
+2020-03-24,Mar Vista,Mar Vista,6
+2020-03-25,Mar Vista,Mar Vista,6
+2020-03-26,Mar Vista,Mar Vista,8
+2020-03-27,Mar Vista,Los Angeles,8
+2020-03-10,Marina del Rey,NA,NA
+2020-03-11,Marina del Rey,NA,NA
+2020-03-12,Marina del Rey,NA,NA
+2020-03-13,Marina del Rey,NA,NA
+2020-03-14,Marina del Rey,NA,NA
+2020-03-15,Marina del Rey,NA,NA
+2020-03-16,Marina del Rey,NA,NA
+2020-03-17,Marina del Rey,NA,NA
+2020-03-18,Marina del Rey,NA,NA
+2020-03-19,Marina del Rey,NA,NA
+2020-03-20,Marina del Rey,NA,NA
+2020-03-21,Marina del Rey,NA,NA
+2020-03-22,Marina del Rey,NA,NA
+2020-03-23,Marina del Rey,NA,NA
+2020-03-24,Marina del Rey,NA,NA
+2020-03-25,Marina del Rey,NA,NA
+2020-03-26,Marina del Rey,NA,NA
+2020-03-27,Marina del Rey,NA,NA
+2020-03-10,Mayflower Village,NA,NA
+2020-03-11,Mayflower Village,NA,NA
+2020-03-12,Mayflower Village,NA,NA
+2020-03-13,Mayflower Village,NA,NA
+2020-03-14,Mayflower Village,NA,NA
+2020-03-15,Mayflower Village,NA,NA
+2020-03-16,Mayflower Village,NA,NA
+2020-03-17,Mayflower Village,NA,NA
+2020-03-18,Mayflower Village,NA,NA
+2020-03-19,Mayflower Village,NA,NA
+2020-03-20,Mayflower Village,NA,NA
+2020-03-21,Mayflower Village,NA,NA
+2020-03-22,Mayflower Village,NA,NA
+2020-03-23,Mayflower Village,NA,NA
+2020-03-24,Mayflower Village,NA,NA
+2020-03-25,Mayflower Village,NA,NA
+2020-03-26,Mayflower Village,NA,NA
+2020-03-27,Mayflower Village,NA,NA
+2020-03-10,Maywood,NA,NA
+2020-03-11,Maywood,NA,NA
+2020-03-12,Maywood,NA,NA
+2020-03-13,Maywood,NA,NA
+2020-03-14,Maywood,NA,NA
+2020-03-15,Maywood,NA,NA
+2020-03-16,Maywood,NA,NA
+2020-03-17,Maywood,NA,NA
+2020-03-18,Maywood,NA,NA
+2020-03-19,Maywood,NA,NA
+2020-03-20,Maywood,NA,NA
+2020-03-21,Maywood,NA,NA
+2020-03-22,Maywood,NA,NA
+2020-03-23,Maywood,NA,NA
+2020-03-24,Maywood,NA,NA
+2020-03-25,Maywood,NA,NA
+2020-03-26,Maywood,Maywood*,1
+2020-03-27,Maywood,City of Maywood,1
+2020-03-10,Mid-City,NA,NA
+2020-03-11,Mid-City,NA,NA
+2020-03-12,Mid-City,NA,NA
+2020-03-13,Mid-City,NA,NA
+2020-03-14,Mid-City,NA,NA
+2020-03-15,Mid-City,NA,NA
+2020-03-16,Mid-City,NA,NA
+2020-03-17,Mid-City,NA,NA
+2020-03-18,Mid-City,NA,NA
+2020-03-19,Mid-City,NA,NA
+2020-03-20,Mid-City,NA,NA
+2020-03-21,Mid-City,NA,NA
+2020-03-22,Mid-City,NA,NA
+2020-03-23,Mid-City,NA,NA
+2020-03-24,Mid-City,NA,NA
+2020-03-25,Mid-City,NA,NA
+2020-03-26,Mid-City,NA,NA
+2020-03-27,Mid-City,NA,NA
+2020-03-10,Mid-Wilshire,NA,NA
+2020-03-11,Mid-Wilshire,NA,NA
+2020-03-12,Mid-Wilshire,NA,NA
+2020-03-13,Mid-Wilshire,NA,NA
+2020-03-14,Mid-Wilshire,NA,NA
+2020-03-15,Mid-Wilshire,NA,NA
+2020-03-16,Mid-Wilshire,NA,NA
+2020-03-17,Mid-Wilshire,NA,NA
+2020-03-18,Mid-Wilshire,NA,NA
+2020-03-19,Mid-Wilshire,NA,NA
+2020-03-20,Mid-Wilshire,NA,NA
+2020-03-21,Mid-Wilshire,NA,NA
+2020-03-22,Mid-Wilshire,NA,NA
+2020-03-23,Mid-Wilshire,NA,NA
+2020-03-24,Mid-Wilshire,NA,NA
+2020-03-25,Mid-Wilshire,NA,NA
+2020-03-26,Mid-Wilshire,NA,NA
+2020-03-27,Mid-Wilshire,NA,NA
+2020-03-10,Mission Hills,NA,NA
+2020-03-11,Mission Hills,NA,NA
+2020-03-12,Mission Hills,NA,NA
+2020-03-13,Mission Hills,NA,NA
+2020-03-14,Mission Hills,NA,NA
+2020-03-15,Mission Hills,NA,NA
+2020-03-16,Mission Hills,NA,NA
+2020-03-17,Mission Hills,NA,NA
+2020-03-18,Mission Hills,NA,NA
+2020-03-19,Mission Hills,NA,NA
+2020-03-20,Mission Hills,NA,NA
+2020-03-21,Mission Hills,NA,NA
+2020-03-22,Mission Hills,NA,NA
+2020-03-23,Mission Hills,NA,NA
+2020-03-24,Mission Hills,NA,NA
+2020-03-25,Mission Hills,NA,NA
+2020-03-26,Mission Hills,NA,NA
+2020-03-27,Mission Hills,NA,NA
+2020-03-10,Monrovia,NA,NA
+2020-03-11,Monrovia,NA,NA
+2020-03-12,Monrovia,NA,NA
+2020-03-13,Monrovia,NA,NA
+2020-03-14,Monrovia,NA,NA
+2020-03-15,Monrovia,NA,NA
+2020-03-16,Monrovia,NA,NA
+2020-03-17,Monrovia,NA,NA
+2020-03-18,Monrovia,NA,NA
+2020-03-19,Monrovia,NA,NA
+2020-03-20,Monrovia,NA,NA
+2020-03-21,Monrovia,NA,NA
+2020-03-22,Monrovia,NA,NA
+2020-03-23,Monrovia,NA,NA
+2020-03-24,Monrovia,NA,NA
+2020-03-25,Monrovia,NA,NA
+2020-03-26,Monrovia,Monrovia*,2
+2020-03-27,Monrovia,City of Monrovia,4
+2020-03-10,Montebello,NA,NA
+2020-03-11,Montebello,NA,NA
+2020-03-12,Montebello,NA,NA
+2020-03-13,Montebello,NA,NA
+2020-03-14,Montebello,NA,NA
+2020-03-15,Montebello,NA,NA
+2020-03-16,Montebello,NA,NA
+2020-03-17,Montebello,NA,NA
+2020-03-18,Montebello,NA,NA
+2020-03-19,Montebello,NA,NA
+2020-03-20,Montebello,NA,NA
+2020-03-21,Montebello,Montebello,1
+2020-03-22,Montebello,NA,NA
+2020-03-23,Montebello,NA,NA
+2020-03-24,Montebello,NA,NA
+2020-03-25,Montebello,NA,NA
+2020-03-26,Montebello,Montebello,1
+2020-03-27,Montebello,City of Montebello,2
+2020-03-10,Montecito Heights,NA,NA
+2020-03-11,Montecito Heights,NA,NA
+2020-03-12,Montecito Heights,NA,NA
+2020-03-13,Montecito Heights,NA,NA
+2020-03-14,Montecito Heights,NA,NA
+2020-03-15,Montecito Heights,NA,NA
+2020-03-16,Montecito Heights,NA,NA
+2020-03-17,Montecito Heights,NA,NA
+2020-03-18,Montecito Heights,NA,NA
+2020-03-19,Montecito Heights,NA,NA
+2020-03-20,Montecito Heights,NA,NA
+2020-03-21,Montecito Heights,NA,NA
+2020-03-22,Montecito Heights,NA,NA
+2020-03-23,Montecito Heights,NA,NA
+2020-03-24,Montecito Heights,NA,NA
+2020-03-25,Montecito Heights,NA,NA
+2020-03-26,Montecito Heights,NA,NA
+2020-03-27,Montecito Heights,NA,NA
+2020-03-10,Monterey Park,NA,NA
+2020-03-11,Monterey Park,NA,NA
+2020-03-12,Monterey Park,NA,NA
+2020-03-13,Monterey Park,NA,NA
+2020-03-14,Monterey Park,NA,NA
+2020-03-15,Monterey Park,NA,NA
+2020-03-16,Monterey Park,NA,NA
+2020-03-17,Monterey Park,Monterey Park,1
+2020-03-18,Monterey Park,Monterey Park --,2
+2020-03-19,Monterey Park,Monterey Park --,2
+2020-03-20,Monterey Park,Monterey Park --,2
+2020-03-21,Monterey Park,Monterey Park,3
+2020-03-22,Monterey Park,Monterey Park,3
+2020-03-23,Monterey Park,Monterey Park,3
+2020-03-24,Monterey Park,Monterey Park,3
+2020-03-25,Monterey Park,Monterey Park,4
+2020-03-26,Monterey Park,Monterey Park,4
+2020-03-27,Monterey Park,City of Monterey Park,4
+2020-03-10,Mount Washington,NA,NA
+2020-03-11,Mount Washington,NA,NA
+2020-03-12,Mount Washington,NA,NA
+2020-03-13,Mount Washington,NA,NA
+2020-03-14,Mount Washington,NA,NA
+2020-03-15,Mount Washington,NA,NA
+2020-03-16,Mount Washington,NA,NA
+2020-03-17,Mount Washington,NA,NA
+2020-03-18,Mount Washington,NA,NA
+2020-03-19,Mount Washington,NA,NA
+2020-03-20,Mount Washington,NA,NA
+2020-03-21,Mount Washington,NA,NA
+2020-03-22,Mount Washington,NA,NA
+2020-03-23,Mount Washington,NA,NA
+2020-03-24,Mount Washington,NA,NA
+2020-03-25,Mount Washington,NA,NA
+2020-03-26,Mount Washington,NA,NA
+2020-03-27,Mount Washington,NA,NA
+2020-03-10,North El Monte,NA,NA
+2020-03-11,North El Monte,NA,NA
+2020-03-12,North El Monte,NA,NA
+2020-03-13,North El Monte,NA,NA
+2020-03-14,North El Monte,NA,NA
+2020-03-15,North El Monte,NA,NA
+2020-03-16,North El Monte,NA,NA
+2020-03-17,North El Monte,NA,NA
+2020-03-18,North El Monte,NA,NA
+2020-03-19,North El Monte,NA,NA
+2020-03-20,North El Monte,NA,NA
+2020-03-21,North El Monte,NA,NA
+2020-03-22,North El Monte,NA,NA
+2020-03-23,North El Monte,NA,NA
+2020-03-24,North El Monte,NA,NA
+2020-03-25,North El Monte,NA,NA
+2020-03-26,North El Monte,NA,NA
+2020-03-27,North El Monte,NA,NA
+2020-03-10,North Hills,NA,NA
+2020-03-11,North Hills,NA,NA
+2020-03-12,North Hills,NA,NA
+2020-03-13,North Hills,NA,NA
+2020-03-14,North Hills,NA,NA
+2020-03-15,North Hills,NA,NA
+2020-03-16,North Hills,NA,NA
+2020-03-17,North Hills,NA,NA
+2020-03-18,North Hills,NA,NA
+2020-03-19,North Hills,NA,NA
+2020-03-20,North Hills,NA,NA
+2020-03-21,North Hills,NA,NA
+2020-03-22,North Hills,NA,NA
+2020-03-23,North Hills,NA,NA
+2020-03-24,North Hills,NA,NA
+2020-03-25,North Hills,NA,NA
+2020-03-26,North Hills,North Hills,1
+2020-03-27,North Hills,Los Angeles,1
+2020-03-10,North Hollywood,NA,NA
+2020-03-11,North Hollywood,NA,NA
+2020-03-12,North Hollywood,NA,NA
+2020-03-13,North Hollywood,NA,NA
+2020-03-14,North Hollywood,NA,NA
+2020-03-15,North Hollywood,NA,NA
+2020-03-16,North Hollywood,NA,NA
+2020-03-17,North Hollywood,North Hollywood --,1
+2020-03-18,North Hollywood,Los Angeles,2
+2020-03-19,North Hollywood,North Hollywood --,3
+2020-03-20,North Hollywood,North Hollywood --,5
+2020-03-21,North Hollywood,North Hollywood,5
+2020-03-22,North Hollywood,North Hollywood,5
+2020-03-23,North Hollywood,North Hollywood,9
+2020-03-24,North Hollywood,North Hollywood,10
+2020-03-25,North Hollywood,North Hollywood,11
+2020-03-26,North Hollywood,North Hollywood,15
+2020-03-27,North Hollywood,Los Angeles,18
+2020-03-10,North Whittier,NA,NA
+2020-03-11,North Whittier,NA,NA
+2020-03-12,North Whittier,NA,NA
+2020-03-13,North Whittier,NA,NA
+2020-03-14,North Whittier,NA,NA
+2020-03-15,North Whittier,NA,NA
+2020-03-16,North Whittier,NA,NA
+2020-03-17,North Whittier,NA,NA
+2020-03-18,North Whittier,NA,NA
+2020-03-19,North Whittier,NA,NA
+2020-03-20,North Whittier,NA,NA
+2020-03-21,North Whittier,NA,NA
+2020-03-22,North Whittier,NA,NA
+2020-03-23,North Whittier,NA,NA
+2020-03-24,North Whittier,NA,NA
+2020-03-25,North Whittier,NA,NA
+2020-03-26,North Whittier,NA,NA
+2020-03-27,North Whittier,Unincorporated,0
+2020-03-10,Northeast Antelope Valley,NA,NA
+2020-03-11,Northeast Antelope Valley,NA,NA
+2020-03-12,Northeast Antelope Valley,NA,NA
+2020-03-13,Northeast Antelope Valley,NA,NA
+2020-03-14,Northeast Antelope Valley,NA,NA
+2020-03-15,Northeast Antelope Valley,NA,NA
+2020-03-16,Northeast Antelope Valley,NA,NA
+2020-03-17,Northeast Antelope Valley,NA,NA
+2020-03-18,Northeast Antelope Valley,NA,NA
+2020-03-19,Northeast Antelope Valley,NA,NA
+2020-03-20,Northeast Antelope Valley,NA,NA
+2020-03-21,Northeast Antelope Valley,NA,NA
+2020-03-22,Northeast Antelope Valley,NA,NA
+2020-03-23,Northeast Antelope Valley,NA,NA
+2020-03-24,Northeast Antelope Valley,NA,NA
+2020-03-25,Northeast Antelope Valley,NA,NA
+2020-03-26,Northeast Antelope Valley,NA,NA
+2020-03-27,Northeast Antelope Valley,NA,NA
+2020-03-10,Northridge,NA,NA
+2020-03-11,Northridge,NA,NA
+2020-03-12,Northridge,NA,NA
+2020-03-13,Northridge,NA,NA
+2020-03-14,Northridge,NA,NA
+2020-03-15,Northridge,NA,NA
+2020-03-16,Northridge,NA,NA
+2020-03-17,Northridge,Northridge,1
+2020-03-18,Northridge,Los Angeles,1
+2020-03-19,Northridge,Northridge --,1
+2020-03-20,Northridge,Northridge --,1
+2020-03-21,Northridge,Northridge,1
+2020-03-22,Northridge,Northridge,1
+2020-03-23,Northridge,Northridge,1
+2020-03-24,Northridge,Northridge,2
+2020-03-25,Northridge,Northridge,2
+2020-03-26,Northridge,Northridge,4
+2020-03-27,Northridge,Los Angeles,7
+2020-03-10,Northwest Antelope Valley,NA,NA
+2020-03-11,Northwest Antelope Valley,NA,NA
+2020-03-12,Northwest Antelope Valley,NA,NA
+2020-03-13,Northwest Antelope Valley,NA,NA
+2020-03-14,Northwest Antelope Valley,NA,NA
+2020-03-15,Northwest Antelope Valley,NA,NA
+2020-03-16,Northwest Antelope Valley,NA,NA
+2020-03-17,Northwest Antelope Valley,NA,NA
+2020-03-18,Northwest Antelope Valley,NA,NA
+2020-03-19,Northwest Antelope Valley,NA,NA
+2020-03-20,Northwest Antelope Valley,NA,NA
+2020-03-21,Northwest Antelope Valley,NA,NA
+2020-03-22,Northwest Antelope Valley,NA,NA
+2020-03-23,Northwest Antelope Valley,NA,NA
+2020-03-24,Northwest Antelope Valley,NA,NA
+2020-03-25,Northwest Antelope Valley,NA,NA
+2020-03-26,Northwest Antelope Valley,NA,NA
+2020-03-27,Northwest Antelope Valley,NA,NA
+2020-03-10,Northwest Palmdale,NA,NA
+2020-03-11,Northwest Palmdale,NA,NA
+2020-03-12,Northwest Palmdale,NA,NA
+2020-03-13,Northwest Palmdale,NA,NA
+2020-03-14,Northwest Palmdale,NA,NA
+2020-03-15,Northwest Palmdale,NA,NA
+2020-03-16,Northwest Palmdale,NA,NA
+2020-03-17,Northwest Palmdale,NA,NA
+2020-03-18,Northwest Palmdale,NA,NA
+2020-03-19,Northwest Palmdale,NA,NA
+2020-03-20,Northwest Palmdale,NA,NA
+2020-03-21,Northwest Palmdale,NA,NA
+2020-03-22,Northwest Palmdale,NA,NA
+2020-03-23,Northwest Palmdale,NA,NA
+2020-03-24,Northwest Palmdale,NA,NA
+2020-03-25,Northwest Palmdale,NA,NA
+2020-03-26,Northwest Palmdale,NA,NA
+2020-03-27,Northwest Palmdale,NA,NA
+2020-03-10,Norwalk,NA,NA
+2020-03-11,Norwalk,NA,NA
+2020-03-12,Norwalk,NA,NA
+2020-03-13,Norwalk,NA,NA
+2020-03-14,Norwalk,NA,NA
+2020-03-15,Norwalk,NA,NA
+2020-03-16,Norwalk,NA,NA
+2020-03-17,Norwalk,NA,NA
+2020-03-18,Norwalk,NA,NA
+2020-03-19,Norwalk,NA,NA
+2020-03-20,Norwalk,NA,NA
+2020-03-21,Norwalk,NA,NA
+2020-03-22,Norwalk,NA,NA
+2020-03-23,Norwalk,NA,NA
+2020-03-24,Norwalk,Norwalk,1
+2020-03-25,Norwalk,Norwalk,2
+2020-03-26,Norwalk,Norwalk,9
+2020-03-27,Norwalk,City of Norwalk,9
+2020-03-10,Pacific Palisades,NA,NA
+2020-03-11,Pacific Palisades,NA,NA
+2020-03-12,Pacific Palisades,NA,NA
+2020-03-13,Pacific Palisades,NA,NA
+2020-03-14,Pacific Palisades,NA,NA
+2020-03-15,Pacific Palisades,NA,NA
+2020-03-16,Pacific Palisades,NA,NA
+2020-03-17,Pacific Palisades,NA,NA
+2020-03-18,Pacific Palisades,NA,NA
+2020-03-19,Pacific Palisades,Pacific Palisades --,5
+2020-03-20,Pacific Palisades,Pacific Palisades,6
+2020-03-21,Pacific Palisades,Pacific Palisades,7
+2020-03-22,Pacific Palisades,Pacific Palisades,7
+2020-03-23,Pacific Palisades,Pacific Palisades,8
+2020-03-24,Pacific Palisades,Pacific Palisades,9
+2020-03-25,Pacific Palisades,Pacific Palisades,9
+2020-03-26,Pacific Palisades,Pacific Palisades*,12
+2020-03-27,Pacific Palisades,Los Angeles,10
+2020-03-10,Pacoima,NA,NA
+2020-03-11,Pacoima,NA,NA
+2020-03-12,Pacoima,NA,NA
+2020-03-13,Pacoima,NA,NA
+2020-03-14,Pacoima,NA,NA
+2020-03-15,Pacoima,NA,NA
+2020-03-16,Pacoima,NA,NA
+2020-03-17,Pacoima,NA,NA
+2020-03-18,Pacoima,NA,NA
+2020-03-19,Pacoima,NA,NA
+2020-03-20,Pacoima,NA,NA
+2020-03-21,Pacoima,NA,NA
+2020-03-22,Pacoima,NA,NA
+2020-03-23,Pacoima,NA,NA
+2020-03-24,Pacoima,NA,NA
+2020-03-25,Pacoima,NA,NA
+2020-03-26,Pacoima,Pacoima,1
+2020-03-27,Pacoima,Los Angeles,2
+2020-03-10,Palmdale,NA,NA
+2020-03-11,Palmdale,NA,NA
+2020-03-12,Palmdale,NA,NA
+2020-03-13,Palmdale,NA,NA
+2020-03-14,Palmdale,NA,NA
+2020-03-15,Palmdale,NA,NA
+2020-03-16,Palmdale,NA,NA
+2020-03-17,Palmdale,NA,NA
+2020-03-18,Palmdale,NA,NA
+2020-03-19,Palmdale,NA,NA
+2020-03-20,Palmdale,NA,NA
+2020-03-21,Palmdale,NA,NA
+2020-03-22,Palmdale,NA,NA
+2020-03-23,Palmdale,Palmdale,1
+2020-03-24,Palmdale,Palmdale,2
+2020-03-25,Palmdale,Palmdale,2
+2020-03-26,Palmdale,Palmdale,2
+2020-03-27,Palmdale,City of Palmdale,4
+2020-03-27,Palmdale,Unincorporated,0
+2020-03-10,Palms,NA,NA
+2020-03-11,Palms,NA,NA
+2020-03-12,Palms,NA,NA
+2020-03-13,Palms,NA,NA
+2020-03-14,Palms,NA,NA
+2020-03-15,Palms,NA,NA
+2020-03-16,Palms,NA,NA
+2020-03-17,Palms,NA,NA
+2020-03-18,Palms,NA,NA
+2020-03-19,Palms,NA,NA
+2020-03-20,Palms,Palms --,1
+2020-03-21,Palms,Palms,1
+2020-03-22,Palms,Palms,1
+2020-03-23,Palms,Palms,2
+2020-03-24,Palms,Palms,6
+2020-03-25,Palms,Palms,8
+2020-03-26,Palms,Palms,10
+2020-03-27,Palms,Los Angeles,12
+2020-03-10,Palos Verdes Estates,NA,NA
+2020-03-11,Palos Verdes Estates,NA,NA
+2020-03-12,Palos Verdes Estates,NA,NA
+2020-03-13,Palos Verdes Estates,NA,NA
+2020-03-14,Palos Verdes Estates,NA,NA
+2020-03-15,Palos Verdes Estates,NA,NA
+2020-03-16,Palos Verdes Estates,NA,NA
+2020-03-17,Palos Verdes Estates,NA,NA
+2020-03-18,Palos Verdes Estates,NA,NA
+2020-03-19,Palos Verdes Estates,NA,NA
+2020-03-20,Palos Verdes Estates,NA,NA
+2020-03-21,Palos Verdes Estates,NA,NA
+2020-03-22,Palos Verdes Estates,NA,NA
+2020-03-23,Palos Verdes Estates,NA,NA
+2020-03-24,Palos Verdes Estates,NA,NA
+2020-03-25,Palos Verdes Estates,NA,NA
+2020-03-26,Palos Verdes Estates,NA,NA
+2020-03-27,Palos Verdes Estates,City of Palos Verdes Estates,12
+2020-03-10,Panorama City,NA,NA
+2020-03-11,Panorama City,NA,NA
+2020-03-12,Panorama City,NA,NA
+2020-03-13,Panorama City,NA,NA
+2020-03-14,Panorama City,NA,NA
+2020-03-15,Panorama City,NA,NA
+2020-03-16,Panorama City,NA,NA
+2020-03-17,Panorama City,NA,NA
+2020-03-18,Panorama City,NA,NA
+2020-03-19,Panorama City,NA,NA
+2020-03-20,Panorama City,NA,NA
+2020-03-21,Panorama City,NA,NA
+2020-03-22,Panorama City,NA,NA
+2020-03-23,Panorama City,NA,NA
+2020-03-24,Panorama City,NA,NA
+2020-03-25,Panorama City,Panorama City,1
+2020-03-26,Panorama City,Panorama City,4
+2020-03-27,Panorama City,Los Angeles,4
+2020-03-10,Paramount,NA,NA
+2020-03-11,Paramount,NA,NA
+2020-03-12,Paramount,NA,NA
+2020-03-13,Paramount,NA,NA
+2020-03-14,Paramount,NA,NA
+2020-03-15,Paramount,NA,NA
+2020-03-16,Paramount,NA,NA
+2020-03-17,Paramount,NA,NA
+2020-03-18,Paramount,NA,NA
+2020-03-19,Paramount,NA,NA
+2020-03-20,Paramount,NA,NA
+2020-03-21,Paramount,NA,NA
+2020-03-22,Paramount,Paramount,1
+2020-03-23,Paramount,Paramount,2
+2020-03-24,Paramount,Paramount,2
+2020-03-25,Paramount,Paramount,3
+2020-03-26,Paramount,Paramount,4
+2020-03-27,Paramount,City of Paramount,5
+2020-03-10,Pasadena,NA,NA
+2020-03-11,Pasadena,NA,NA
+2020-03-12,Pasadena,NA,NA
+2020-03-13,Pasadena,NA,NA
+2020-03-14,Pasadena,NA,NA
+2020-03-15,Pasadena,NA,NA
+2020-03-16,Pasadena,NA,NA
+2020-03-17,Pasadena,Pasadena,2
+2020-03-18,Pasadena,Pasadena,2
+2020-03-19,Pasadena,Pasadena,2
+2020-03-20,Pasadena,Pasadena,2
+2020-03-21,Pasadena,Pasadena,3
+2020-03-22,Pasadena,Pasadena,3
+2020-03-23,Pasadena,Pasadena,3
+2020-03-24,Pasadena,Pasadena,6
+2020-03-25,Pasadena,Pasadena,7
+2020-03-26,Pasadena,Pasadena,9
+2020-03-27,Pasadena,Pasadena,9
+2020-03-27,Pasadena,City of Pasadena,0
+2020-03-10,Pico Rivera,NA,NA
+2020-03-11,Pico Rivera,NA,NA
+2020-03-12,Pico Rivera,NA,NA
+2020-03-13,Pico Rivera,NA,NA
+2020-03-14,Pico Rivera,NA,NA
+2020-03-15,Pico Rivera,NA,NA
+2020-03-16,Pico Rivera,NA,NA
+2020-03-17,Pico Rivera,NA,NA
+2020-03-18,Pico Rivera,NA,NA
+2020-03-19,Pico Rivera,NA,NA
+2020-03-20,Pico Rivera,NA,NA
+2020-03-21,Pico Rivera,NA,NA
+2020-03-22,Pico Rivera,NA,NA
+2020-03-23,Pico Rivera,NA,NA
+2020-03-24,Pico Rivera,Pico Rivera,1
+2020-03-25,Pico Rivera,Pico Rivera,1
+2020-03-26,Pico Rivera,Pico Rivera,2
+2020-03-27,Pico Rivera,City of Pico Rivera,2
+2020-03-10,Pico-Robertson,NA,NA
+2020-03-11,Pico-Robertson,NA,NA
+2020-03-12,Pico-Robertson,NA,NA
+2020-03-13,Pico-Robertson,NA,NA
+2020-03-14,Pico-Robertson,NA,NA
+2020-03-15,Pico-Robertson,NA,NA
+2020-03-16,Pico-Robertson,NA,NA
+2020-03-17,Pico-Robertson,NA,NA
+2020-03-18,Pico-Robertson,NA,NA
+2020-03-19,Pico-Robertson,NA,NA
+2020-03-20,Pico-Robertson,NA,NA
+2020-03-21,Pico-Robertson,NA,NA
+2020-03-22,Pico-Robertson,NA,NA
+2020-03-23,Pico-Robertson,NA,NA
+2020-03-24,Pico-Robertson,NA,NA
+2020-03-25,Pico-Robertson,NA,NA
+2020-03-26,Pico-Robertson,NA,NA
+2020-03-27,Pico-Robertson,NA,NA
+2020-03-10,Pico-Union,NA,NA
+2020-03-11,Pico-Union,NA,NA
+2020-03-12,Pico-Union,NA,NA
+2020-03-13,Pico-Union,NA,NA
+2020-03-14,Pico-Union,NA,NA
+2020-03-15,Pico-Union,NA,NA
+2020-03-16,Pico-Union,NA,NA
+2020-03-17,Pico-Union,NA,NA
+2020-03-18,Pico-Union,NA,NA
+2020-03-19,Pico-Union,NA,NA
+2020-03-20,Pico-Union,NA,NA
+2020-03-21,Pico-Union,NA,NA
+2020-03-22,Pico-Union,NA,NA
+2020-03-23,Pico-Union,NA,NA
+2020-03-24,Pico-Union,NA,NA
+2020-03-25,Pico-Union,NA,NA
+2020-03-26,Pico-Union,NA,NA
+2020-03-27,Pico-Union,Los Angeles,5
+2020-03-10,Playa del Rey,NA,NA
+2020-03-11,Playa del Rey,NA,NA
+2020-03-12,Playa del Rey,NA,NA
+2020-03-13,Playa del Rey,NA,NA
+2020-03-14,Playa del Rey,NA,NA
+2020-03-15,Playa del Rey,NA,NA
+2020-03-16,Playa del Rey,NA,NA
+2020-03-17,Playa del Rey,NA,NA
+2020-03-18,Playa del Rey,NA,NA
+2020-03-19,Playa del Rey,NA,NA
+2020-03-20,Playa del Rey,NA,NA
+2020-03-21,Playa del Rey,NA,NA
+2020-03-22,Playa del Rey,NA,NA
+2020-03-23,Playa del Rey,NA,NA
+2020-03-24,Playa del Rey,NA,NA
+2020-03-25,Playa del Rey,NA,NA
+2020-03-26,Playa del Rey,NA,NA
+2020-03-27,Playa del Rey,NA,NA
+2020-03-10,Playa Vista,NA,NA
+2020-03-11,Playa Vista,NA,NA
+2020-03-12,Playa Vista,NA,NA
+2020-03-13,Playa Vista,NA,NA
+2020-03-14,Playa Vista,NA,NA
+2020-03-15,Playa Vista,NA,NA
+2020-03-16,Playa Vista,NA,NA
+2020-03-17,Playa Vista,NA,NA
+2020-03-18,Playa Vista,NA,NA
+2020-03-19,Playa Vista,Playa Vista,1
+2020-03-20,Playa Vista,Playa Vista --,1
+2020-03-21,Playa Vista,Playa Vista,2
+2020-03-22,Playa Vista,Playa Vista,2
+2020-03-23,Playa Vista,Playa Vista,3
+2020-03-24,Playa Vista,Playa Vista,4
+2020-03-25,Playa Vista,Playa Vista,5
+2020-03-26,Playa Vista,Playa Vista*,8
+2020-03-27,Playa Vista,Los Angeles,5
+2020-03-10,Pomona,NA,NA
+2020-03-11,Pomona,NA,NA
+2020-03-12,Pomona,NA,NA
+2020-03-13,Pomona,NA,NA
+2020-03-14,Pomona,NA,NA
+2020-03-15,Pomona,NA,NA
+2020-03-16,Pomona,NA,NA
+2020-03-17,Pomona,NA,NA
+2020-03-18,Pomona,NA,NA
+2020-03-19,Pomona,NA,NA
+2020-03-20,Pomona,NA,NA
+2020-03-21,Pomona,NA,NA
+2020-03-22,Pomona,NA,NA
+2020-03-23,Pomona,NA,NA
+2020-03-24,Pomona,NA,NA
+2020-03-25,Pomona,Pomona,1
+2020-03-26,Pomona,Pomona*,3
+2020-03-27,Pomona,City of Pomona,4
+2020-03-27,Pomona,Unincorporated,0
+2020-03-10,Porter Ranch,NA,NA
+2020-03-11,Porter Ranch,NA,NA
+2020-03-12,Porter Ranch,NA,NA
+2020-03-13,Porter Ranch,NA,NA
+2020-03-14,Porter Ranch,NA,NA
+2020-03-15,Porter Ranch,NA,NA
+2020-03-16,Porter Ranch,NA,NA
+2020-03-17,Porter Ranch,NA,NA
+2020-03-18,Porter Ranch,NA,NA
+2020-03-19,Porter Ranch,NA,NA
+2020-03-20,Porter Ranch,NA,NA
+2020-03-21,Porter Ranch,NA,NA
+2020-03-22,Porter Ranch,NA,NA
+2020-03-23,Porter Ranch,NA,NA
+2020-03-24,Porter Ranch,Porter Ranch,1
+2020-03-25,Porter Ranch,Porter Ranch,1
+2020-03-26,Porter Ranch,Porter Ranch,2
+2020-03-27,Porter Ranch,Los Angeles,2
+2020-03-10,Quartz Hill,NA,NA
+2020-03-11,Quartz Hill,NA,NA
+2020-03-12,Quartz Hill,NA,NA
+2020-03-13,Quartz Hill,NA,NA
+2020-03-14,Quartz Hill,NA,NA
+2020-03-15,Quartz Hill,NA,NA
+2020-03-16,Quartz Hill,NA,NA
+2020-03-17,Quartz Hill,NA,NA
+2020-03-18,Quartz Hill,NA,NA
+2020-03-19,Quartz Hill,NA,NA
+2020-03-20,Quartz Hill,NA,NA
+2020-03-21,Quartz Hill,NA,NA
+2020-03-22,Quartz Hill,NA,NA
+2020-03-23,Quartz Hill,NA,NA
+2020-03-24,Quartz Hill,NA,NA
+2020-03-25,Quartz Hill,NA,NA
+2020-03-26,Quartz Hill,NA,NA
+2020-03-27,Quartz Hill,Unincorporated,0
+2020-03-10,Ramona,NA,NA
+2020-03-11,Ramona,NA,NA
+2020-03-12,Ramona,NA,NA
+2020-03-13,Ramona,NA,NA
+2020-03-14,Ramona,NA,NA
+2020-03-15,Ramona,NA,NA
+2020-03-16,Ramona,NA,NA
+2020-03-17,Ramona,NA,NA
+2020-03-18,Ramona,NA,NA
+2020-03-19,Ramona,NA,NA
+2020-03-20,Ramona,NA,NA
+2020-03-21,Ramona,NA,NA
+2020-03-22,Ramona,NA,NA
+2020-03-23,Ramona,NA,NA
+2020-03-24,Ramona,NA,NA
+2020-03-25,Ramona,NA,NA
+2020-03-26,Ramona,NA,NA
+2020-03-27,Ramona,NA,NA
+2020-03-10,Rancho Dominguez,NA,NA
+2020-03-11,Rancho Dominguez,NA,NA
+2020-03-12,Rancho Dominguez,NA,NA
+2020-03-13,Rancho Dominguez,NA,NA
+2020-03-14,Rancho Dominguez,NA,NA
+2020-03-15,Rancho Dominguez,NA,NA
+2020-03-16,Rancho Dominguez,NA,NA
+2020-03-17,Rancho Dominguez,NA,NA
+2020-03-18,Rancho Dominguez,NA,NA
+2020-03-19,Rancho Dominguez,NA,NA
+2020-03-20,Rancho Dominguez,NA,NA
+2020-03-21,Rancho Dominguez,NA,NA
+2020-03-22,Rancho Dominguez,NA,NA
+2020-03-23,Rancho Dominguez,NA,NA
+2020-03-24,Rancho Dominguez,NA,NA
+2020-03-25,Rancho Dominguez,NA,NA
+2020-03-26,Rancho Dominguez,NA,NA
+2020-03-27,Rancho Dominguez,Unincorporated,0
+2020-03-10,Rancho Palos Verdes,NA,NA
+2020-03-11,Rancho Palos Verdes,NA,NA
+2020-03-12,Rancho Palos Verdes,NA,NA
+2020-03-13,Rancho Palos Verdes,NA,NA
+2020-03-14,Rancho Palos Verdes,NA,NA
+2020-03-15,Rancho Palos Verdes,NA,NA
+2020-03-16,Rancho Palos Verdes,NA,NA
+2020-03-17,Rancho Palos Verdes,NA,NA
+2020-03-18,Rancho Palos Verdes,NA,NA
+2020-03-19,Rancho Palos Verdes,NA,NA
+2020-03-20,Rancho Palos Verdes,NA,NA
+2020-03-21,Rancho Palos Verdes,NA,NA
+2020-03-22,Rancho Palos Verdes,Rancho Palos Verdes,1
+2020-03-23,Rancho Palos Verdes,Rancho Palos Verdes,1
+2020-03-24,Rancho Palos Verdes,Rancho Palos Verdes,3
+2020-03-25,Rancho Palos Verdes,Rancho Palos Verdes,5
+2020-03-26,Rancho Palos Verdes,Rancho Palos Verdes,6
+2020-03-27,Rancho Palos Verdes,City of Rancho Palos Verdes,7
+2020-03-10,Rancho Park,NA,NA
+2020-03-11,Rancho Park,NA,NA
+2020-03-12,Rancho Park,NA,NA
+2020-03-13,Rancho Park,NA,NA
+2020-03-14,Rancho Park,NA,NA
+2020-03-15,Rancho Park,NA,NA
+2020-03-16,Rancho Park,NA,NA
+2020-03-17,Rancho Park,NA,NA
+2020-03-18,Rancho Park,NA,NA
+2020-03-19,Rancho Park,NA,NA
+2020-03-20,Rancho Park,NA,NA
+2020-03-21,Rancho Park,NA,NA
+2020-03-22,Rancho Park,NA,NA
+2020-03-23,Rancho Park,NA,NA
+2020-03-24,Rancho Park,NA,NA
+2020-03-25,Rancho Park,NA,NA
+2020-03-26,Rancho Park,NA,NA
+2020-03-27,Rancho Park,NA,NA
+2020-03-10,Redondo Beach,NA,NA
+2020-03-11,Redondo Beach,NA,NA
+2020-03-12,Redondo Beach,NA,NA
+2020-03-13,Redondo Beach,NA,NA
+2020-03-14,Redondo Beach,NA,NA
+2020-03-15,Redondo Beach,NA,NA
+2020-03-16,Redondo Beach,NA,NA
+2020-03-17,Redondo Beach,NA,NA
+2020-03-18,Redondo Beach,NA,NA
+2020-03-19,Redondo Beach,NA,NA
+2020-03-20,Redondo Beach,Redondo Beach --,1
+2020-03-21,Redondo Beach,Redondo Beach,2
+2020-03-22,Redondo Beach,Redondo Beach,4
+2020-03-23,Redondo Beach,Redondo Beach,5
+2020-03-24,Redondo Beach,Redondo Beach,7
+2020-03-25,Redondo Beach,Redondo Beach,9
+2020-03-26,Redondo Beach,Redondo Beach,20
+2020-03-27,Redondo Beach,City of Redondo Beach,23
+2020-03-10,Reseda,NA,NA
+2020-03-11,Reseda,NA,NA
+2020-03-12,Reseda,NA,NA
+2020-03-13,Reseda,NA,NA
+2020-03-14,Reseda,NA,NA
+2020-03-15,Reseda,NA,NA
+2020-03-16,Reseda,NA,NA
+2020-03-17,Reseda,Reseda,1
+2020-03-18,Reseda,Los Angeles,1
+2020-03-19,Reseda,Reseda --,1
+2020-03-20,Reseda,Reseda --,2
+2020-03-21,Reseda,Reseda,3
+2020-03-22,Reseda,Reseda,2
+2020-03-23,Reseda,Reseda,3
+2020-03-24,Reseda,Reseda,4
+2020-03-25,Reseda,Reseda,5
+2020-03-26,Reseda,Reseda,8
+2020-03-27,Reseda,Los Angeles,8
+2020-03-10,Ridge Route,NA,NA
+2020-03-11,Ridge Route,NA,NA
+2020-03-12,Ridge Route,NA,NA
+2020-03-13,Ridge Route,NA,NA
+2020-03-14,Ridge Route,NA,NA
+2020-03-15,Ridge Route,NA,NA
+2020-03-16,Ridge Route,NA,NA
+2020-03-17,Ridge Route,NA,NA
+2020-03-18,Ridge Route,NA,NA
+2020-03-19,Ridge Route,NA,NA
+2020-03-20,Ridge Route,NA,NA
+2020-03-21,Ridge Route,NA,NA
+2020-03-22,Ridge Route,NA,NA
+2020-03-23,Ridge Route,NA,NA
+2020-03-24,Ridge Route,NA,NA
+2020-03-25,Ridge Route,NA,NA
+2020-03-26,Ridge Route,NA,NA
+2020-03-27,Ridge Route,NA,NA
+2020-03-10,Rolling Hills,NA,NA
+2020-03-11,Rolling Hills,NA,NA
+2020-03-12,Rolling Hills,NA,NA
+2020-03-13,Rolling Hills,NA,NA
+2020-03-14,Rolling Hills,NA,NA
+2020-03-15,Rolling Hills,NA,NA
+2020-03-16,Rolling Hills,NA,NA
+2020-03-17,Rolling Hills,NA,NA
+2020-03-18,Rolling Hills,NA,NA
+2020-03-19,Rolling Hills,NA,NA
+2020-03-20,Rolling Hills,NA,NA
+2020-03-21,Rolling Hills,NA,NA
+2020-03-22,Rolling Hills,NA,NA
+2020-03-23,Rolling Hills,NA,NA
+2020-03-24,Rolling Hills,NA,NA
+2020-03-25,Rolling Hills,NA,NA
+2020-03-26,Rolling Hills,NA,NA
+2020-03-27,Rolling Hills,City of Rolling Hills,0
+2020-03-10,Rolling Hills Estates,NA,NA
+2020-03-11,Rolling Hills Estates,NA,NA
+2020-03-12,Rolling Hills Estates,NA,NA
+2020-03-13,Rolling Hills Estates,NA,NA
+2020-03-14,Rolling Hills Estates,NA,NA
+2020-03-15,Rolling Hills Estates,NA,NA
+2020-03-16,Rolling Hills Estates,NA,NA
+2020-03-17,Rolling Hills Estates,NA,NA
+2020-03-18,Rolling Hills Estates,NA,NA
+2020-03-19,Rolling Hills Estates,NA,NA
+2020-03-20,Rolling Hills Estates,NA,NA
+2020-03-21,Rolling Hills Estates,NA,NA
+2020-03-22,Rolling Hills Estates,NA,NA
+2020-03-23,Rolling Hills Estates,NA,NA
+2020-03-24,Rolling Hills Estates,NA,NA
+2020-03-25,Rolling Hills Estates,NA,NA
+2020-03-26,Rolling Hills Estates,NA,NA
+2020-03-27,Rolling Hills Estates,NA,NA
+2020-03-10,Rosemead,NA,NA
+2020-03-11,Rosemead,NA,NA
+2020-03-12,Rosemead,NA,NA
+2020-03-13,Rosemead,NA,NA
+2020-03-14,Rosemead,NA,NA
+2020-03-15,Rosemead,NA,NA
+2020-03-16,Rosemead,NA,NA
+2020-03-17,Rosemead,NA,NA
+2020-03-18,Rosemead,NA,NA
+2020-03-19,Rosemead,NA,NA
+2020-03-20,Rosemead,NA,NA
+2020-03-21,Rosemead,NA,NA
+2020-03-22,Rosemead,NA,NA
+2020-03-23,Rosemead,NA,NA
+2020-03-24,Rosemead,NA,NA
+2020-03-25,Rosemead,NA,NA
+2020-03-26,Rosemead,NA,NA
+2020-03-27,Rosemead,City of Rosemead,0
+2020-03-10,Rowland Heights,NA,NA
+2020-03-11,Rowland Heights,NA,NA
+2020-03-12,Rowland Heights,NA,NA
+2020-03-13,Rowland Heights,NA,NA
+2020-03-14,Rowland Heights,NA,NA
+2020-03-15,Rowland Heights,NA,NA
+2020-03-16,Rowland Heights,NA,NA
+2020-03-17,Rowland Heights,NA,NA
+2020-03-18,Rowland Heights,NA,NA
+2020-03-19,Rowland Heights,NA,NA
+2020-03-20,Rowland Heights,NA,NA
+2020-03-21,Rowland Heights,NA,NA
+2020-03-22,Rowland Heights,NA,NA
+2020-03-23,Rowland Heights,NA,NA
+2020-03-24,Rowland Heights,NA,NA
+2020-03-25,Rowland Heights,NA,NA
+2020-03-26,Rowland Heights,NA,NA
+2020-03-27,Rowland Heights,Unincorporated,1
+2020-03-10,San Dimas,NA,NA
+2020-03-11,San Dimas,NA,NA
+2020-03-12,San Dimas,NA,NA
+2020-03-13,San Dimas,NA,NA
+2020-03-14,San Dimas,NA,NA
+2020-03-15,San Dimas,NA,NA
+2020-03-16,San Dimas,NA,NA
+2020-03-17,San Dimas,San Dimas,1
+2020-03-18,San Dimas,San Dimas,1
+2020-03-19,San Dimas,San Dimas,1
+2020-03-20,San Dimas,San Dimas,1
+2020-03-21,San Dimas,San Dimas,1
+2020-03-22,San Dimas,San Dimas,1
+2020-03-23,San Dimas,San Dimas,1
+2020-03-24,San Dimas,San Dimas,1
+2020-03-25,San Dimas,San Dimas,1
+2020-03-26,San Dimas,San Dimas*,1
+2020-03-27,San Dimas,City of San Dimas,1
+2020-03-10,San Fernando,NA,NA
+2020-03-11,San Fernando,NA,NA
+2020-03-12,San Fernando,NA,NA
+2020-03-13,San Fernando,NA,NA
+2020-03-14,San Fernando,NA,NA
+2020-03-15,San Fernando,NA,NA
+2020-03-16,San Fernando,NA,NA
+2020-03-17,San Fernando,NA,NA
+2020-03-18,San Fernando,NA,NA
+2020-03-19,San Fernando,NA,NA
+2020-03-20,San Fernando,San Fernando,1
+2020-03-21,San Fernando,San Fernando,1
+2020-03-22,San Fernando,San Fernando,1
+2020-03-23,San Fernando,San Fernando,1
+2020-03-24,San Fernando,San Fernando,2
+2020-03-25,San Fernando,San Fernando,3
+2020-03-26,San Fernando,San Fernando*,3
+2020-03-27,San Fernando,City of San Fernando,0
+2020-03-10,San Gabriel,NA,NA
+2020-03-11,San Gabriel,NA,NA
+2020-03-12,San Gabriel,NA,NA
+2020-03-13,San Gabriel,NA,NA
+2020-03-14,San Gabriel,NA,NA
+2020-03-15,San Gabriel,NA,NA
+2020-03-16,San Gabriel,NA,NA
+2020-03-17,San Gabriel,NA,NA
+2020-03-18,San Gabriel,NA,NA
+2020-03-19,San Gabriel,NA,NA
+2020-03-20,San Gabriel,NA,NA
+2020-03-21,San Gabriel,NA,NA
+2020-03-22,San Gabriel,NA,NA
+2020-03-23,San Gabriel,NA,NA
+2020-03-24,San Gabriel,San Gabriel,1
+2020-03-25,San Gabriel,San Gabriel,1
+2020-03-26,San Gabriel,San Gabriel,3
+2020-03-27,San Gabriel,City of San Gabriel,5
+2020-03-10,San Marino,NA,NA
+2020-03-11,San Marino,NA,NA
+2020-03-12,San Marino,NA,NA
+2020-03-13,San Marino,NA,NA
+2020-03-14,San Marino,NA,NA
+2020-03-15,San Marino,NA,NA
+2020-03-16,San Marino,NA,NA
+2020-03-17,San Marino,NA,NA
+2020-03-18,San Marino,NA,NA
+2020-03-19,San Marino,NA,NA
+2020-03-20,San Marino,NA,NA
+2020-03-21,San Marino,NA,NA
+2020-03-22,San Marino,NA,NA
+2020-03-23,San Marino,NA,NA
+2020-03-24,San Marino,NA,NA
+2020-03-25,San Marino,NA,NA
+2020-03-26,San Marino,NA,NA
+2020-03-27,San Marino,NA,NA
+2020-03-10,San Pasqual,NA,NA
+2020-03-11,San Pasqual,NA,NA
+2020-03-12,San Pasqual,NA,NA
+2020-03-13,San Pasqual,NA,NA
+2020-03-14,San Pasqual,NA,NA
+2020-03-15,San Pasqual,NA,NA
+2020-03-16,San Pasqual,NA,NA
+2020-03-17,San Pasqual,NA,NA
+2020-03-18,San Pasqual,NA,NA
+2020-03-19,San Pasqual,NA,NA
+2020-03-20,San Pasqual,NA,NA
+2020-03-21,San Pasqual,NA,NA
+2020-03-22,San Pasqual,NA,NA
+2020-03-23,San Pasqual,NA,NA
+2020-03-24,San Pasqual,NA,NA
+2020-03-25,San Pasqual,NA,NA
+2020-03-26,San Pasqual,NA,NA
+2020-03-27,San Pasqual,Unincorporated,0
+2020-03-10,San Pedro,NA,NA
+2020-03-11,San Pedro,NA,NA
+2020-03-12,San Pedro,NA,NA
+2020-03-13,San Pedro,NA,NA
+2020-03-14,San Pedro,NA,NA
+2020-03-15,San Pedro,NA,NA
+2020-03-16,San Pedro,NA,NA
+2020-03-17,San Pedro,San Pedro,1
+2020-03-18,San Pedro,Los Angeles,1
+2020-03-19,San Pedro,San Pedro --,1
+2020-03-20,San Pedro,San Pedro --,1
+2020-03-21,San Pedro,San Pedro,1
+2020-03-22,San Pedro,San Pedro,1
+2020-03-23,San Pedro,San Pedro,2
+2020-03-24,San Pedro,San Pedro,2
+2020-03-25,San Pedro,San Pedro,4
+2020-03-26,San Pedro,San Pedro*,5
+2020-03-27,San Pedro,Los Angeles,8
+2020-03-10,Santa Clarita,NA,NA
+2020-03-11,Santa Clarita,NA,NA
+2020-03-12,Santa Clarita,NA,NA
+2020-03-13,Santa Clarita,NA,NA
+2020-03-14,Santa Clarita,NA,NA
+2020-03-15,Santa Clarita,NA,NA
+2020-03-16,Santa Clarita,NA,NA
+2020-03-17,Santa Clarita,Santa Clarita,2
+2020-03-18,Santa Clarita,Santa Clarita,2
+2020-03-19,Santa Clarita,Santa Clarita,3
+2020-03-20,Santa Clarita,Santa Clarita --,4
+2020-03-21,Santa Clarita,Santa Clarita,4
+2020-03-22,Santa Clarita,Santa Clarita,4
+2020-03-23,Santa Clarita,Santa Clarita,7
+2020-03-24,Santa Clarita,Santa Clarita,7
+2020-03-25,Santa Clarita,Santa Clarita,10
+2020-03-26,Santa Clarita,Santa Clarita,16
+2020-03-27,Santa Clarita,City of Santa Clarita,24
+2020-03-10,Santa Fe Springs,NA,NA
+2020-03-11,Santa Fe Springs,NA,NA
+2020-03-12,Santa Fe Springs,NA,NA
+2020-03-13,Santa Fe Springs,NA,NA
+2020-03-14,Santa Fe Springs,NA,NA
+2020-03-15,Santa Fe Springs,NA,NA
+2020-03-16,Santa Fe Springs,NA,NA
+2020-03-17,Santa Fe Springs,NA,NA
+2020-03-18,Santa Fe Springs,NA,NA
+2020-03-19,Santa Fe Springs,NA,NA
+2020-03-20,Santa Fe Springs,NA,NA
+2020-03-21,Santa Fe Springs,NA,NA
+2020-03-22,Santa Fe Springs,NA,NA
+2020-03-23,Santa Fe Springs,NA,NA
+2020-03-24,Santa Fe Springs,NA,NA
+2020-03-25,Santa Fe Springs,NA,NA
+2020-03-26,Santa Fe Springs,NA,NA
+2020-03-27,Santa Fe Springs,City of Santa Fe Springs,0
+2020-03-10,Santa Monica,NA,NA
+2020-03-11,Santa Monica,NA,NA
+2020-03-12,Santa Monica,NA,NA
+2020-03-13,Santa Monica,NA,NA
+2020-03-14,Santa Monica,NA,NA
+2020-03-15,Santa Monica,NA,NA
+2020-03-16,Santa Monica,NA,NA
+2020-03-17,Santa Monica,Santa Monica,1
+2020-03-18,Santa Monica,Santa Monica,3
+2020-03-19,Santa Monica,Santa Monica --,2
+2020-03-20,Santa Monica,Santa Monica --,4
+2020-03-21,Santa Monica,Santa Monica,5
+2020-03-22,Santa Monica,Santa Monica,7
+2020-03-23,Santa Monica,Santa Monica,12
+2020-03-24,Santa Monica,Santa Monica,16
+2020-03-25,Santa Monica,Santa Monica,18
+2020-03-26,Santa Monica,Santa Monica,21
+2020-03-27,Santa Monica,City of Santa Monica,28
+2020-03-10,Sawtelle,NA,NA
+2020-03-11,Sawtelle,NA,NA
+2020-03-12,Sawtelle,NA,NA
+2020-03-13,Sawtelle,NA,NA
+2020-03-14,Sawtelle,NA,NA
+2020-03-15,Sawtelle,NA,NA
+2020-03-16,Sawtelle,NA,NA
+2020-03-17,Sawtelle,NA,NA
+2020-03-18,Sawtelle,NA,NA
+2020-03-19,Sawtelle,NA,NA
+2020-03-20,Sawtelle,NA,NA
+2020-03-21,Sawtelle,NA,NA
+2020-03-22,Sawtelle,NA,NA
+2020-03-23,Sawtelle,NA,NA
+2020-03-24,Sawtelle,NA,NA
+2020-03-25,Sawtelle,NA,NA
+2020-03-26,Sawtelle,NA,NA
+2020-03-27,Sawtelle,NA,NA
+2020-03-10,Sepulveda Basin,NA,NA
+2020-03-11,Sepulveda Basin,NA,NA
+2020-03-12,Sepulveda Basin,NA,NA
+2020-03-13,Sepulveda Basin,NA,NA
+2020-03-14,Sepulveda Basin,NA,NA
+2020-03-15,Sepulveda Basin,NA,NA
+2020-03-16,Sepulveda Basin,NA,NA
+2020-03-17,Sepulveda Basin,NA,NA
+2020-03-18,Sepulveda Basin,NA,NA
+2020-03-19,Sepulveda Basin,NA,NA
+2020-03-20,Sepulveda Basin,NA,NA
+2020-03-21,Sepulveda Basin,NA,NA
+2020-03-22,Sepulveda Basin,NA,NA
+2020-03-23,Sepulveda Basin,NA,NA
+2020-03-24,Sepulveda Basin,NA,NA
+2020-03-25,Sepulveda Basin,NA,NA
+2020-03-26,Sepulveda Basin,NA,NA
+2020-03-27,Sepulveda Basin,NA,NA
+2020-03-10,Shadow Hills,NA,NA
+2020-03-11,Shadow Hills,NA,NA
+2020-03-12,Shadow Hills,NA,NA
+2020-03-13,Shadow Hills,NA,NA
+2020-03-14,Shadow Hills,NA,NA
+2020-03-15,Shadow Hills,NA,NA
+2020-03-16,Shadow Hills,NA,NA
+2020-03-17,Shadow Hills,NA,NA
+2020-03-18,Shadow Hills,NA,NA
+2020-03-19,Shadow Hills,NA,NA
+2020-03-20,Shadow Hills,NA,NA
+2020-03-21,Shadow Hills,NA,NA
+2020-03-22,Shadow Hills,NA,NA
+2020-03-23,Shadow Hills,NA,NA
+2020-03-24,Shadow Hills,NA,NA
+2020-03-25,Shadow Hills,NA,NA
+2020-03-26,Shadow Hills,NA,NA
+2020-03-27,Shadow Hills,NA,NA
+2020-03-10,Sherman Oaks,NA,NA
+2020-03-11,Sherman Oaks,NA,NA
+2020-03-12,Sherman Oaks,NA,NA
+2020-03-13,Sherman Oaks,NA,NA
+2020-03-14,Sherman Oaks,NA,NA
+2020-03-15,Sherman Oaks,NA,NA
+2020-03-16,Sherman Oaks,NA,NA
+2020-03-17,Sherman Oaks,Sherman Oaks,2
+2020-03-18,Sherman Oaks,Los Angeles,4
+2020-03-19,Sherman Oaks,Sherman Oaks,5
+2020-03-20,Sherman Oaks,Sherman Oaks --,6
+2020-03-21,Sherman Oaks,Sherman Oaks,7
+2020-03-22,Sherman Oaks,Sherman Oaks,7
+2020-03-23,Sherman Oaks,Sherman Oaks,8
+2020-03-24,Sherman Oaks,Sherman Oaks,10
+2020-03-25,Sherman Oaks,Sherman Oaks,12
+2020-03-26,Sherman Oaks,Sherman Oaks,17
+2020-03-27,Sherman Oaks,Los Angeles,21
+2020-03-10,Sierra Madre,NA,NA
+2020-03-11,Sierra Madre,NA,NA
+2020-03-12,Sierra Madre,NA,NA
+2020-03-13,Sierra Madre,NA,NA
+2020-03-14,Sierra Madre,NA,NA
+2020-03-15,Sierra Madre,NA,NA
+2020-03-16,Sierra Madre,NA,NA
+2020-03-17,Sierra Madre,NA,NA
+2020-03-18,Sierra Madre,NA,NA
+2020-03-19,Sierra Madre,NA,NA
+2020-03-20,Sierra Madre,NA,NA
+2020-03-21,Sierra Madre,NA,NA
+2020-03-22,Sierra Madre,NA,NA
+2020-03-23,Sierra Madre,NA,NA
+2020-03-24,Sierra Madre,NA,NA
+2020-03-25,Sierra Madre,NA,NA
+2020-03-26,Sierra Madre,NA,NA
+2020-03-27,Sierra Madre,City of Sierra Madre,0
+2020-03-10,Signal Hill,NA,NA
+2020-03-11,Signal Hill,NA,NA
+2020-03-12,Signal Hill,NA,NA
+2020-03-13,Signal Hill,NA,NA
+2020-03-14,Signal Hill,NA,NA
+2020-03-15,Signal Hill,NA,NA
+2020-03-16,Signal Hill,NA,NA
+2020-03-17,Signal Hill,NA,NA
+2020-03-18,Signal Hill,NA,NA
+2020-03-19,Signal Hill,NA,NA
+2020-03-20,Signal Hill,NA,NA
+2020-03-21,Signal Hill,NA,NA
+2020-03-22,Signal Hill,NA,NA
+2020-03-23,Signal Hill,NA,NA
+2020-03-24,Signal Hill,NA,NA
+2020-03-25,Signal Hill,NA,NA
+2020-03-26,Signal Hill,NA,NA
+2020-03-27,Signal Hill,NA,NA
+2020-03-10,Silver Lake,NA,NA
+2020-03-11,Silver Lake,NA,NA
+2020-03-12,Silver Lake,NA,NA
+2020-03-13,Silver Lake,NA,NA
+2020-03-14,Silver Lake,NA,NA
+2020-03-15,Silver Lake,NA,NA
+2020-03-16,Silver Lake,NA,NA
+2020-03-17,Silver Lake,NA,NA
+2020-03-18,Silver Lake,NA,NA
+2020-03-19,Silver Lake,NA,NA
+2020-03-20,Silver Lake,NA,NA
+2020-03-21,Silver Lake,NA,NA
+2020-03-22,Silver Lake,NA,NA
+2020-03-23,Silver Lake,NA,NA
+2020-03-24,Silver Lake,NA,NA
+2020-03-25,Silver Lake,NA,NA
+2020-03-26,Silver Lake,NA,NA
+2020-03-27,Silver Lake,NA,NA
+2020-03-10,South Diamond Bar,NA,NA
+2020-03-11,South Diamond Bar,NA,NA
+2020-03-12,South Diamond Bar,NA,NA
+2020-03-13,South Diamond Bar,NA,NA
+2020-03-14,South Diamond Bar,NA,NA
+2020-03-15,South Diamond Bar,NA,NA
+2020-03-16,South Diamond Bar,NA,NA
+2020-03-17,South Diamond Bar,NA,NA
+2020-03-18,South Diamond Bar,NA,NA
+2020-03-19,South Diamond Bar,NA,NA
+2020-03-20,South Diamond Bar,NA,NA
+2020-03-21,South Diamond Bar,NA,NA
+2020-03-22,South Diamond Bar,NA,NA
+2020-03-23,South Diamond Bar,NA,NA
+2020-03-24,South Diamond Bar,NA,NA
+2020-03-25,South Diamond Bar,NA,NA
+2020-03-26,South Diamond Bar,NA,NA
+2020-03-27,South Diamond Bar,NA,NA
+2020-03-10,South El Monte,NA,NA
+2020-03-11,South El Monte,NA,NA
+2020-03-12,South El Monte,NA,NA
+2020-03-13,South El Monte,NA,NA
+2020-03-14,South El Monte,NA,NA
+2020-03-15,South El Monte,NA,NA
+2020-03-16,South El Monte,NA,NA
+2020-03-17,South El Monte,NA,NA
+2020-03-18,South El Monte,NA,NA
+2020-03-19,South El Monte,South El Monte --,1
+2020-03-20,South El Monte,South El Monte,1
+2020-03-21,South El Monte,South El Monte,1
+2020-03-22,South El Monte,South El Monte,1
+2020-03-23,South El Monte,South El Monte,1
+2020-03-24,South El Monte,South El Monte,1
+2020-03-25,South El Monte,South El Monte,3
+2020-03-26,South El Monte,South El Monte*,4
+2020-03-27,South El Monte,City of South El Monte,0
+2020-03-27,South El Monte,Unincorporated,0
+2020-03-10,South Gate,NA,NA
+2020-03-11,South Gate,NA,NA
+2020-03-12,South Gate,NA,NA
+2020-03-13,South Gate,NA,NA
+2020-03-14,South Gate,NA,NA
+2020-03-15,South Gate,NA,NA
+2020-03-16,South Gate,NA,NA
+2020-03-17,South Gate,NA,NA
+2020-03-18,South Gate,NA,NA
+2020-03-19,South Gate,NA,NA
+2020-03-20,South Gate,NA,NA
+2020-03-21,South Gate,NA,NA
+2020-03-22,South Gate,South Gate,1
+2020-03-23,South Gate,South Gate,1
+2020-03-24,South Gate,South Gate,1
+2020-03-25,South Gate,South Gate,2
+2020-03-26,South Gate,South Gate,4
+2020-03-27,South Gate,City of South Gate,4
+2020-03-10,South Park,NA,NA
+2020-03-11,South Park,NA,NA
+2020-03-12,South Park,NA,NA
+2020-03-13,South Park,NA,NA
+2020-03-14,South Park,NA,NA
+2020-03-15,South Park,NA,NA
+2020-03-16,South Park,NA,NA
+2020-03-17,South Park,NA,NA
+2020-03-18,South Park,NA,NA
+2020-03-19,South Park,NA,NA
+2020-03-20,South Park,NA,NA
+2020-03-21,South Park,NA,NA
+2020-03-22,South Park,NA,NA
+2020-03-23,South Park,South Park,1
+2020-03-24,South Park,South Park,1
+2020-03-25,South Park,South Park,1
+2020-03-26,South Park,South Park,2
+2020-03-27,South Park,Los Angeles,3
+2020-03-10,South Pasadena,NA,NA
+2020-03-11,South Pasadena,NA,NA
+2020-03-12,South Pasadena,NA,NA
+2020-03-13,South Pasadena,NA,NA
+2020-03-14,South Pasadena,NA,NA
+2020-03-15,South Pasadena,NA,NA
+2020-03-16,South Pasadena,NA,NA
+2020-03-17,South Pasadena,South Pasadena,1
+2020-03-18,South Pasadena,South Pasadena,1
+2020-03-19,South Pasadena,South Pasadena,1
+2020-03-20,South Pasadena,South Pasadena --,2
+2020-03-21,South Pasadena,South Pasadena,2
+2020-03-22,South Pasadena,South Pasadena,3
+2020-03-23,South Pasadena,South Pasadena,3
+2020-03-24,South Pasadena,South Pasadena,3
+2020-03-25,South Pasadena,South Pasadena,3
+2020-03-26,South Pasadena,South Pasadena*,4
+2020-03-27,South Pasadena,City of South Pasadena,3
+2020-03-10,South San Gabriel,NA,NA
+2020-03-11,South San Gabriel,NA,NA
+2020-03-12,South San Gabriel,NA,NA
+2020-03-13,South San Gabriel,NA,NA
+2020-03-14,South San Gabriel,NA,NA
+2020-03-15,South San Gabriel,NA,NA
+2020-03-16,South San Gabriel,NA,NA
+2020-03-17,South San Gabriel,NA,NA
+2020-03-18,South San Gabriel,NA,NA
+2020-03-19,South San Gabriel,NA,NA
+2020-03-20,South San Gabriel,NA,NA
+2020-03-21,South San Gabriel,NA,NA
+2020-03-22,South San Gabriel,NA,NA
+2020-03-23,South San Gabriel,NA,NA
+2020-03-24,South San Gabriel,NA,NA
+2020-03-25,South San Gabriel,NA,NA
+2020-03-26,South San Gabriel,NA,NA
+2020-03-27,South San Gabriel,Unincorporated,0
+2020-03-10,South San Jose Hills,NA,NA
+2020-03-11,South San Jose Hills,NA,NA
+2020-03-12,South San Jose Hills,NA,NA
+2020-03-13,South San Jose Hills,NA,NA
+2020-03-14,South San Jose Hills,NA,NA
+2020-03-15,South San Jose Hills,NA,NA
+2020-03-16,South San Jose Hills,NA,NA
+2020-03-17,South San Jose Hills,NA,NA
+2020-03-18,South San Jose Hills,NA,NA
+2020-03-19,South San Jose Hills,NA,NA
+2020-03-20,South San Jose Hills,NA,NA
+2020-03-21,South San Jose Hills,NA,NA
+2020-03-22,South San Jose Hills,NA,NA
+2020-03-23,South San Jose Hills,NA,NA
+2020-03-24,South San Jose Hills,NA,NA
+2020-03-25,South San Jose Hills,NA,NA
+2020-03-26,South San Jose Hills,NA,NA
+2020-03-27,South San Jose Hills,NA,NA
+2020-03-10,South Whittier,NA,NA
+2020-03-11,South Whittier,NA,NA
+2020-03-12,South Whittier,NA,NA
+2020-03-13,South Whittier,NA,NA
+2020-03-14,South Whittier,NA,NA
+2020-03-15,South Whittier,NA,NA
+2020-03-16,South Whittier,NA,NA
+2020-03-17,South Whittier,NA,NA
+2020-03-18,South Whittier,NA,NA
+2020-03-19,South Whittier,NA,NA
+2020-03-20,South Whittier,South Whittier --,1
+2020-03-21,South Whittier,South Whittier,1
+2020-03-22,South Whittier,South Whittier,1
+2020-03-23,South Whittier,South Whittier,2
+2020-03-24,South Whittier,South Whittier,2
+2020-03-25,South Whittier,South Whittier,3
+2020-03-26,South Whittier,South Whittier*,4
+2020-03-27,South Whittier,Unincorporated,3
+2020-03-10,Southeast Antelope Valley,NA,NA
+2020-03-11,Southeast Antelope Valley,NA,NA
+2020-03-12,Southeast Antelope Valley,NA,NA
+2020-03-13,Southeast Antelope Valley,NA,NA
+2020-03-14,Southeast Antelope Valley,NA,NA
+2020-03-15,Southeast Antelope Valley,NA,NA
+2020-03-16,Southeast Antelope Valley,NA,NA
+2020-03-17,Southeast Antelope Valley,NA,NA
+2020-03-18,Southeast Antelope Valley,NA,NA
+2020-03-19,Southeast Antelope Valley,NA,NA
+2020-03-20,Southeast Antelope Valley,NA,NA
+2020-03-21,Southeast Antelope Valley,NA,NA
+2020-03-22,Southeast Antelope Valley,NA,NA
+2020-03-23,Southeast Antelope Valley,NA,NA
+2020-03-24,Southeast Antelope Valley,NA,NA
+2020-03-25,Southeast Antelope Valley,NA,NA
+2020-03-26,Southeast Antelope Valley,NA,NA
+2020-03-27,Southeast Antelope Valley,Unincorporated,0
+2020-03-10,Stevenson Ranch,NA,NA
+2020-03-11,Stevenson Ranch,NA,NA
+2020-03-12,Stevenson Ranch,NA,NA
+2020-03-13,Stevenson Ranch,NA,NA
+2020-03-14,Stevenson Ranch,NA,NA
+2020-03-15,Stevenson Ranch,NA,NA
+2020-03-16,Stevenson Ranch,NA,NA
+2020-03-17,Stevenson Ranch,NA,NA
+2020-03-18,Stevenson Ranch,NA,NA
+2020-03-19,Stevenson Ranch,Stevenson Ranch --,1
+2020-03-20,Stevenson Ranch,Stevenson Ranch --,1
+2020-03-21,Stevenson Ranch,Stevenson Ranch,1
+2020-03-22,Stevenson Ranch,Stevenson Ranch,1
+2020-03-23,Stevenson Ranch,Stevenson Ranch,2
+2020-03-24,Stevenson Ranch,Stevenson Ranch,2
+2020-03-25,Stevenson Ranch,Stevenson Ranch,2
+2020-03-26,Stevenson Ranch,Stevenson Ranch*,3
+2020-03-27,Stevenson Ranch,NA,NA
+2020-03-10,Studio City,NA,NA
+2020-03-11,Studio City,NA,NA
+2020-03-12,Studio City,NA,NA
+2020-03-13,Studio City,NA,NA
+2020-03-14,Studio City,NA,NA
+2020-03-15,Studio City,NA,NA
+2020-03-16,Studio City,NA,NA
+2020-03-17,Studio City,NA,NA
+2020-03-18,Studio City,NA,NA
+2020-03-19,Studio City,Studio City,3
+2020-03-20,Studio City,Studio City --,3
+2020-03-21,Studio City,Studio City,4
+2020-03-22,Studio City,Studio City,4
+2020-03-23,Studio City,Studio City,7
+2020-03-24,Studio City,Studio City,7
+2020-03-25,Studio City,Studio City,7
+2020-03-26,Studio City,Studio City*,11
+2020-03-27,Studio City,Los Angeles,10
+2020-03-10,Sun Valley,NA,NA
+2020-03-11,Sun Valley,NA,NA
+2020-03-12,Sun Valley,NA,NA
+2020-03-13,Sun Valley,NA,NA
+2020-03-14,Sun Valley,NA,NA
+2020-03-15,Sun Valley,NA,NA
+2020-03-16,Sun Valley,NA,NA
+2020-03-17,Sun Valley,NA,NA
+2020-03-18,Sun Valley,NA,NA
+2020-03-19,Sun Valley,NA,NA
+2020-03-20,Sun Valley,NA,NA
+2020-03-21,Sun Valley,Sun Valley,1
+2020-03-22,Sun Valley,Sun Valley,1
+2020-03-23,Sun Valley,Sun Valley,2
+2020-03-24,Sun Valley,Sun Valley,2
+2020-03-25,Sun Valley,Sun Valley,2
+2020-03-26,Sun Valley,Sun Valley,2
+2020-03-27,Sun Valley,Los Angeles,3
+2020-03-10,Sun Village,NA,NA
+2020-03-11,Sun Village,NA,NA
+2020-03-12,Sun Village,NA,NA
+2020-03-13,Sun Village,NA,NA
+2020-03-14,Sun Village,NA,NA
+2020-03-15,Sun Village,NA,NA
+2020-03-16,Sun Village,NA,NA
+2020-03-17,Sun Village,NA,NA
+2020-03-18,Sun Village,NA,NA
+2020-03-19,Sun Village,NA,NA
+2020-03-20,Sun Village,NA,NA
+2020-03-21,Sun Village,NA,NA
+2020-03-22,Sun Village,NA,NA
+2020-03-23,Sun Village,NA,NA
+2020-03-24,Sun Village,NA,NA
+2020-03-25,Sun Village,NA,NA
+2020-03-26,Sun Village,NA,NA
+2020-03-27,Sun Village,Unincorporated,0
+2020-03-10,Sunland,NA,NA
+2020-03-11,Sunland,NA,NA
+2020-03-12,Sunland,NA,NA
+2020-03-13,Sunland,NA,NA
+2020-03-14,Sunland,NA,NA
+2020-03-15,Sunland,NA,NA
+2020-03-16,Sunland,NA,NA
+2020-03-17,Sunland,NA,NA
+2020-03-18,Sunland,NA,NA
+2020-03-19,Sunland,NA,NA
+2020-03-20,Sunland,NA,NA
+2020-03-21,Sunland,Sunland,1
+2020-03-22,Sunland,Sunland,1
+2020-03-23,Sunland,Sunland,1
+2020-03-24,Sunland,Sunland,1
+2020-03-25,Sunland,Sunland,1
+2020-03-26,Sunland,Sunland*,1
+2020-03-27,Sunland,Los Angeles,0
+2020-03-10,Sylmar,NA,NA
+2020-03-11,Sylmar,NA,NA
+2020-03-12,Sylmar,NA,NA
+2020-03-13,Sylmar,NA,NA
+2020-03-14,Sylmar,NA,NA
+2020-03-15,Sylmar,NA,NA
+2020-03-16,Sylmar,NA,NA
+2020-03-17,Sylmar,NA,NA
+2020-03-18,Sylmar,Los Angeles,1
+2020-03-19,Sylmar,Sylmar,1
+2020-03-20,Sylmar,Sylmar --,1
+2020-03-21,Sylmar,Sylmar,1
+2020-03-22,Sylmar,Sylmar,1
+2020-03-23,Sylmar,Sylmar,1
+2020-03-24,Sylmar,Sylmar,1
+2020-03-25,Sylmar,Sylmar,1
+2020-03-26,Sylmar,Sylmar,2
+2020-03-27,Sylmar,Los Angeles,4
+2020-03-10,Tarzana,NA,NA
+2020-03-11,Tarzana,NA,NA
+2020-03-12,Tarzana,NA,NA
+2020-03-13,Tarzana,NA,NA
+2020-03-14,Tarzana,NA,NA
+2020-03-15,Tarzana,NA,NA
+2020-03-16,Tarzana,NA,NA
+2020-03-17,Tarzana,Tarzana,5
+2020-03-18,Tarzana,Los Angeles,5
+2020-03-19,Tarzana,Tarzana --,5
+2020-03-20,Tarzana,Tarzana --,6
+2020-03-21,Tarzana,Tarzana,7
+2020-03-22,Tarzana,Tarzana,8
+2020-03-23,Tarzana,Tarzana,8
+2020-03-24,Tarzana,Tarzana,9
+2020-03-25,Tarzana,Tarzana,9
+2020-03-26,Tarzana,Tarzana,14
+2020-03-27,Tarzana,Los Angeles,17
+2020-03-10,Temple City,NA,NA
+2020-03-11,Temple City,NA,NA
+2020-03-12,Temple City,NA,NA
+2020-03-13,Temple City,NA,NA
+2020-03-14,Temple City,NA,NA
+2020-03-15,Temple City,NA,NA
+2020-03-16,Temple City,NA,NA
+2020-03-17,Temple City,NA,NA
+2020-03-18,Temple City,NA,NA
+2020-03-19,Temple City,NA,NA
+2020-03-20,Temple City,NA,NA
+2020-03-21,Temple City,NA,NA
+2020-03-22,Temple City,NA,NA
+2020-03-23,Temple City,NA,NA
+2020-03-24,Temple City,NA,NA
+2020-03-25,Temple City,NA,NA
+2020-03-26,Temple City,NA,NA
+2020-03-27,Temple City,City of Temple City,0
+2020-03-10,Toluca Lake,NA,NA
+2020-03-11,Toluca Lake,NA,NA
+2020-03-12,Toluca Lake,NA,NA
+2020-03-13,Toluca Lake,NA,NA
+2020-03-14,Toluca Lake,NA,NA
+2020-03-15,Toluca Lake,NA,NA
+2020-03-16,Toluca Lake,NA,NA
+2020-03-17,Toluca Lake,NA,NA
+2020-03-18,Toluca Lake,NA,NA
+2020-03-19,Toluca Lake,NA,NA
+2020-03-20,Toluca Lake,NA,NA
+2020-03-21,Toluca Lake,NA,NA
+2020-03-22,Toluca Lake,NA,NA
+2020-03-23,Toluca Lake,NA,NA
+2020-03-24,Toluca Lake,NA,NA
+2020-03-25,Toluca Lake,NA,NA
+2020-03-26,Toluca Lake,NA,NA
+2020-03-27,Toluca Lake,NA,NA
+2020-03-10,Topanga,NA,NA
+2020-03-11,Topanga,NA,NA
+2020-03-12,Topanga,NA,NA
+2020-03-13,Topanga,NA,NA
+2020-03-14,Topanga,NA,NA
+2020-03-15,Topanga,NA,NA
+2020-03-16,Topanga,NA,NA
+2020-03-17,Topanga,NA,NA
+2020-03-18,Topanga,NA,NA
+2020-03-19,Topanga,NA,NA
+2020-03-20,Topanga,NA,NA
+2020-03-21,Topanga,NA,NA
+2020-03-22,Topanga,NA,NA
+2020-03-23,Topanga,NA,NA
+2020-03-24,Topanga,NA,NA
+2020-03-25,Topanga,NA,NA
+2020-03-26,Topanga,NA,NA
+2020-03-27,Topanga,NA,NA
+2020-03-10,Torrance,NA,NA
+2020-03-11,Torrance,NA,NA
+2020-03-12,Torrance,NA,NA
+2020-03-13,Torrance,NA,NA
+2020-03-14,Torrance,NA,NA
+2020-03-15,Torrance,NA,NA
+2020-03-16,Torrance,NA,NA
+2020-03-17,Torrance,Torrance,1
+2020-03-18,Torrance,Torrance,2
+2020-03-19,Torrance,Torrance,2
+2020-03-20,Torrance,Torrance,2
+2020-03-21,Torrance,Torrance,2
+2020-03-22,Torrance,Torrance,3
+2020-03-23,Torrance,Torrance,4
+2020-03-24,Torrance,Torrance,5
+2020-03-25,Torrance,Torrance,9
+2020-03-26,Torrance,Torrance,14
+2020-03-27,Torrance,City of Torrance,21
+2020-03-10,Tujunga,NA,NA
+2020-03-11,Tujunga,NA,NA
+2020-03-12,Tujunga,NA,NA
+2020-03-13,Tujunga,NA,NA
+2020-03-14,Tujunga,NA,NA
+2020-03-15,Tujunga,NA,NA
+2020-03-16,Tujunga,NA,NA
+2020-03-17,Tujunga,NA,NA
+2020-03-18,Tujunga,NA,NA
+2020-03-19,Tujunga,Tujunga --,1
+2020-03-20,Tujunga,Tujunga,1
+2020-03-21,Tujunga,Tujunga,1
+2020-03-22,Tujunga,Tujunga,1
+2020-03-23,Tujunga,Tujunga,1
+2020-03-24,Tujunga,Tujunga,1
+2020-03-25,Tujunga,Tujunga,1
+2020-03-26,Tujunga,Tujunga*,2
+2020-03-27,Tujunga,Los Angeles,2
+2020-03-10,Tujunga Canyons,NA,NA
+2020-03-11,Tujunga Canyons,NA,NA
+2020-03-12,Tujunga Canyons,NA,NA
+2020-03-13,Tujunga Canyons,NA,NA
+2020-03-14,Tujunga Canyons,NA,NA
+2020-03-15,Tujunga Canyons,NA,NA
+2020-03-16,Tujunga Canyons,NA,NA
+2020-03-17,Tujunga Canyons,NA,NA
+2020-03-18,Tujunga Canyons,NA,NA
+2020-03-19,Tujunga Canyons,NA,NA
+2020-03-20,Tujunga Canyons,NA,NA
+2020-03-21,Tujunga Canyons,NA,NA
+2020-03-22,Tujunga Canyons,NA,NA
+2020-03-23,Tujunga Canyons,NA,NA
+2020-03-24,Tujunga Canyons,NA,NA
+2020-03-25,Tujunga Canyons,NA,NA
+2020-03-26,Tujunga Canyons,NA,NA
+2020-03-27,Tujunga Canyons,NA,NA
+2020-03-10,Unincorporated Catalina Island,NA,NA
+2020-03-11,Unincorporated Catalina Island,NA,NA
+2020-03-12,Unincorporated Catalina Island,NA,NA
+2020-03-13,Unincorporated Catalina Island,NA,NA
+2020-03-14,Unincorporated Catalina Island,NA,NA
+2020-03-15,Unincorporated Catalina Island,NA,NA
+2020-03-16,Unincorporated Catalina Island,NA,NA
+2020-03-17,Unincorporated Catalina Island,NA,NA
+2020-03-18,Unincorporated Catalina Island,NA,NA
+2020-03-19,Unincorporated Catalina Island,NA,NA
+2020-03-20,Unincorporated Catalina Island,NA,NA
+2020-03-21,Unincorporated Catalina Island,NA,NA
+2020-03-22,Unincorporated Catalina Island,NA,NA
+2020-03-23,Unincorporated Catalina Island,NA,NA
+2020-03-24,Unincorporated Catalina Island,NA,NA
+2020-03-25,Unincorporated Catalina Island,NA,NA
+2020-03-26,Unincorporated Catalina Island,NA,NA
+2020-03-27,Unincorporated Catalina Island,NA,NA
+2020-03-10,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-11,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-12,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-13,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-14,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-15,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-16,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-17,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-18,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-19,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-20,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-21,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-22,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-23,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-24,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-25,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-26,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-27,Unincorporated Santa Monica Mountains,NA,NA
+2020-03-10,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-11,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-12,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-13,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-14,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-15,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-16,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-17,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-18,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-19,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-20,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-21,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-22,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-23,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-24,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-25,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-26,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-27,Unincorporated Santa Susana Mountains,NA,NA
+2020-03-10,Universal City,NA,NA
+2020-03-11,Universal City,NA,NA
+2020-03-12,Universal City,NA,NA
+2020-03-13,Universal City,NA,NA
+2020-03-14,Universal City,NA,NA
+2020-03-15,Universal City,NA,NA
+2020-03-16,Universal City,NA,NA
+2020-03-17,Universal City,NA,NA
+2020-03-18,Universal City,NA,NA
+2020-03-19,Universal City,NA,NA
+2020-03-20,Universal City,NA,NA
+2020-03-21,Universal City,NA,NA
+2020-03-22,Universal City,NA,NA
+2020-03-23,Universal City,NA,NA
+2020-03-24,Universal City,NA,NA
+2020-03-25,Universal City,NA,NA
+2020-03-26,Universal City,NA,NA
+2020-03-27,Universal City,NA,NA
+2020-03-10,University Park,NA,NA
+2020-03-11,University Park,NA,NA
+2020-03-12,University Park,NA,NA
+2020-03-13,University Park,NA,NA
+2020-03-14,University Park,NA,NA
+2020-03-15,University Park,NA,NA
+2020-03-16,University Park,NA,NA
+2020-03-17,University Park,NA,NA
+2020-03-18,University Park,NA,NA
+2020-03-19,University Park,University Park,1
+2020-03-20,University Park,University Park,1
+2020-03-21,University Park,University Park,1
+2020-03-22,University Park,University Park,1
+2020-03-23,University Park,University Park,1
+2020-03-24,University Park,University Park,1
+2020-03-25,University Park,University Park,4
+2020-03-26,University Park,University Park*,6
+2020-03-27,University Park,Los Angeles,4
+2020-03-10,Val Verde,NA,NA
+2020-03-11,Val Verde,NA,NA
+2020-03-12,Val Verde,NA,NA
+2020-03-13,Val Verde,NA,NA
+2020-03-14,Val Verde,NA,NA
+2020-03-15,Val Verde,NA,NA
+2020-03-16,Val Verde,NA,NA
+2020-03-17,Val Verde,NA,NA
+2020-03-18,Val Verde,NA,NA
+2020-03-19,Val Verde,NA,NA
+2020-03-20,Val Verde,NA,NA
+2020-03-21,Val Verde,NA,NA
+2020-03-22,Val Verde,NA,NA
+2020-03-23,Val Verde,NA,NA
+2020-03-24,Val Verde,NA,NA
+2020-03-25,Val Verde,NA,NA
+2020-03-26,Val Verde,NA,NA
+2020-03-27,Val Verde,Unincorporated,0
+2020-03-10,Valinda,NA,NA
+2020-03-11,Valinda,NA,NA
+2020-03-12,Valinda,NA,NA
+2020-03-13,Valinda,NA,NA
+2020-03-14,Valinda,NA,NA
+2020-03-15,Valinda,NA,NA
+2020-03-16,Valinda,NA,NA
+2020-03-17,Valinda,NA,NA
+2020-03-18,Valinda,NA,NA
+2020-03-19,Valinda,NA,NA
+2020-03-20,Valinda,NA,NA
+2020-03-21,Valinda,NA,NA
+2020-03-22,Valinda,NA,NA
+2020-03-23,Valinda,NA,NA
+2020-03-24,Valinda,NA,NA
+2020-03-25,Valinda,Valinda,1
+2020-03-26,Valinda,Valinda*,1
+2020-03-27,Valinda,NA,NA
+2020-03-10,Valley Glen,NA,NA
+2020-03-11,Valley Glen,NA,NA
+2020-03-12,Valley Glen,NA,NA
+2020-03-13,Valley Glen,NA,NA
+2020-03-14,Valley Glen,NA,NA
+2020-03-15,Valley Glen,NA,NA
+2020-03-16,Valley Glen,NA,NA
+2020-03-17,Valley Glen,NA,NA
+2020-03-18,Valley Glen,NA,NA
+2020-03-19,Valley Glen,Valley Glen --,1
+2020-03-20,Valley Glen,Valley Glen --,3
+2020-03-21,Valley Glen,Valley Glen,6
+2020-03-22,Valley Glen,Valley Glen,6
+2020-03-23,Valley Glen,Valley Glen,7
+2020-03-24,Valley Glen,Valley Glen,9
+2020-03-25,Valley Glen,Valley Glen,11
+2020-03-26,Valley Glen,Valley Glen*,12
+2020-03-27,Valley Glen,Los Angeles,2
+2020-03-10,Valley Village,NA,NA
+2020-03-11,Valley Village,NA,NA
+2020-03-12,Valley Village,NA,NA
+2020-03-13,Valley Village,NA,NA
+2020-03-14,Valley Village,NA,NA
+2020-03-15,Valley Village,NA,NA
+2020-03-16,Valley Village,NA,NA
+2020-03-17,Valley Village,NA,NA
+2020-03-18,Valley Village,NA,NA
+2020-03-19,Valley Village,NA,NA
+2020-03-20,Valley Village,NA,NA
+2020-03-21,Valley Village,NA,NA
+2020-03-22,Valley Village,NA,NA
+2020-03-23,Valley Village,NA,NA
+2020-03-24,Valley Village,NA,NA
+2020-03-25,Valley Village,NA,NA
+2020-03-26,Valley Village,NA,NA
+2020-03-27,Valley Village,Los Angeles,13
+2020-03-10,Van Nuys,NA,NA
+2020-03-11,Van Nuys,NA,NA
+2020-03-12,Van Nuys,NA,NA
+2020-03-13,Van Nuys,NA,NA
+2020-03-14,Van Nuys,NA,NA
+2020-03-15,Van Nuys,NA,NA
+2020-03-16,Van Nuys,NA,NA
+2020-03-17,Van Nuys,NA,NA
+2020-03-18,Van Nuys,NA,NA
+2020-03-19,Van Nuys,Van Nuys --,1
+2020-03-20,Van Nuys,Van Nuys --,1
+2020-03-21,Van Nuys,Van Nuys,2
+2020-03-22,Van Nuys,Van Nuys,2
+2020-03-23,Van Nuys,Van Nuys,4
+2020-03-24,Van Nuys,Van Nuys,4
+2020-03-25,Van Nuys,Van Nuys,4
+2020-03-26,Van Nuys,Van Nuys,4
+2020-03-27,Van Nuys,Los Angeles,4
+2020-03-10,Venice,NA,NA
+2020-03-11,Venice,NA,NA
+2020-03-12,Venice,NA,NA
+2020-03-13,Venice,NA,NA
+2020-03-14,Venice,NA,NA
+2020-03-15,Venice,NA,NA
+2020-03-16,Venice,NA,NA
+2020-03-17,Venice,Venice,2
+2020-03-18,Venice,Los Angeles,4
+2020-03-19,Venice,Venice,4
+2020-03-20,Venice,Venice --,4
+2020-03-21,Venice,Venice,6
+2020-03-22,Venice,Venice,7
+2020-03-23,Venice,Venice,7
+2020-03-24,Venice,Venice,8
+2020-03-25,Venice,Venice,9
+2020-03-26,Venice,Venice,11
+2020-03-27,Venice,Los Angeles,11
+2020-03-10,Vermont Knolls,NA,NA
+2020-03-11,Vermont Knolls,NA,NA
+2020-03-12,Vermont Knolls,NA,NA
+2020-03-13,Vermont Knolls,NA,NA
+2020-03-14,Vermont Knolls,NA,NA
+2020-03-15,Vermont Knolls,NA,NA
+2020-03-16,Vermont Knolls,NA,NA
+2020-03-17,Vermont Knolls,NA,NA
+2020-03-18,Vermont Knolls,NA,NA
+2020-03-19,Vermont Knolls,Vermont Knolls,1
+2020-03-20,Vermont Knolls,Vermont Knolls --,1
+2020-03-21,Vermont Knolls,Vermont Knolls,1
+2020-03-22,Vermont Knolls,Vermont Knolls,1
+2020-03-23,Vermont Knolls,Vermont Knolls,1
+2020-03-24,Vermont Knolls,Vermont Knolls,1
+2020-03-25,Vermont Knolls,Vermont Knolls,1
+2020-03-26,Vermont Knolls,Vermont Knolls*,3
+2020-03-27,Vermont Knolls,NA,NA
+2020-03-10,Vermont Square,NA,NA
+2020-03-11,Vermont Square,NA,NA
+2020-03-12,Vermont Square,NA,NA
+2020-03-13,Vermont Square,NA,NA
+2020-03-14,Vermont Square,NA,NA
+2020-03-15,Vermont Square,NA,NA
+2020-03-16,Vermont Square,NA,NA
+2020-03-17,Vermont Square,NA,NA
+2020-03-18,Vermont Square,NA,NA
+2020-03-19,Vermont Square,NA,NA
+2020-03-20,Vermont Square,NA,NA
+2020-03-21,Vermont Square,NA,NA
+2020-03-22,Vermont Square,NA,NA
+2020-03-23,Vermont Square,NA,NA
+2020-03-24,Vermont Square,NA,NA
+2020-03-25,Vermont Square,NA,NA
+2020-03-26,Vermont Square,NA,NA
+2020-03-27,Vermont Square,NA,NA
+2020-03-10,Vermont Vista,NA,NA
+2020-03-11,Vermont Vista,NA,NA
+2020-03-12,Vermont Vista,NA,NA
+2020-03-13,Vermont Vista,NA,NA
+2020-03-14,Vermont Vista,NA,NA
+2020-03-15,Vermont Vista,NA,NA
+2020-03-16,Vermont Vista,NA,NA
+2020-03-17,Vermont Vista,NA,NA
+2020-03-18,Vermont Vista,NA,NA
+2020-03-19,Vermont Vista,NA,NA
+2020-03-20,Vermont Vista,NA,NA
+2020-03-21,Vermont Vista,Vermont Vista,1
+2020-03-22,Vermont Vista,Vermont Vista,1
+2020-03-23,Vermont Vista,Vermont Vista,1
+2020-03-24,Vermont Vista,Vermont Vista,3
+2020-03-25,Vermont Vista,Vermont Vista,3
+2020-03-26,Vermont Vista,Vermont Vista*,5
+2020-03-27,Vermont Vista,Los Angeles,2
+2020-03-10,Vermont-Slauson,NA,NA
+2020-03-11,Vermont-Slauson,NA,NA
+2020-03-12,Vermont-Slauson,NA,NA
+2020-03-13,Vermont-Slauson,NA,NA
+2020-03-14,Vermont-Slauson,NA,NA
+2020-03-15,Vermont-Slauson,NA,NA
+2020-03-16,Vermont-Slauson,NA,NA
+2020-03-17,Vermont-Slauson,NA,NA
+2020-03-18,Vermont-Slauson,NA,NA
+2020-03-19,Vermont-Slauson,NA,NA
+2020-03-20,Vermont-Slauson,NA,NA
+2020-03-21,Vermont-Slauson,NA,NA
+2020-03-22,Vermont-Slauson,NA,NA
+2020-03-23,Vermont-Slauson,NA,NA
+2020-03-24,Vermont-Slauson,NA,NA
+2020-03-25,Vermont-Slauson,NA,NA
+2020-03-26,Vermont-Slauson,NA,NA
+2020-03-27,Vermont-Slauson,NA,NA
+2020-03-10,Vernon,NA,NA
+2020-03-11,Vernon,NA,NA
+2020-03-12,Vernon,NA,NA
+2020-03-13,Vernon,NA,NA
+2020-03-14,Vernon,NA,NA
+2020-03-15,Vernon,NA,NA
+2020-03-16,Vernon,NA,NA
+2020-03-17,Vernon,NA,NA
+2020-03-18,Vernon,NA,NA
+2020-03-19,Vernon,NA,NA
+2020-03-20,Vernon,NA,NA
+2020-03-21,Vernon,NA,NA
+2020-03-22,Vernon,NA,NA
+2020-03-23,Vernon,NA,NA
+2020-03-24,Vernon,NA,NA
+2020-03-25,Vernon,NA,NA
+2020-03-26,Vernon,NA,NA
+2020-03-27,Vernon,City of Vernon,0
+2020-03-10,Veterans Administration,NA,NA
+2020-03-11,Veterans Administration,NA,NA
+2020-03-12,Veterans Administration,NA,NA
+2020-03-13,Veterans Administration,NA,NA
+2020-03-14,Veterans Administration,NA,NA
+2020-03-15,Veterans Administration,NA,NA
+2020-03-16,Veterans Administration,NA,NA
+2020-03-17,Veterans Administration,NA,NA
+2020-03-18,Veterans Administration,NA,NA
+2020-03-19,Veterans Administration,NA,NA
+2020-03-20,Veterans Administration,NA,NA
+2020-03-21,Veterans Administration,NA,NA
+2020-03-22,Veterans Administration,NA,NA
+2020-03-23,Veterans Administration,NA,NA
+2020-03-24,Veterans Administration,NA,NA
+2020-03-25,Veterans Administration,NA,NA
+2020-03-26,Veterans Administration,NA,NA
+2020-03-27,Veterans Administration,NA,NA
+2020-03-10,View Park-Windsor Hills,NA,NA
+2020-03-11,View Park-Windsor Hills,NA,NA
+2020-03-12,View Park-Windsor Hills,NA,NA
+2020-03-13,View Park-Windsor Hills,NA,NA
+2020-03-14,View Park-Windsor Hills,NA,NA
+2020-03-15,View Park-Windsor Hills,NA,NA
+2020-03-16,View Park-Windsor Hills,NA,NA
+2020-03-17,View Park-Windsor Hills,NA,NA
+2020-03-18,View Park-Windsor Hills,NA,NA
+2020-03-19,View Park-Windsor Hills,NA,NA
+2020-03-20,View Park-Windsor Hills,NA,NA
+2020-03-21,View Park-Windsor Hills,NA,NA
+2020-03-22,View Park-Windsor Hills,NA,NA
+2020-03-23,View Park-Windsor Hills,NA,NA
+2020-03-24,View Park-Windsor Hills,NA,NA
+2020-03-25,View Park-Windsor Hills,NA,NA
+2020-03-26,View Park-Windsor Hills,NA,NA
+2020-03-27,View Park-Windsor Hills,NA,NA
+2020-03-10,Vincent,NA,NA
+2020-03-11,Vincent,NA,NA
+2020-03-12,Vincent,NA,NA
+2020-03-13,Vincent,NA,NA
+2020-03-14,Vincent,NA,NA
+2020-03-15,Vincent,NA,NA
+2020-03-16,Vincent,NA,NA
+2020-03-17,Vincent,NA,NA
+2020-03-18,Vincent,NA,NA
+2020-03-19,Vincent,NA,NA
+2020-03-20,Vincent,NA,NA
+2020-03-21,Vincent,NA,NA
+2020-03-22,Vincent,NA,NA
+2020-03-23,Vincent,NA,NA
+2020-03-24,Vincent,NA,NA
+2020-03-25,Vincent,NA,NA
+2020-03-26,Vincent,NA,NA
+2020-03-27,Vincent,NA,NA
+2020-03-10,Walnut,NA,NA
+2020-03-11,Walnut,NA,NA
+2020-03-12,Walnut,NA,NA
+2020-03-13,Walnut,NA,NA
+2020-03-14,Walnut,NA,NA
+2020-03-15,Walnut,NA,NA
+2020-03-16,Walnut,NA,NA
+2020-03-17,Walnut,NA,NA
+2020-03-18,Walnut,Walnut,1
+2020-03-19,Walnut,Walnut,1
+2020-03-20,Walnut,Walnut --,2
+2020-03-21,Walnut,Walnut,1
+2020-03-22,Walnut,Walnut,1
+2020-03-23,Walnut,Walnut,1
+2020-03-24,Walnut,Walnut,1
+2020-03-25,Walnut,Walnut,1
+2020-03-26,Walnut,Walnut*,1
+2020-03-27,Walnut,City of Walnut,1
+2020-03-10,Walnut Park,NA,NA
+2020-03-11,Walnut Park,NA,NA
+2020-03-12,Walnut Park,NA,NA
+2020-03-13,Walnut Park,NA,NA
+2020-03-14,Walnut Park,NA,NA
+2020-03-15,Walnut Park,NA,NA
+2020-03-16,Walnut Park,NA,NA
+2020-03-17,Walnut Park,NA,NA
+2020-03-18,Walnut Park,NA,NA
+2020-03-19,Walnut Park,NA,NA
+2020-03-20,Walnut Park,NA,NA
+2020-03-21,Walnut Park,NA,NA
+2020-03-22,Walnut Park,NA,NA
+2020-03-23,Walnut Park,NA,NA
+2020-03-24,Walnut Park,NA,NA
+2020-03-25,Walnut Park,NA,NA
+2020-03-26,Walnut Park,NA,NA
+2020-03-27,Walnut Park,Unincorporated,0
+2020-03-10,Watts,NA,NA
+2020-03-11,Watts,NA,NA
+2020-03-12,Watts,NA,NA
+2020-03-13,Watts,NA,NA
+2020-03-14,Watts,NA,NA
+2020-03-15,Watts,NA,NA
+2020-03-16,Watts,NA,NA
+2020-03-17,Watts,NA,NA
+2020-03-18,Watts,NA,NA
+2020-03-19,Watts,NA,NA
+2020-03-20,Watts,NA,NA
+2020-03-21,Watts,NA,NA
+2020-03-22,Watts,NA,NA
+2020-03-23,Watts,NA,NA
+2020-03-24,Watts,NA,NA
+2020-03-25,Watts,Watts,1
+2020-03-26,Watts,Watts,1
+2020-03-27,Watts,Los Angeles,1
+2020-03-10,West Adams,NA,NA
+2020-03-11,West Adams,NA,NA
+2020-03-12,West Adams,NA,NA
+2020-03-13,West Adams,NA,NA
+2020-03-14,West Adams,NA,NA
+2020-03-15,West Adams,NA,NA
+2020-03-16,West Adams,NA,NA
+2020-03-17,West Adams,West Adams,1
+2020-03-18,West Adams,Los Angeles,1
+2020-03-19,West Adams,West Adams,1
+2020-03-20,West Adams,West Adams --,1
+2020-03-21,West Adams,West Adams,2
+2020-03-22,West Adams,West Adams,1
+2020-03-23,West Adams,West Adams,1
+2020-03-24,West Adams,West Adams,3
+2020-03-25,West Adams,West Adams,4
+2020-03-26,West Adams,West Adams,6
+2020-03-27,West Adams,Los Angeles,6
+2020-03-10,West Carson,NA,NA
+2020-03-11,West Carson,NA,NA
+2020-03-12,West Carson,NA,NA
+2020-03-13,West Carson,NA,NA
+2020-03-14,West Carson,NA,NA
+2020-03-15,West Carson,NA,NA
+2020-03-16,West Carson,NA,NA
+2020-03-17,West Carson,NA,NA
+2020-03-18,West Carson,NA,NA
+2020-03-19,West Carson,NA,NA
+2020-03-20,West Carson,NA,NA
+2020-03-21,West Carson,NA,NA
+2020-03-22,West Carson,NA,NA
+2020-03-23,West Carson,NA,NA
+2020-03-24,West Carson,NA,NA
+2020-03-25,West Carson,NA,NA
+2020-03-26,West Carson,NA,NA
+2020-03-27,West Carson,Unincorporated,5
+2020-03-10,West Compton,NA,NA
+2020-03-11,West Compton,NA,NA
+2020-03-12,West Compton,NA,NA
+2020-03-13,West Compton,NA,NA
+2020-03-14,West Compton,NA,NA
+2020-03-15,West Compton,NA,NA
+2020-03-16,West Compton,NA,NA
+2020-03-17,West Compton,NA,NA
+2020-03-18,West Compton,NA,NA
+2020-03-19,West Compton,NA,NA
+2020-03-20,West Compton,NA,NA
+2020-03-21,West Compton,NA,NA
+2020-03-22,West Compton,NA,NA
+2020-03-23,West Compton,NA,NA
+2020-03-24,West Compton,NA,NA
+2020-03-25,West Compton,NA,NA
+2020-03-26,West Compton,NA,NA
+2020-03-27,West Compton,NA,NA
+2020-03-10,West Covina,NA,NA
+2020-03-11,West Covina,NA,NA
+2020-03-12,West Covina,NA,NA
+2020-03-13,West Covina,NA,NA
+2020-03-14,West Covina,NA,NA
+2020-03-15,West Covina,NA,NA
+2020-03-16,West Covina,NA,NA
+2020-03-17,West Covina,NA,NA
+2020-03-18,West Covina,NA,NA
+2020-03-19,West Covina,NA,NA
+2020-03-20,West Covina,NA,NA
+2020-03-21,West Covina,West Covina,1
+2020-03-22,West Covina,West Covina,1
+2020-03-23,West Covina,West Covina,1
+2020-03-24,West Covina,West Covina,1
+2020-03-25,West Covina,West Covina,2
+2020-03-26,West Covina,West Covina,4
+2020-03-27,West Covina,City of West Covina,5
+2020-03-10,West Hills,NA,NA
+2020-03-11,West Hills,NA,NA
+2020-03-12,West Hills,NA,NA
+2020-03-13,West Hills,NA,NA
+2020-03-14,West Hills,NA,NA
+2020-03-15,West Hills,NA,NA
+2020-03-16,West Hills,NA,NA
+2020-03-17,West Hills,West Hills,3
+2020-03-18,West Hills,Los Angeles,3
+2020-03-19,West Hills,West Hills --,3
+2020-03-20,West Hills,West Hills --,3
+2020-03-21,West Hills,West Hills,4
+2020-03-22,West Hills,West Hills,4
+2020-03-23,West Hills,West Hills,4
+2020-03-24,West Hills,West Hills,4
+2020-03-25,West Hills,West Hills,4
+2020-03-26,West Hills,West Hills*,4
+2020-03-27,West Hills,Los Angeles,5
+2020-03-10,West Hollywood,NA,NA
+2020-03-11,West Hollywood,NA,NA
+2020-03-12,West Hollywood,NA,NA
+2020-03-13,West Hollywood,NA,NA
+2020-03-14,West Hollywood,NA,NA
+2020-03-15,West Hollywood,NA,NA
+2020-03-16,West Hollywood,NA,NA
+2020-03-17,West Hollywood,West Hollywood,8
+2020-03-18,West Hollywood,West Hollywood,11
+2020-03-19,West Hollywood,West Hollywood,12
+2020-03-20,West Hollywood,West Hollywood --,15
+2020-03-21,West Hollywood,West Hollywood,18
+2020-03-22,West Hollywood,West Hollywood,19
+2020-03-23,West Hollywood,West Hollywood,23
+2020-03-24,West Hollywood,West Hollywood,31
+2020-03-25,West Hollywood,West Hollywood,31
+2020-03-26,West Hollywood,West Hollywood,35
+2020-03-27,West Hollywood,City of West Hollywood,42
+2020-03-10,West Los Angeles,NA,NA
+2020-03-11,West Los Angeles,NA,NA
+2020-03-12,West Los Angeles,NA,NA
+2020-03-13,West Los Angeles,NA,NA
+2020-03-14,West Los Angeles,NA,NA
+2020-03-15,West Los Angeles,NA,NA
+2020-03-16,West Los Angeles,NA,NA
+2020-03-17,West Los Angeles,NA,NA
+2020-03-18,West Los Angeles,Los Angeles,1
+2020-03-19,West Los Angeles,West Los Angeles --,2
+2020-03-20,West Los Angeles,West Los Angeles --,3
+2020-03-21,West Los Angeles,West Los Angeles,3
+2020-03-22,West Los Angeles,West Los Angeles,3
+2020-03-23,West Los Angeles,West Los Angeles,4
+2020-03-24,West Los Angeles,West Los Angeles,4
+2020-03-25,West Los Angeles,West Los Angeles,4
+2020-03-26,West Los Angeles,West Los Angeles*,5
+2020-03-27,West Los Angeles,Los Angeles,9
+2020-03-10,West Puente Valley,NA,NA
+2020-03-11,West Puente Valley,NA,NA
+2020-03-12,West Puente Valley,NA,NA
+2020-03-13,West Puente Valley,NA,NA
+2020-03-14,West Puente Valley,NA,NA
+2020-03-15,West Puente Valley,NA,NA
+2020-03-16,West Puente Valley,NA,NA
+2020-03-17,West Puente Valley,NA,NA
+2020-03-18,West Puente Valley,NA,NA
+2020-03-19,West Puente Valley,NA,NA
+2020-03-20,West Puente Valley,NA,NA
+2020-03-21,West Puente Valley,NA,NA
+2020-03-22,West Puente Valley,NA,NA
+2020-03-23,West Puente Valley,NA,NA
+2020-03-24,West Puente Valley,NA,NA
+2020-03-25,West Puente Valley,NA,NA
+2020-03-26,West Puente Valley,NA,NA
+2020-03-27,West Puente Valley,Unincorporated,0
+2020-03-10,West San Dimas,NA,NA
+2020-03-11,West San Dimas,NA,NA
+2020-03-12,West San Dimas,NA,NA
+2020-03-13,West San Dimas,NA,NA
+2020-03-14,West San Dimas,NA,NA
+2020-03-15,West San Dimas,NA,NA
+2020-03-16,West San Dimas,NA,NA
+2020-03-17,West San Dimas,NA,NA
+2020-03-18,West San Dimas,NA,NA
+2020-03-19,West San Dimas,NA,NA
+2020-03-20,West San Dimas,NA,NA
+2020-03-21,West San Dimas,NA,NA
+2020-03-22,West San Dimas,NA,NA
+2020-03-23,West San Dimas,NA,NA
+2020-03-24,West San Dimas,NA,NA
+2020-03-25,West San Dimas,NA,NA
+2020-03-26,West San Dimas,NA,NA
+2020-03-27,West San Dimas,NA,NA
+2020-03-10,West Whittier-Los Nietos,NA,NA
+2020-03-11,West Whittier-Los Nietos,NA,NA
+2020-03-12,West Whittier-Los Nietos,NA,NA
+2020-03-13,West Whittier-Los Nietos,NA,NA
+2020-03-14,West Whittier-Los Nietos,NA,NA
+2020-03-15,West Whittier-Los Nietos,NA,NA
+2020-03-16,West Whittier-Los Nietos,NA,NA
+2020-03-17,West Whittier-Los Nietos,NA,NA
+2020-03-18,West Whittier-Los Nietos,NA,NA
+2020-03-19,West Whittier-Los Nietos,NA,NA
+2020-03-20,West Whittier-Los Nietos,NA,NA
+2020-03-21,West Whittier-Los Nietos,NA,NA
+2020-03-22,West Whittier-Los Nietos,NA,NA
+2020-03-23,West Whittier-Los Nietos,NA,NA
+2020-03-24,West Whittier-Los Nietos,NA,NA
+2020-03-25,West Whittier-Los Nietos,NA,NA
+2020-03-26,West Whittier-Los Nietos,NA,NA
+2020-03-27,West Whittier-Los Nietos,NA,NA
+2020-03-10,Westchester,NA,NA
+2020-03-11,Westchester,NA,NA
+2020-03-12,Westchester,NA,NA
+2020-03-13,Westchester,NA,NA
+2020-03-14,Westchester,NA,NA
+2020-03-15,Westchester,NA,NA
+2020-03-16,Westchester,NA,NA
+2020-03-17,Westchester,Westchester,2
+2020-03-18,Westchester,Los Angeles,2
+2020-03-19,Westchester,Westchester --,3
+2020-03-20,Westchester,Westchester --,3
+2020-03-21,Westchester,Westchester,3
+2020-03-22,Westchester,Westchester,3
+2020-03-23,Westchester,Westchester,3
+2020-03-24,Westchester,Westchester,3
+2020-03-25,Westchester,Westchester,5
+2020-03-26,Westchester,Westchester,7
+2020-03-27,Westchester,Los Angeles,8
+2020-03-10,Westlake,NA,NA
+2020-03-11,Westlake,NA,NA
+2020-03-12,Westlake,NA,NA
+2020-03-13,Westlake,NA,NA
+2020-03-14,Westlake,NA,NA
+2020-03-15,Westlake,NA,NA
+2020-03-16,Westlake,NA,NA
+2020-03-17,Westlake,NA,NA
+2020-03-18,Westlake,NA,NA
+2020-03-19,Westlake,NA,NA
+2020-03-20,Westlake,NA,NA
+2020-03-21,Westlake,Westlake,1
+2020-03-22,Westlake,Westlake,1
+2020-03-23,Westlake,Westlake,1
+2020-03-24,Westlake,Westlake,1
+2020-03-25,Westlake,Westlake,1
+2020-03-26,Westlake,Westlake,1
+2020-03-27,Westlake,Los Angeles,1
+2020-03-10,Westlake Village,NA,NA
+2020-03-11,Westlake Village,NA,NA
+2020-03-12,Westlake Village,NA,NA
+2020-03-13,Westlake Village,NA,NA
+2020-03-14,Westlake Village,NA,NA
+2020-03-15,Westlake Village,NA,NA
+2020-03-16,Westlake Village,NA,NA
+2020-03-17,Westlake Village,NA,NA
+2020-03-18,Westlake Village,NA,NA
+2020-03-19,Westlake Village,NA,NA
+2020-03-20,Westlake Village,NA,NA
+2020-03-21,Westlake Village,NA,NA
+2020-03-22,Westlake Village,NA,NA
+2020-03-23,Westlake Village,NA,NA
+2020-03-24,Westlake Village,NA,NA
+2020-03-25,Westlake Village,NA,NA
+2020-03-26,Westlake Village,NA,NA
+2020-03-27,Westlake Village,City of Westlake Village,0
+2020-03-10,Westmont,NA,NA
+2020-03-11,Westmont,NA,NA
+2020-03-12,Westmont,NA,NA
+2020-03-13,Westmont,NA,NA
+2020-03-14,Westmont,NA,NA
+2020-03-15,Westmont,NA,NA
+2020-03-16,Westmont,NA,NA
+2020-03-17,Westmont,NA,NA
+2020-03-18,Westmont,NA,NA
+2020-03-19,Westmont,NA,NA
+2020-03-20,Westmont,NA,NA
+2020-03-21,Westmont,NA,NA
+2020-03-22,Westmont,NA,NA
+2020-03-23,Westmont,NA,NA
+2020-03-24,Westmont,NA,NA
+2020-03-25,Westmont,NA,NA
+2020-03-26,Westmont,NA,NA
+2020-03-27,Westmont,NA,NA
+2020-03-10,Westwood,NA,NA
+2020-03-11,Westwood,NA,NA
+2020-03-12,Westwood,NA,NA
+2020-03-13,Westwood,NA,NA
+2020-03-14,Westwood,NA,NA
+2020-03-15,Westwood,NA,NA
+2020-03-16,Westwood,NA,NA
+2020-03-17,Westwood,NA,NA
+2020-03-18,Westwood,NA,NA
+2020-03-19,Westwood,Westwood,2
+2020-03-20,Westwood,Westwood --,5
+2020-03-21,Westwood,Westwood,5
+2020-03-22,Westwood,Westwood,5
+2020-03-23,Westwood,Westwood,6
+2020-03-24,Westwood,Westwood,6
+2020-03-25,Westwood,Westwood,9
+2020-03-26,Westwood,Westwood,11
+2020-03-27,Westwood,Los Angeles,16
+2020-03-10,Whittier,NA,NA
+2020-03-11,Whittier,NA,NA
+2020-03-12,Whittier,NA,NA
+2020-03-13,Whittier,NA,NA
+2020-03-14,Whittier,NA,NA
+2020-03-15,Whittier,NA,NA
+2020-03-16,Whittier,NA,NA
+2020-03-17,Whittier,NA,NA
+2020-03-18,Whittier,NA,NA
+2020-03-19,Whittier,Whittier --,2
+2020-03-20,Whittier,Whittier --,2
+2020-03-21,Whittier,Whittier,2
+2020-03-22,Whittier,Whittier,2
+2020-03-23,Whittier,Whittier,2
+2020-03-24,Whittier,Whittier,3
+2020-03-25,Whittier,Whittier,3
+2020-03-26,Whittier,Whittier*,3
+2020-03-27,Whittier,City of Whittier,4
+2020-03-27,Whittier,Unincorporated,0
+2020-03-10,Whittier Narrows,NA,NA
+2020-03-11,Whittier Narrows,NA,NA
+2020-03-12,Whittier Narrows,NA,NA
+2020-03-13,Whittier Narrows,NA,NA
+2020-03-14,Whittier Narrows,NA,NA
+2020-03-15,Whittier Narrows,NA,NA
+2020-03-16,Whittier Narrows,NA,NA
+2020-03-17,Whittier Narrows,NA,NA
+2020-03-18,Whittier Narrows,NA,NA
+2020-03-19,Whittier Narrows,NA,NA
+2020-03-20,Whittier Narrows,NA,NA
+2020-03-21,Whittier Narrows,NA,NA
+2020-03-22,Whittier Narrows,NA,NA
+2020-03-23,Whittier Narrows,NA,NA
+2020-03-24,Whittier Narrows,NA,NA
+2020-03-25,Whittier Narrows,NA,NA
+2020-03-26,Whittier Narrows,NA,NA
+2020-03-27,Whittier Narrows,NA,NA
+2020-03-10,Willowbrook,NA,NA
+2020-03-11,Willowbrook,NA,NA
+2020-03-12,Willowbrook,NA,NA
+2020-03-13,Willowbrook,NA,NA
+2020-03-14,Willowbrook,NA,NA
+2020-03-15,Willowbrook,NA,NA
+2020-03-16,Willowbrook,NA,NA
+2020-03-17,Willowbrook,NA,NA
+2020-03-18,Willowbrook,NA,NA
+2020-03-19,Willowbrook,NA,NA
+2020-03-20,Willowbrook,NA,NA
+2020-03-21,Willowbrook,NA,NA
+2020-03-22,Willowbrook,NA,NA
+2020-03-23,Willowbrook,NA,NA
+2020-03-24,Willowbrook,Willowbrook,1
+2020-03-25,Willowbrook,Willowbrook,1
+2020-03-26,Willowbrook,Willowbrook*,1
+2020-03-27,Willowbrook,Unincorporated,1
+2020-03-10,Wilmington,NA,NA
+2020-03-11,Wilmington,NA,NA
+2020-03-12,Wilmington,NA,NA
+2020-03-13,Wilmington,NA,NA
+2020-03-14,Wilmington,NA,NA
+2020-03-15,Wilmington,NA,NA
+2020-03-16,Wilmington,NA,NA
+2020-03-17,Wilmington,NA,NA
+2020-03-18,Wilmington,NA,NA
+2020-03-19,Wilmington,NA,NA
+2020-03-20,Wilmington,NA,NA
+2020-03-21,Wilmington,NA,NA
+2020-03-22,Wilmington,Wilmington,1
+2020-03-23,Wilmington,Wilmington,3
+2020-03-24,Wilmington,Wilmington,4
+2020-03-25,Wilmington,Wilmington,4
+2020-03-26,Wilmington,Wilmington,5
+2020-03-27,Wilmington,Los Angeles,5
+2020-03-10,Windsor Square,NA,NA
+2020-03-11,Windsor Square,NA,NA
+2020-03-12,Windsor Square,NA,NA
+2020-03-13,Windsor Square,NA,NA
+2020-03-14,Windsor Square,NA,NA
+2020-03-15,Windsor Square,NA,NA
+2020-03-16,Windsor Square,NA,NA
+2020-03-17,Windsor Square,NA,NA
+2020-03-18,Windsor Square,NA,NA
+2020-03-19,Windsor Square,NA,NA
+2020-03-20,Windsor Square,NA,NA
+2020-03-21,Windsor Square,NA,NA
+2020-03-22,Windsor Square,NA,NA
+2020-03-23,Windsor Square,NA,NA
+2020-03-24,Windsor Square,NA,NA
+2020-03-25,Windsor Square,NA,NA
+2020-03-26,Windsor Square,NA,NA
+2020-03-27,Windsor Square,NA,NA
+2020-03-10,Winnetka,NA,NA
+2020-03-11,Winnetka,NA,NA
+2020-03-12,Winnetka,NA,NA
+2020-03-13,Winnetka,NA,NA
+2020-03-14,Winnetka,NA,NA
+2020-03-15,Winnetka,NA,NA
+2020-03-16,Winnetka,NA,NA
+2020-03-17,Winnetka,NA,NA
+2020-03-18,Winnetka,NA,NA
+2020-03-19,Winnetka,NA,NA
+2020-03-20,Winnetka,Winnetka --,1
+2020-03-21,Winnetka,Winnetka,1
+2020-03-22,Winnetka,Winnetka,1
+2020-03-23,Winnetka,Winnetka,1
+2020-03-24,Winnetka,Winnetka,2
+2020-03-25,Winnetka,Winnetka,3
+2020-03-26,Winnetka,Winnetka*,5
+2020-03-27,Winnetka,Los Angeles,3
+2020-03-10,Woodland Hills,NA,NA
+2020-03-11,Woodland Hills,NA,NA
+2020-03-12,Woodland Hills,NA,NA
+2020-03-13,Woodland Hills,NA,NA
+2020-03-14,Woodland Hills,NA,NA
+2020-03-15,Woodland Hills,NA,NA
+2020-03-16,Woodland Hills,NA,NA
+2020-03-17,Woodland Hills,Woodland Hills --,2
+2020-03-18,Woodland Hills,Los Angeles,3
+2020-03-19,Woodland Hills,Woodland Hills --,3
+2020-03-20,Woodland Hills,Woodland Hills,4
+2020-03-21,Woodland Hills,Woodland Hills,5
+2020-03-22,Woodland Hills,Woodland Hills,5
+2020-03-23,Woodland Hills,Woodland Hills,7
+2020-03-24,Woodland Hills,Woodland Hills,8
+2020-03-25,Woodland Hills,Woodland Hills,11
+2020-03-26,Woodland Hills,Woodland Hills,13
+2020-03-27,Woodland Hills,Los Angeles,14
