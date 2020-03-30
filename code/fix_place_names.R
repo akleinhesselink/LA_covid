@@ -1,6 +1,7 @@
 rm(list = ls() )
 library(tidyverse) 
 library(lubridate)
+library(sf)
 
 name_replacements <- c('PARK LABREA' = "PARK LA BREA", 
                        "^PICO$" = "PICO-UNION", 
@@ -13,23 +14,26 @@ cases_dat <-
   mutate( community = str_replace_all(community, pattern = name_replacements))
 
 # Process BASA Shapefile -------------------------------- #   
-BASA <- read_sf( 'data/BOS_Countywide_Statistical_Areas')
+BASA <- 
+  read_sf( 'data/BOS_Countywide_Statistical_Areas') %>% 
+  st_transform("+proj=longlat +datum=WGS84")
+
 
 BASA <- 
   BASA %>% 
   separate(LABEL, c('region', 'community'), sep = ' - ', fill = 'left', remove = F) %>% 
   mutate_at( .vars = c('region', 'community'), .fun = function(x) str_trim( str_to_upper (x))) %>% 
   mutate( region = ifelse(str_detect(community, '^CITY OF '), community, region)) %>% 
-  mutate_at( .vars = c('region', 'community'), .fun = function(x) str_remove(x, '^CITY OF '))
+  mutate_at( .vars = c('region', 'community'), .fun = function(x) str_remove(x, '^CITY OF ')) %>% 
+  select( OBJECTID, region, community, POPULATION)
 
-save( BASA , file = 'data/BASA_shapes.rda')
+save( BASA , file = 'data/temp/BASA_shapes.rda')
 # -------------------------------------------------------- # 
 
 BASA_names <- 
   BASA %>% 
   st_drop_geometry() %>% 
-  select(CITY_TYPE, LCITY, LABEL, region, community) %>% 
-  distinct() 
+  select(region, community) 
 
 communities_with_blank_regions <- 
   cases_dat %>% 

@@ -1,4 +1,4 @@
-rm(list = ls() )
+rm(list = ls())
 library(tidyverse)
 library(leaflet)
 library(sf)
@@ -10,90 +10,122 @@ library(plotly)
 ##############
 ##############
 
+load(file = 'app/data/case_data.rda')
 
 ##############
 ##############
 
-cases <- 
-  read_csv('data/temp/cases-update-2020-03-28.csv') %>%
-  filter(date>='2020-03-17')
+table_html <-
+  '<table style="width:100%%">
+<tr>
+<th><span style="float:left"> %s </span><br/></th>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>Reported cases</td>
+<td><span style="float:right"> %i </span><br/></td>
+</tr>
+<tr>
+<td>Population</td>
+<td><span style="float:right"> %i </span><br/></td>
+</tr>
+<tr>
+<td>Reported cases per thousand</td>
+<td><span style="float:right"> %.2f </span><br/></td>
+</tr>
+</table>'
 
-neighborhood_spatial <- 
-  read_sf('BOS_Countywide_Statistical_Areas') %>%
-  select(name) %>%
-  st_transform("+proj=longlat +datum=WGS84")
+LA_county_link <-
+  "http://www.publichealth.lacounty.gov/media/Coronavirus/"
+latest_update_link <-
+  "http://www.publichealth.lacounty.gov/phcommon/public/media/mediapubhpdetail.cfm?prid=2287"
 
-combined_df <- 
-  neighborhood_spatial %>%
-  left_join(cases)
 
-##############
-##############
+about <-
+'<!DOCTYPE html>
+<b>ABOUT:</b>
+<body style="width:70%%"><P>
+The figures and map display reported cases of the novel coronavirus COVID19 from Los Angeles County.  Click on a community on the map to display reported cases over time.<P>
+Numbers of reported cases are from the <a href="http://www.publichealth.lacounty.gov/media/Coronavirus/">Los Angeles Department of Public Health</a>.
+Cases are appearing daily, absence of reported cases does not imply there no cases. Case numbers are subject to change based on further investigations. 
+Code and data are availabla at <a href="https://github.com/akleinhesselink/LA_covid">https://github.com/akleinhesselink/LA_covid</a>. <P>
+Map and figures by Andy Kleinhesselink and Jane Li. 
+<P>
+Always check with trusted sources for the latest accurate information about novel coronavirus: 
+<ul><li>Los Angeles County Department of Public Health <a href="http://publichealth.lacounty.gov/media/Coronavirus/"> http://publichealth.lacounty.gov/media/Coronavirus/</a>  
+<li>California Department of Public Health <a   href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx">https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx </a>  
+<li>Centers for Disease Control and Prevention (CDC) <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">https://www.cdc.gov/coronavirus/2019-ncov/index.html</a>  
+Spanish<a href=" https://www.cdc.gov/coronavirus/2019-ncov/index-sp.html">  https://www.cdc.gov/coronavirus/2019-ncov/index-sp.html </a>   
+<li>World Health Organization <a href="https://www.who.int/health-topics/coronavirus">https://www.who.int/health-topics/coronavirus</a>
+<li>LA County residents can also call 2-1-1  </ul> 
+<P><br>
+<center>#####</center><br>
+</td>
+</body>
+</html>'
+
+
+latest_update <- max( basic_stats$date )
+first_date <- min(basic_stats$date)
+
+main_title <- "Reported COVID-19 Cases in Los Angeles County"
+subtitle <- paste( "Updated on", latest_update )
+county_title <- "Total Cases Los Angeles County"
+community_title <- "Cases in selected community (click on map)"
+
+x_title <- "Date"
+y_title <- "Cases"
+
+x_range <- c(as.character(first_date - 1), as.character(latest_update + 1 ))
+
+map_legend_title <- "Number of Cases"
+
+rc2 <- colorRampPalette(colors = c("white", "red"), space = "Lab")(180)
+pal <-colorNumeric(palette = rc2, domain = map_data$Cases)
+
 ui <- fluidPage(
-  titlePanel("COVID-19 Los Angeles"),
-  fluidRow(column(width = 4, wellPanel(selectInput(inputId = "Date",
-                                                   label = "select a date:",
-                                                   choices =sort(unique(combined_df$date), decreasing = TRUE)),
-                                       h4("Overall Trend in LA County"),
-                                       plotlyOutput("timeseries", height="225px"),
-                                       h4("Past Trend in selected area"),
-                                       plotlyOutput("specific_nbg", height="225px"))),
-           column(width = 8, wellPanel(leafletOutput("map",  width="100%",height="600px")))))
-
+  titlePanel(h2(main_title)),
+  titlePanel(h4(subtitle)),
+  fluidRow(column(width = 4, wellPanel(h4(county_title),
+                                       plotlyOutput("timeseries", height="255px"),
+                                       h4( sprintf(community_title)),
+                                       plotlyOutput("specific_nbg", height="255px"))),
+           column(width = 8, wellPanel(leafletOutput("map",  width="100%",height="600px")))),
+  fluidRow(column(width = 12, wellPanel(htmlOutput("about_text")))))
 
 ##############
 ##############
 
 server <- function(input, output) {
   
+  output$about_text <- renderText({ about })
+  
+  
   output$map <- renderLeaflet({
     
-    filter_df<- combined_df %>% filter(date==max(date))
-    pal <-colorNumeric(palette = "YlOrRd", filter_df$cases,na.color = "White")
-    labels <- sprintf( "<strong>%s:</strong><br/>%g cases",filter_df$name, filter_df$cases) %>% lapply(htmltools::HTML)
+    labels <- sprintf( table_html, 
+                       map_data$label, 
+                       as.integer(map_data$Cases), 
+                       as.integer(map_data$Population), 
+                       as.numeric(map_data$`Cases per thousand`)) %>% lapply(htmltools::HTML)
     
-    
-    filter_df%>%
-      leaflet() %>%
+    map_data %>%
+      leaflet() %>% 
+      setView(-118.25, 34.2, zoom = 9) %>% 
       addProviderTiles(providers$CartoDB.Positron) %>%
-      addPolygons(color = "black",weight=1,dashArray = 3, fillColor = ~pal(cases), fillOpacity = 0.8,
-                highlight = highlightOptions( fillColor = "Cyan",fillOpacity = 0.8,bringToFront = TRUE),
-                layerId = ~name,
+      addPolygons(color = "black", weight=1, dashArray = 3, fillColor = ~pal(Cases), fillOpacity = 0.5,
+                highlight = highlightOptions(fillColor = "Cyan", fillOpacity = 0.8, bringToFront = TRUE),
+                layerId = ~label,
                 label = labels, 
-                labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),textsize = "15px",direction = "auto")) %>%
-      addLegend(position = "bottomright", pal = pal, values = filter_df$cases, title = "Number of cases", opacity = 0.8) 
+                labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"), textsize = "15px",direction = "auto")) %>%
+      addLegend(position = "bottomleft", pal = pal, values = map_data$Cases, title = map_legend_title, opacity = 0.8) 
   })
   
-  
-  observeEvent(input$Date,{
-    
-    filteredData <-  
-      combined_df %>%
-      filter(date==input$Date)
-    
-    pal <-colorNumeric(palette = "YlOrRd", filteredData$cases, na.color = "White")
-    labels <- sprintf( "<strong>%s:</strong><br/>%g cases",filteredData$name, filteredData$cases) %>% lapply(htmltools::HTML)
-    
-    leafletProxy("map", data = filteredData) %>% 
-      clearShapes() %>%
-      clearControls() %>%
-      addPolygons( color = "black",smoothFactor = 0.3,weight=1,dashArray = 3, fillColor = ~pal(cases), fillOpacity = 0.8,
-        highlight = highlightOptions( fillColor = "Cyan",fillOpacity = 0.8,weight = 2, bringToFront = TRUE),
-        layerId = ~name,
-        label = labels, 
-        labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),textsize = "15px",direction = "auto")) %>%
-      addLegend(position = "bottomleft", pal = pal, 
-                values = ~cases, title = paste0("Number of cases<br> on ", input$Date), opacity = 0.8) %>%
-      clearPopups()
-  })
-  
+  # LA County Total  
   output$timeseries <- renderPlotly({
-    combined_df %>%
-      st_set_geometry(NULL) %>%
-      group_by(date) %>%
-      summarise(total_case=sum(na.omit(cases))) %>%
-      ungroup() %>%
-      plot_ly(x = ~date, y=~total_case, type='scatter', mode = 'lines+markers',
+    la_county %>%
+      plot_ly(x = ~date, y=~total_cases, type='scatter', mode = 'lines+markers',
               text = ~date,
               hovertemplate = paste(
                 "<b>%{text}</b><br><br>",
@@ -101,32 +133,28 @@ server <- function(input, output) {
                 "<extra></extra>"),
               marker = list(size = 12,color="red"),
               line = list(shape = "linear", dash = "dot", width = 3, color= "red")) %>%
-      layout(xaxis = list(title = 'date',showgrid = FALSE, autotick = F),
-             yaxis = list(title = 'Total Cases',showgrid = FALSE))
+      layout(xaxis = list(title = x_title, showgrid = FALSE, autotick = F, range = x_range),
+             yaxis = list(title = y_title,showgrid = FALSE))
   })
-  
-  
-  
-  
   
   id <-  eventReactive(input$map_shape_click, { 
     input$map_shape_click$id
   })
   
+  # Community Plot 
   output$specific_nbg <- renderPlotly({
-    
-    combined_df %>%
-      filter(name==id()) %>%
-      st_set_geometry(NULL) %>%
-      plot_ly(x = ~date, y=~cases, type='scatter', mode = 'lines+markers',
+    basic_stats %>%
+      filter(label==id()) %>%
+      plot_ly(x = ~date, y=~Cases, type='scatter', mode = 'lines+markers',
               marker = list(size = 12,color="red"),
               line = list(shape = "linear", dash = "dot", width = 3, color= "red")) %>%
-      layout(xaxis = list(title = 'date',showgrid = FALSE, autotick = F),
-             yaxis = list(title = 'Total Cases',showgrid = FALSE))
+      layout(
+        title = list(text=id(), x=0.1, y=0.9, xref="paper", yref='paper'),
+        xaxis = list(title = x_title, showgrid = FALSE, autotick = F, range = x_range ),
+        yaxis = list(title = y_title, showgrid = FALSE,  rangemode = "tozero"))
   })
-  
-  
   }
+
 
 shinyApp(ui = ui, server = server)
 
