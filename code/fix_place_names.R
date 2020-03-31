@@ -14,9 +14,10 @@ load('data/temp/BASA_shapes.rda')
 
 scraped_data <- dir('data/temp', pattern = 'raw-data-scraped-.*.csv', full.names = T)
 
+most_recent_scrape <- scraped_data[ which.max( file.mtime(scraped_data) ) ] 
+
 cases_dat <- 
-  lapply(scraped_data, read_csv) %>% 
-  bind_rows() %>% 
+  read_csv(most_recent_scrape) %>% 
   mutate( community = str_replace_all(community, pattern = name_replacements))
 
 BASA_names <- 

@@ -5,22 +5,14 @@ library(httr)
 library(rvest)
 library(lubridate)
 
-# This processes the data between 2020-03-17 and 2020-03-28.  
-# After 2020-03-29 LA Co. Public Health changed output style. 
-# Use New scraper for those
-
-last_date <- '2020-03-28'
 updates <- dir( 'data/update_archive', '*.html', full.names = T)
 
 cases_dat <- list() 
 
-posting_dates <- lapply( updates, function(x) ymd( str_extract( x, '2020[0-9 -]+' )))
+# Format inconsistent for first 8 updates, 
+# Bespoke scraping -------------------------------- # 
 
-updates <- 
-  updates[ unlist( lapply( posting_dates, function(x)  x <= last_date )) ]  # filter out updates after 2020-03-28
-
-# updates 1 use below: 
-
+# update 1 : 
 cases_dat[[1]] <- 
   read_html(updates[1]) %>% 
   html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[4]/li" ) %>% 
@@ -60,7 +52,7 @@ for( i in 6:7 ) {
     separate(cases, c('community', 'cases'), sep = '\\t')
 }
 
-# update 8  ------------ # 
+# update 8  
 cases_dat[[8]] <- 
   read_html(updates[8]) %>%
   html_nodes(xpath ="//body//table[2]//td//ul[5]//li") %>%
@@ -69,8 +61,8 @@ cases_dat[[8]] <-
   filter( !str_detect(cases , 'Investigat')) %>% 
   separate(cases, c('community', 'cases'), sep = '\\t')
 
-# updates 9 - current --------- # 
-
+# updates 9 - most recent --------- # 
+# These appear to be released consistently so far. 
 
 for(i in 9:length(updates)){ 
     cases_dat[[i]] <- 
@@ -79,9 +71,11 @@ for(i in 9:length(updates)){
       html_text() %>% 
       data.frame( cases = . ) %>% 
       filter( !str_detect(cases , 'Investigat')) %>% 
-      separate(cases, c('community', 'cases'), sep = '\\t') 
+      separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 }
 
+
+# Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
 LA_LBC_PASADENA_cases[[1]] <- 
   read_html(updates[1]) %>%
@@ -89,8 +83,9 @@ LA_LBC_PASADENA_cases[[1]] <-
   html_text()  %>% 
   data.frame( cases = . ) %>%
   separate(cases, c('community', 'cases'), sep = '--') %>% 
-  mutate_all( .fun = function(x) str_trim(str_to_upper(x))) %>% 
+  mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
   mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+
 
 for( i in 2:length(updates)){ 
   LA_LBC_PASADENA_cases[[i]] <- 
@@ -99,16 +94,31 @@ for( i in 2:length(updates)){
     html_text() %>%
     data.frame( cases = . ) %>%
     separate(cases, c('community', 'cases'), sep = '--') %>% 
-    mutate_all( .fun = function(x) str_trim(str_to_upper(x))) %>% 
+    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
 
+# ---------- Get dates ---------------------- # 
+release_date <- NA
+for( i in 1:length(updates)){ 
+  
+  release_date[i] <- 
+    updates[i] %>% 
+    read_html() %>% 
+    html_node(xpath = "//html/body/table[1]") %>% 
+    html_text() %>% 
+    str_squish(.) %>% 
+    str_extract(., '(?<=For Immediate Release).*(?=For more)') %>% 
+    lubridate::mdy( . ) %>% 
+    as.character()
+}
 
+# ---------- Combine ---------------------- # 
 
 for( i in 1:length(cases_dat)){ 
   
-  cases_dat[[i]]$date <- posting_dates[[i]]
-  LA_LBC_PASADENA_cases[[i]]$date <- posting_dates[[i]]
+  cases_dat[[i]]$date <- release_date[i]
+  LA_LBC_PASADENA_cases[[i]]$date <- release_date[i]
   
   cases_dat[[i]] <- 
     cases_dat[[i]] %>% 
@@ -121,15 +131,14 @@ for( i in 1:length(cases_dat)){
   
 }
 
-
 do.call( bind_rows, cases_dat  ) %>% 
   mutate( community = ifelse( str_detect(community, '<'), 'OTHER', community)) %>% 
   arrange( community, date ) %>% 
   filter( !community == '')  %>% 
   filter( !community %in% c('LONG BEACH', 'PASADENA', 'OTHER')) %>% 
-  mutate( date = ymd(date)) %>% 
   bind_rows( 
     do.call(bind_rows, LA_LBC_PASADENA_cases) %>% 
-      mutate( region = community)) %>% 
-  write_csv(paste0( 'data/temp/raw-data-scraped-', last_date, '.csv'))
+      mutate( region = community)) %>%
+  mutate( date = ymd(date)) %>%
+  write_csv(paste0( 'data/temp/raw-data-scraped-', max(release_date), '.csv'))
 

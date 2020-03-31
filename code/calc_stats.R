@@ -4,18 +4,15 @@ library(lubridate)
 library(sf)
 library(zoo)
 
-processed_data_files <- dir('data/temp', pattern = 'processed-cases-update-2.*.csv$', full.names = T)
+processed_data_files <- 
+  dir('data/temp', pattern = 'processed-cases-update-2.*.csv$', 
+      full.names = T)
 
-latest_update_file <- 
-  data.frame( file = processed_data_files ) %>% 
-  mutate( date = ymd( str_extract(processed_data_files, '[0-9]+-[0-9]+-[0-9]+'))) %>%
-  arrange(desc(date)) %>% 
-  head( 1 ) %>% 
-  .$file %>% as.character()
+latest_update <- processed_data_files[ which.max( file.mtime(processed_data_files) ) ] 
 
 load('data/temp/BASA_shapes.rda')
 
-cases <- read_csv(latest_update_file)
+cases <- read_csv(latest_update)
 
 la_county <- 
   cases  %>% 
@@ -23,6 +20,11 @@ la_county <-
   group_by( date ) %>%
   summarise( total_cases = sum(cases) ) %>% 
   mutate( region = 'LOS ANGELES COUNTY')
+
+
+cases %>% 
+  filter( date > '2020-03-27') %>% 
+  filter(community %in% c('LOS ANGELES COUNTY (EXCL. LB AND PAS)', 'PASADENA', 'LONG BEACH') )
 
 basic_stats <- 
   expand.grid( date = seq.Date( min(cases$date), max(cases$date), by = 1 ), OBJECTID = BASA$OBJECTID ) %>% 

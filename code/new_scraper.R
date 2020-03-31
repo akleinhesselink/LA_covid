@@ -5,13 +5,17 @@ library(httr)
 library(rvest)
 library(lubridate)
 
-todays_date <- lubridate::today()
-update_filename <- paste0( 'data/update_archive/update-', todays_date, '.html')
+NEW_20_03_30_URL <- "http://www.publichealth.lacounty.gov/phcommon/public/media/mediapubhpdetail.cfm?prid=2289"
 
-base_URL <- "http://www.publichealth.lacounty.gov/media/Coronavirus/locations.htm"
 
-output_file <- paste0( 'data/temp/raw-data-scraped-', todays_date, '.csv')
+update_file <- dir('data/update_archive/', pattern = "update.*.html", full.names = T)
+update_date <- update_files %>% lubridate::ymd(.)
 
+update_records <- data.frame( update_date, update_file )
+
+for( i in 1:nrow(update_records)){ 
+  
+  
 if( !file.exists( update_filename)){ 
   download_html(base_URL, update_filename)
 }

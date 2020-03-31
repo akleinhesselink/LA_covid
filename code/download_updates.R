@@ -6,7 +6,9 @@ library(httr)
 library(rvest)
 library(lubridate)
 
+update_archive_path <- 'data/update_archive'
 media_url <- "http://www.publichealth.lacounty.gov/media/Coronavirus/"
+update_files <- dir(update_archive_path, pattern = 'update.*.html', full.names = T)
 update_table_file <- 'data/update_table.csv'
 
 update_urls <- 
@@ -30,28 +32,19 @@ update_table <-
   filter( complete.cases(. )) %>% 
   mutate( date = mdy( date )) %>% 
   filter( date > "2020-03-16") %>% 
-  filter( date <= "2020-03-28") %>%
-  mutate( url = as.character( url ))
+  #filter( date <= "2020-03-28") %>%
+  mutate( url = as.character( url )) %>% 
+  mutate( update_file_name = paste0( 'update-', date, '-', str_extract(url, 'prid=\\d+'), '.html'))
 
-if (file.exists(update_table_file)){ 
-  old_table <- read_csv( update_table_file )
-  new_updates <- dplyr::setdiff(old_table, update_table)
+for( i in 1:nrow( update_table)){ 
   
-  bind_rows(new_updates, 
-            old_table) %>% 
-    write_csv(update_table_file)
-}else{ 
-  update_table %>% 
-    write_csv(update_table_file)
-}
-
-for( i in 1:nrow(update_table)){ 
-  update_fname <- paste0( 'data/update_archive/', 'update', '-', update_table$date[i], '.html')
-  
-  if( !file.exists(update_fname) ){
-    download_html(update_table$url[i], update_fname) 
+  if( !file.exists(file.path(update_archive_path, update_table$update_file_name[i])) ){ 
+    
+    download_html(url = update_table$url[i], 
+                  file = file.path(update_archive_path, update_table$update_file_name[i]))
+    
+  }else{ 
+    print(sprintf("Already Downloaded %s", 
+                  file.path(update_archive_path, update_table$update_file_name[i] ) ))
   }
 }
-
-
-
