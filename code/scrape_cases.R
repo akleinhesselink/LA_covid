@@ -5,11 +5,19 @@ library(httr)
 library(rvest)
 library(lubridate)
 
+# This processes the data between 2020-03-17 and 2020-03-28.  
+# After 2020-03-29 LA Co. Public Health changed output style. 
+# Use New scraper for those
+
+last_date <- '2020-03-28'
 updates <- dir( 'data/update_archive', '*.html', full.names = T)
 
 cases_dat <- list() 
 
 posting_dates <- lapply( updates, function(x) ymd( str_extract( x, '2020[0-9 -]+' )))
+
+updates <- 
+  updates[ unlist( lapply( posting_dates, function(x)  x <= last_date )) ]  # filter out updates after 2020-03-28
 
 # updates 1 use below: 
 
@@ -62,6 +70,8 @@ cases_dat[[8]] <-
   separate(cases, c('community', 'cases'), sep = '\\t')
 
 # updates 9 - current --------- # 
+
+
 for(i in 9:length(updates)){ 
     cases_dat[[i]] <- 
       read_html(updates[i]) %>%
@@ -93,6 +103,8 @@ for( i in 2:length(updates)){
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
 
+
+
 for( i in 1:length(cases_dat)){ 
   
   cases_dat[[i]]$date <- posting_dates[[i]]
@@ -109,6 +121,7 @@ for( i in 1:length(cases_dat)){
   
 }
 
+
 do.call( bind_rows, cases_dat  ) %>% 
   mutate( community = ifelse( str_detect(community, '<'), 'OTHER', community)) %>% 
   arrange( community, date ) %>% 
@@ -118,5 +131,5 @@ do.call( bind_rows, cases_dat  ) %>%
   bind_rows( 
     do.call(bind_rows, LA_LBC_PASADENA_cases) %>% 
       mutate( region = community)) %>% 
-  write_csv('data/temp/first_scrape.csv')
+  write_csv(paste0( 'data/temp/raw-data-scraped-', last_date, '.csv'))
 

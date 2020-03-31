@@ -1,4 +1,5 @@
-rm(list = ls() )
+rm(list = ls())
+
 library(tidyverse) 
 library(lubridate)
 library(sf)
@@ -9,26 +10,14 @@ name_replacements <- c('PARK LABREA' = "PARK LA BREA",
                        "^ATHENS$" = "ATHENS-WESTMONT", 
                        "^FLORENCE$" = "FLORENCE-FIRESTONE")
 
+load('data/temp/BASA_shapes.rda')
+
+scraped_data <- dir('data/temp', pattern = 'raw-data-scraped-.*.csv', full.names = T)
+
 cases_dat <- 
-  read_csv('data/temp/first_scrape.csv') %>% 
+  lapply(scraped_data, read_csv) %>% 
+  bind_rows() %>% 
   mutate( community = str_replace_all(community, pattern = name_replacements))
-
-# Process BASA Shapefile -------------------------------- #   
-BASA <- 
-  read_sf( 'data/BOS_Countywide_Statistical_Areas') %>% 
-  st_transform("+proj=longlat +datum=WGS84")
-
-
-BASA <- 
-  BASA %>% 
-  separate(LABEL, c('region', 'community'), sep = ' - ', fill = 'left', remove = F) %>% 
-  mutate_at( .vars = c('region', 'community'), .fun = function(x) str_trim( str_to_upper (x))) %>% 
-  mutate( region = ifelse(str_detect(community, '^CITY OF '), community, region)) %>% 
-  mutate_at( .vars = c('region', 'community'), .fun = function(x) str_remove(x, '^CITY OF ')) %>% 
-  select( OBJECTID, region, community, POPULATION)
-
-save( BASA , file = 'data/temp/BASA_shapes.rda')
-# -------------------------------------------------------- # 
 
 BASA_names <- 
   BASA %>% 
@@ -83,5 +72,5 @@ cases_dat <-
 latest_date <- max( cases_dat$date )
 
 write_csv( cases_dat, 
-           path = paste0( 'data/temp/cases-update-', latest_date, '.csv'))
+           path = paste0( 'data/temp/processed-cases-update-', latest_date, '.csv'))
 
