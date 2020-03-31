@@ -170,7 +170,8 @@ server <- function(input, output) {
               marker = list(size = 12,color="red"),
               line = list(shape = "linear", dash = "dot", width = 3, color= "red")) %>%
       layout(xaxis = list(title = x_title, showgrid = FALSE, autotick = F, range = x_range),
-             yaxis = list(title = y_title,showgrid = FALSE))
+             yaxis = list(title = y_title,showgrid = FALSE)) %>%
+      config(displayModeBar = F) 
   })
   
   id <-  eventReactive(input$map_shape_click, { 
@@ -186,12 +187,18 @@ server <- function(input, output) {
       basic_stats %>%
         filter(label==id()) %>%
         plot_ly(x = ~date, y=~Cases, type='scatter', mode = 'lines+markers',
+                text = ~date,
+                hovertemplate = paste(
+                  "<b>%{text}</b><br><br>",
+                  "%{yaxis.title.text}: %{y:.0f}<br>",
+                  "<extra></extra>"),
                 marker = list(size = 12,color="red"),
                 line = list(shape = "linear", dash = "dot", width = 3, color= "red")) %>%
         layout(
           title = list(text=id(), x=0.1, y=0.9, xref="paper", yref='paper'),
           xaxis = list(title = x_title, showgrid = FALSE, autotick = F, range = x_range ),
-          yaxis = list(title = y_title, showgrid = FALSE,  rangemode = "tozero"))
+          yaxis = list(title = y_title, showgrid = FALSE,  rangemode = "tozero")) %>% 
+      config(displayModeBar = F) 
     }else{
       empty_plot(sprintf("There are no data for %s", id()))}
     })
