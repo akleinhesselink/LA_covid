@@ -2,7 +2,6 @@ rm(list = ls() )
 library(tidyverse) 
 library(lubridate)
 library(sf)
-library(zoo)
 
 processed_data_files <- 
   dir('data/temp', pattern = 'processed-cases-update-2.*.csv$', 
