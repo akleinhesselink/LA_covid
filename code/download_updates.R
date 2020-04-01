@@ -9,7 +9,6 @@ library(lubridate)
 update_archive_path <- 'data/update_archive'
 media_url <- "http://www.publichealth.lacounty.gov/media/Coronavirus/"
 update_files <- dir(update_archive_path, pattern = 'update.*.html', full.names = T)
-update_table_file <- 'data/update_table.csv'
 
 update_urls <- 
   read_html(media_url) %>% 
@@ -35,6 +34,7 @@ update_table <-
   #filter( date <= "2020-03-28") %>%
   mutate( url = as.character( url )) %>% 
   mutate( update_file_name = paste0( 'update-', date, '-', str_extract(url, 'prid=\\d+'), '.html'))
+
 
 for( i in 1:nrow( update_table)){ 
   

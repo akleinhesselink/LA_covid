@@ -139,6 +139,6 @@ do.call( bind_rows, cases_dat  ) %>%
   bind_rows( 
     do.call(bind_rows, LA_LBC_PASADENA_cases) %>% 
       mutate( region = community)) %>%
-  mutate( date = ymd(date)) %>%
+  mutate( date = ymd(date)) %>% 
   write_csv(paste0( 'data/temp/raw-data-scraped-', max(release_date), '.csv'))
 
