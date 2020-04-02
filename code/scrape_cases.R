@@ -12,17 +12,24 @@ cases_dat <- list()
 # Format inconsistent for first 8 updates, 
 # Bespoke scraping -------------------------------- # 
 
-# update 1 : 
-cases_dat[[1]] <- 
-  read_html(updates[1]) %>% 
-  html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[4]/li" ) %>% 
-  html_text() %>% 
-  data.frame( cases = . ) %>% 
-  filter( !str_detect(cases , 'Investigat')) %>% 
-  separate(cases, c('community', 'cases'), sep = '--') 
+# filter out other updates: 
+skip <- c('2269')
 
-# updates 2-4: 
-for( i in 2:4 ) { 
+updates <- updates[ -which( str_extract(updates, '(?<=prid=)\\d+') %in% skip) ] 
+
+# update 1 and 2: 
+for ( i in 1:2 ) { 
+  cases_dat[[i]] <- 
+    read_html(updates[i]) %>% 
+    html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[4]/li" ) %>% 
+    html_text() %>% 
+    data.frame( cases = . ) %>% 
+    filter( !str_detect(cases , 'Investigat')) %>% 
+    separate(cases, c('community', 'cases'), sep = '--') 
+}
+
+# updates 3-5: 
+for( i in 3:5 ) { 
   cases_dat[[i]] <- 
     read_html(updates[i]) %>% 
     html_nodes( xpath ="//body/table[2]/tr[2]/td/ul[3]/li" ) %>% 
@@ -32,17 +39,17 @@ for( i in 2:4 ) {
     separate(cases, c('community', 'cases'), sep = '--') 
 }
 
-# update 5 
-cases_dat[[5]] <- 
-  read_html(updates[5]) %>% 
+# update 6 
+cases_dat[[6]] <- 
+  read_html(updates[6]) %>% 
   html_nodes( xpath ="//body/table[2]/tr[2]/td/li" ) %>% 
   html_text() %>% 
   data.frame( cases = . ) %>% 
   filter( !str_detect(cases , 'Investigat')) %>% 
   separate(cases, c('community', 'cases'), sep = '\\t') 
 
-# updates 6 - 7 current use below: 
-for( i in 6:7 ) { 
+# updates 7 - 8 current use below: 
+for( i in 7:8 ) { 
   cases_dat[[i]] <- 
     read_html(updates[i]) %>%
     html_nodes(xpath ="//body//table[2]//td//ul[6]//li") %>%
@@ -52,19 +59,19 @@ for( i in 6:7 ) {
     separate(cases, c('community', 'cases'), sep = '\\t')
 }
 
-# update 8  
-cases_dat[[8]] <- 
-  read_html(updates[8]) %>%
+# update 9  
+cases_dat[[9]] <- 
+  read_html(updates[9]) %>%
   html_nodes(xpath ="//body//table[2]//td//ul[5]//li") %>%
   html_text() %>% 
   data.frame( cases = . ) %>% 
   filter( !str_detect(cases , 'Investigat')) %>% 
   separate(cases, c('community', 'cases'), sep = '\\t')
 
-# updates 9 - most recent --------- # 
+# updates 10 - most recent --------- # 
 # These appear to be released consistently so far. 
 
-for(i in 9:length(updates)){ 
+for(i in 10:length(updates)){ 
     cases_dat[[i]] <- 
       read_html(updates[i]) %>%
       html_nodes(xpath ="//body//table[2]//td//ul[6]//li") %>%
@@ -77,17 +84,19 @@ for(i in 9:length(updates)){
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
-LA_LBC_PASADENA_cases[[1]] <- 
-  read_html(updates[1]) %>%
-  html_nodes(xpath ="//body//table[2]//td//ul[3]//li")  %>% 
-  html_text()  %>% 
-  data.frame( cases = . ) %>%
-  separate(cases, c('community', 'cases'), sep = '--') %>% 
-  mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
-  mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 
+for( i in 1:2){ 
+  LA_LBC_PASADENA_cases[[i]] <- 
+    read_html(updates[i]) %>%
+    html_nodes(xpath ="//body//table[2]//td//ul[3]//li")  %>% 
+    html_text()  %>% 
+    data.frame( cases = . ) %>%
+    separate(cases, c('community', 'cases'), sep = '--') %>% 
+    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
+    mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+}
 
-for( i in 2:length(updates)){ 
+for( i in 3:length(updates)){ 
   LA_LBC_PASADENA_cases[[i]] <- 
     read_html(updates[i]) %>%
     html_nodes(xpath ="//body//table[2]//td//ul[2]//li") %>%

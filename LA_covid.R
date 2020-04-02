@@ -2,7 +2,9 @@
 
 rm(list = ls())
 
-source('code/process_BASA_shapes.R')
+#source('code/process_BASA_shapes.R')
+
+# Run updates -
 source('code/download_updates.R')
 source('code/scrape_cases.R')  # for showing old data sources 
 source('code/fix_place_names.R')

@@ -30,7 +30,7 @@ update_table <-
   data.frame( date = update_dates, url = update_urls) %>% 
   filter( complete.cases(. )) %>% 
   mutate( date = mdy( date )) %>% 
-  filter( date > "2020-03-16") %>% 
+  filter( date > "2020-03-15") %>% 
   #filter( date <= "2020-03-28") %>%
   mutate( url = as.character( url )) %>% 
   mutate( update_file_name = paste0( 'update-', date, '-', str_extract(url, 'prid=\\d+'), '.html'))
