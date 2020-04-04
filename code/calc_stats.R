@@ -36,7 +36,7 @@ most_recent_update <- max( cases$date  )
 
 basic_stats <- 
   basic_stats %>% 
-  mutate( label = ifelse( region == "UNINCORPORATED", paste( community, "Unincorporated", sep = '--\n'), community) ) %>% 
+  mutate( label = ifelse( region == "UNINCORPORATED", paste( community, "Unincorporated", sep = ' --\n'), community) ) %>% 
   mutate( label = str_to_title(label)) %>% 
   rename( "Cases" = cases, 
           `Cases per thousand` = cases_per_1k, 
@@ -52,7 +52,6 @@ map_data <-
 # basic_stats <-
 #   basic_stats %>%
 #   filter( !is.na(Cases)) # filter out rows with NA's for timeseries figures
-
 
 save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
 

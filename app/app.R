@@ -50,8 +50,8 @@ table_html <-
 <td><span style="float:right"> %i </span><br/></td>
 </tr>
 <tr>
-<td>Reported cases per thousand</td>
-<td><span style="float:right"> %.2f </span><br/></td>
+<td>Cases per thousand</td>
+<td><span style="float:right;padding:0px 0px 0px 10px"> %.2f </span><br/></td>
 </tr>
 </table>'
 
@@ -101,11 +101,15 @@ y_title <- "Cases"
 
 x_range <- c(as.character(first_date - 1), as.character(latest_update + 1 ))
 
+library(classInt)
+my_breaks <- classInt::classIntervals(map_data$`Cases per thousand`, style = 'jenks')$brks
+my_breaks <- c( 0, 0.01, round( my_breaks, 1)[-1] ) 
 
-rc2 <- colorRampPalette(colors = c("white", "red"), space = "Lab")(180)
-pal_cases_per_thousand <-colorNumeric(palette = rc2, domain = map_data$`Cases per thousand`, na.color = 'lightgrey')
+rc2 <- colorRampPalette(colors = c("white", "red"), space = "Lab")(length(my_breaks))
+
+pal_cases_per_thousand <-colorBin(palette=rc2, domain = map_data$`Cases per thousand`, bins = my_breaks,  na.color = 'lightgrey')
+
 pal_cases <-colorNumeric(palette = rc2, domain = map_data$Cases, na.color = 'lightgrey')
-
 
 ## --------------------------------------- # 
 
@@ -127,7 +131,6 @@ server <- function(input, output) {
   
   output$about_text <- renderText({ about })
   
-  
   output$map <- renderLeaflet({
     
     labels <- sprintf( table_html, 
@@ -145,17 +148,10 @@ server <- function(input, output) {
                  group = "Cases per thousand",
                  layerId = ~label,
                  label = labels, 
-                 labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"), textsize = "15px",direction = "auto")) %>%
+                 labelOptions = labelOptions(style = list("font-weight" = "normal", "padding" = "5px 10px"), textsize = "15px", direction = "auto")) %>%
       addLegend(position = "bottomleft", 
                 pal = pal_cases_per_thousand, 
                 na.label = "No Data", values = map_data$`Cases per thousand`, title = map_legend_title, opacity = 0.8) 
-      #  addPolygons(color = "black", weight=1, dashArray = 3, fillColor = ~pal_cases(Cases), fillOpacity = 0.5,
-      #              highlight = highlightOptions(fillColor = "Cyan", fillOpacity = 0.8, bringToFront = TRUE),
-      #              group = "Cases",
-      #              label = labels,
-      #              labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"), textsize = "15px",direction = "auto"))%>%
-      # addLayersControl(baseGroups = c("Cases per thousand", "Cases"), options = layersControlOptions(collapsed = FALSE))
-    
   })
   
   # LA County Total  

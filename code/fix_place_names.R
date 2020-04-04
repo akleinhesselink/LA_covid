@@ -8,7 +8,8 @@ name_replacements <- c('PARK LABREA' = "PARK LA BREA",
                        "^PICO$" = "PICO-UNION", 
                        "^TEMPLE$" = "TEMPLE-BEAUDRY", 
                        "^ATHENS$" = "ATHENS-WESTMONT", 
-                       "^FLORENCE$" = "FLORENCE-FIRESTONE")
+                       "^FLORENCE$" = "FLORENCE-FIRESTONE", 
+                       "^SANTA CLARITA AND STEVENSON RANCH"  = "SANTA CLARITA")
 
 load('data/temp/BASA_shapes.rda')
 
