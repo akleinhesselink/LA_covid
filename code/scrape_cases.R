@@ -71,7 +71,7 @@ cases_dat[[9]] <-
 # updates 10 - most recent --------- # 
 # These appear to be released consistently so far. 
 
-for(i in 10:length(updates)){ 
+for(i in 10:19){ 
     cases_dat[[i]] <- 
       read_html(updates[i]) %>%
       html_nodes(xpath ="//body//table[2]//td//ul[6]//li") %>%
@@ -80,6 +80,15 @@ for(i in 10:length(updates)){
       filter( !str_detect(cases , 'Investigat')) %>% 
       separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 }
+
+#update 20 on 4-04-20
+cases_dat[[20]] <- 
+  read_html(updates[20]) %>% 
+  html_nodes(xpath = "//body//table[2]//td//ul[7]//li") %>%   
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
