@@ -90,6 +90,13 @@ cases_dat[[20]] <-
   filter( !str_detect(cases , 'Investigat')) %>% 
   separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 
+cases_dat[[21]] <- 
+  read_html(updates[21]) %>% 
+  html_nodes(xpath = "//body//table[2]//td//ul[7]//li") %>%   
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
