@@ -95,10 +95,17 @@ for( i in 20:22){
 }
 
 # started releasing demographic 2020-04-07 data so need to update scraper again: 
-
 cases_dat[[23]] <- 
   read_html(updates[23]) %>% 
   html_nodes(xpath = "//body//table[2]//td//ul[9]//li") %>%   
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
+
+cases_dat[[24]] <- 
+  read_html(updates[24]) %>% 
+  html_nodes(xpath = "//body//table[2]//td//ul[8]//li") %>%   
   html_text() %>% 
   data.frame( cases = . ) %>% 
   filter( !str_detect(cases , 'Investigat')) %>% 
@@ -128,8 +135,6 @@ for( i in 3:length(updates)){
     mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
-
-sum(LA_LBC_PASADENA_cases[[23]]$cases)
 
 # ---------- Get dates ---------------------- # 
 release_date <- NA
