@@ -20,10 +20,14 @@ la_county <-
   summarise( total_cases = sum(cases) ) %>% 
   mutate( region = 'LOS ANGELES COUNTY')
 
+# manually change the total for 2020-04-07 to match 
+# LA Co. Public Health total.  There itemized total 
+# adding up Long Beach, Pasadena and Los Angeles Co. 
+# does not match the total they report in this update. 
 
-cases %>% 
-  filter( date > '2020-03-27') %>% 
-  filter(community %in% c('LOS ANGELES COUNTY (EXCL. LB AND PAS)', 'PASADENA', 'LONG BEACH') )
+la_county <- 
+  la_county %>% 
+  mutate( total_cases = ifelse( date == '2020-04-07', 6910, total_cases))
 
 basic_stats <- 
   expand.grid( date = seq.Date( min(cases$date), max(cases$date), by = 1 ), OBJECTID = BASA$OBJECTID ) %>% 

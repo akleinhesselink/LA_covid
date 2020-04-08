@@ -82,7 +82,7 @@ for(i in 10:19){
 }
 
 #update 20 on 4-04-20 changes format 
-for( i in 20:length(updates)){ 
+for( i in 20:22){ 
 
   cases_dat[[i]] <- 
     read_html(updates[i]) %>% 
@@ -93,6 +93,16 @@ for( i in 20:length(updates)){
     separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 
 }
+
+# started releasing demographic 2020-04-07 data so need to update scraper again: 
+
+cases_dat[[23]] <- 
+  read_html(updates[23]) %>% 
+  html_nodes(xpath = "//body//table[2]//td//ul[9]//li") %>%   
+  html_text() %>% 
+  data.frame( cases = . ) %>% 
+  filter( !str_detect(cases , 'Investigat')) %>% 
+  separate(cases, c('community', 'cases'), sep = '\\t', extra = 'drop') 
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
@@ -118,6 +128,8 @@ for( i in 3:length(updates)){
     mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
+
+sum(LA_LBC_PASADENA_cases[[23]]$cases)
 
 # ---------- Get dates ---------------------- # 
 release_date <- NA
@@ -151,6 +163,7 @@ for( i in 1:length(cases_dat)){
     mutate( community = str_remove( community, '^CITY OF ')) 
   
 }
+
 
 do.call( bind_rows, cases_dat  ) %>% 
   mutate( community = ifelse( str_detect(community, '<'), 'OTHER', community)) %>% 
