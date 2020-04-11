@@ -130,6 +130,16 @@ cases_dat[[26]] <-
            sep = '\\t',
            extra = 'drop')
 
+cases_dat[[27]] <- 
+  read_html(updates[27]) %>%
+  html_nodes(xpath = "//body//table[2]//td//ul[8]//li") %>%
+  html_text() %>%
+  data.frame(cases = .) %>%
+  filter(!str_detect(cases , 'Investigat')) %>%
+  separate(cases,
+           c('community', 'cases'),
+           sep = '\\t',
+           extra = 'drop')
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
@@ -145,7 +155,7 @@ for( i in 1:2){
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }
 
-for( i in 3:length(updates)){ 
+for( i in 3:26){ 
   LA_LBC_PASADENA_cases[[i]] <- 
     read_html(updates[i]) %>%
     html_nodes(xpath ="//body//table[2]//td//ul[2]//li") %>%
@@ -155,6 +165,18 @@ for( i in 3:length(updates)){
     mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
+
+for( i in 27:length(updates)){ 
+  LA_LBC_PASADENA_cases[[i]] <- 
+    read_html(updates[i]) %>%
+    html_nodes(xpath ="//body//table[2]//td//ul[1]//li") %>%
+    html_text() %>%
+    data.frame( cases = . ) %>%
+    separate(cases, c('community', 'cases'), sep = '--') %>% 
+    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
+    mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+}  
+
 
 # ---------- Get dates ---------------------- # 
 release_date <- NA
