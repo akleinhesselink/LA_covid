@@ -104,7 +104,8 @@ x_range <-
 # my_breaks <- c( 0, 0.01, round( my_breaks, 1)[-1] )
 
 rc2 <-
-  colorRampPalette(colors = c("white", "red"), space = "Lab")(180)
+  colorRampPalette(colors = c("white", "red", "blue"), space = "Lab")(180)
+
 pal_cases_per_thousand <-
   colorNumeric(
     palette = rc2,
