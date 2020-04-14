@@ -130,28 +130,20 @@ cases_dat[[26]] <-
            sep = '\\t',
            extra = 'drop')
 
-cases_dat[[27]] <- 
-  read_html(updates[27]) %>%
-  html_nodes(xpath = "//body//table[2]//td//ul[8]//li") %>%
-  html_text() %>%
-  data.frame(cases = .) %>%
-  filter(!str_detect(cases , 'Investigat')) %>%
-  separate(cases,
-           c('community', 'cases'),
-           sep = '\\t',
-           extra = 'drop')
+for( i in 27:length(updates)){ 
 
+  cases_dat[[i]] <- 
+    read_html(updates[i]) %>%
+    html_nodes(xpath = "//body//table[2]//td//ul[8]//li") %>%
+    html_text() %>%
+    data.frame(cases = .) %>%
+    filter(!str_detect(cases , 'Investigat')) %>%
+    separate(cases,
+             c('community', 'cases'),
+             sep = '\\t',
+             extra = 'drop')
+}
 
-cases_dat[[28]] <- 
-  read_html(updates[28]) %>%
-  html_nodes(xpath = "//body//table[2]//td//ul[8]//li") %>%
-  html_text() %>%
-  data.frame(cases = .) %>%
-  filter(!str_detect(cases , 'Investigat')) %>%
-  separate(cases,
-           c('community', 'cases'),
-           sep = '\\t',
-           extra = 'drop')
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()

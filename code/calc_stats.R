@@ -78,7 +78,8 @@ map_data <-
 la_county <- 
   la_county %>% 
   select( - Population, - `Cases per thousand`) %>% 
-  gather( variable, value , c(`Total cases`, `New cases`)) 
+  gather( variable, value , c(`Total cases`, `New cases`)) %>% 
+  distinct() 
 
 basic_stats <- 
   basic_stats %>% 
@@ -86,7 +87,8 @@ basic_stats <-
   gather( variable, value , c(`Total cases`, `New cases`)) %>% 
   left_join(la_county %>% select(-region), by = c('date', 'variable')) %>% 
   rename(value = value.x, 
-         countywide = value.y)
+         countywide = value.y) %>% 
+  distinct()
 
 save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
 
