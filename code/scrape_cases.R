@@ -144,7 +144,6 @@ for( i in 27:length(updates)){
              extra = 'drop')
 }
 
-
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
 
@@ -177,7 +176,7 @@ for( i in 27:length(updates)){
     html_text() %>%
     data.frame( cases = . ) %>%
     separate(cases, c('community', 'cases'), sep = '--') %>% 
-    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(x)))) %>% 
+    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
 
