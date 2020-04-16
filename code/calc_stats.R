@@ -78,17 +78,24 @@ map_data <-
 la_county <- 
   la_county %>% 
   select( - Population, - `Cases per thousand`) %>% 
-  gather( variable, value , c(`Total cases`, `New cases`)) %>% 
-  distinct() 
+  arrange( date ) %>% 
+  mutate( `Growth rate` = log(`Total cases`) - log(lag(`Total cases`))) %>% 
+  gather( variable, value , c(`Total cases`, `New cases`, `Growth rate`)) %>% 
+  distinct()
 
 basic_stats <- 
   basic_stats %>% 
   select( - Population, -`Cases per thousand` ) %>% 
-  gather( variable, value , c(`Total cases`, `New cases`)) %>% 
+  group_by(OBJECTID) %>% 
+  arrange( date ) %>% 
+  mutate( `Growth rate` = log(`Total cases`) - log(lag(`Total cases`))) %>% 
+  mutate( `Growth rate` = ifelse( is.na(`Growth rate`) | `Growth rate` < 0 | `Total cases` < 20, NA, `Growth rate`)) %>% 
+  gather( variable, value , c(`Total cases`, `New cases`, `Growth rate`)) %>% 
   left_join(la_county %>% select(-region), by = c('date', 'variable')) %>% 
   rename(value = value.x, 
          countywide = value.y) %>% 
   distinct()
 
-save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
 
+save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
+save(la_county, basic_stats, file = 'data/temp/case_data_copy.rda')

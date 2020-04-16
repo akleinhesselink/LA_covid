@@ -16,15 +16,78 @@ load(file = 'data/case_data.rda')
 ##############
 
 empty_plot <- function(title = NULL) {
-  p <- plotly_empty(type = "scatter", mode = "markers") %>%
+  
+  plotly_empty(type = "scatter", mode = "markers") %>%
     config(displayModeBar = FALSE) %>%
     layout(title = list(text = title,
                         yref = "paper",
                         y = 0.5))
-  return(p)
+  
 }
-empty_plot("This community does not have data")
 
+line_plot <- function( my_data, my_variable, x_title, x_range, hoverformat = "%{yaxis.title.text}: %{y:.0f}<br>"  ) { 
+  
+  my_data %>%
+      filter(variable == my_variable ) %>%
+      plot_ly(
+        x = ~ date,
+        y = ~ value,
+        type = 'scatter',
+        mode = 'lines+markers',
+        text = ~ date,
+        hovertemplate = paste(
+          "<b>%{text}</b><br><br>",
+          hoverformat,
+          "<extra></extra>"),
+        marker = list(size = 8, color = "red"),
+        line = list(
+          shape = "linear",
+          dash = "dot",
+          width = 3,
+          color = "red"
+        )
+      ) %>% 
+      layout(
+        xaxis = list(
+          title = x_title,
+          showgrid = FALSE,
+          autotick = T,
+          range = x_range
+        ),
+        yaxis = list(title = my_variable, 
+                     showgrid = FALSE, 
+                     rangemode = "tozero")
+      ) %>%
+      config(displayModeBar = F)
+}
+
+bar_plot <- function( my_data, my_variable, x_title, x_range, hoverformat = "%{yaxis.title.text}: %{y:.0f}<br>"  ) { 
+  
+  my_data %>% 
+    filter(variable == my_variable) %>%
+    plot_ly(
+      x = ~ date,
+      y = ~ value,
+      type = 'bar',
+      text = ~ date,
+      hovertemplate = paste(
+        "<b>%{text}</b><br><br>",
+        hoverformat,
+        "<extra></extra>"),
+      marker = list(size = 8, color = "red")) %>% 
+      layout(
+        xaxis = list(
+          title = x_title,
+          showgrid = FALSE,
+          autotick = T,
+          range = x_range
+        ),
+        yaxis = list(title = my_variable, 
+                     showgrid = FALSE, 
+                     rangemode = "tozero")
+        ) %>%
+        config(displayModeBar = F)
+}
 
 ##############
 ##############
@@ -149,6 +212,7 @@ ui <- fluidPage(
 ##############
 
 server <- function(input, output) {
+  
   output$about_text <- renderText({
     about
   })
@@ -201,60 +265,21 @@ server <- function(input, output) {
   output$timeseries <- renderPlotly({
   
   if( input$variable == 'Total cases' ){ 
-    la_county %>%
-      filter(variable == input$variable ) %>%
-      plot_ly(
-        x = ~ date,
-        y = ~ value,
-        type = 'scatter',
-        mode = 'lines+markers',
-        text = ~ date,
-        hovertemplate = paste(
-          "<b>%{text}</b><br><br>",
-          "%{yaxis.title.text}: %{y:.0f}<br>",
-          "<extra></extra>"),
-        marker = list(size = 8, color = "red"),
-        line = list(
-          shape = "linear",
-          dash = "dot",
-          width = 3,
-          color = "red"
-        )
-      ) %>%
-      layout(
-        xaxis = list(
-          title = x_title,
-          showgrid = FALSE,
-          autotick = T,
-          range = x_range
-        ),
-        yaxis = list(title = input$variable, showgrid = FALSE)
-      ) %>%
-      config(displayModeBar = F)
-  }else if(  input$variable == 'New cases' ){ 
-    la_county %>%
-      filter(variable == input$variable ) %>%
-      plot_ly(
-        x = ~ date,
-        y = ~ value,
-        type = 'bar',
-        text = ~ date,
-        hovertemplate = paste(
-          "<b>%{text}</b><br><br>",
-          "%{yaxis.title.text}: %{y:.0f}<br>",
-          "<extra></extra>"),
-        marker = list(size = 8, color = "red")) %>%
-        layout(
-          xaxis = list(
-            title = x_title,
-            showgrid = FALSE,
-            autotick = T,
-            range = x_range
-          ),
-          yaxis = list(title = input$variable, showgrid = FALSE)
-        ) %>%
-        config(displayModeBar = F)
+    
+    la_county %>% 
+      line_plot(input$variable, x_title, x_range) 
+    
+  }else if( input$variable == 'New cases' ){ 
+    
+    la_county %>% 
+      bar_plot(input$variable, x_title, x_range)
+    
+  }else if( input$variable == 'Growth rate' ){ 
+    
+    la_county %>% 
+      line_plot(input$variable, x_title, x_range, hoverformat = "%{yaxis.title.text}: %{y:.2f}<br>" ) 
   }
+  
   })
   
   id <-  eventReactive(input$map_shape_click, {
@@ -263,6 +288,7 @@ server <- function(input, output) {
   
   # Community Plot
   output$specific_nbg <- renderPlotly({
+    
     selected_location <-
       basic_stats %>%
       filter(label == id()) %>%
@@ -274,85 +300,61 @@ server <- function(input, output) {
       
       if( input$variable == 'Total cases' ){ 
         
-      basic_stats %>%
-        filter(label == id()) %>%
-        filter(variable == input$variable) %>%
-        plot_ly(
-          x = ~ date,
-          y = ~ value,
-          type = 'scatter',
-          mode = 'lines+markers',
-          text = ~ date,
-          hovertemplate = paste(
-            "<b>%{text}</b><br><br>",
-            "%{yaxis.title.text}: %{y:.0f}<br>",
-            "<extra></extra>"
-          ),
-          marker = list(size = 8, color = "red"),
-          line = list(
-            shape = "linear",
-            dash = "dot",
-            width = 3,
-            color = "red"
-          )
-        ) %>%
-        layout(
-          title = list(
-            text = id(),
-            x = 0.1,
-            y = 0.9,
-            xref = "paper",
-            yref = 'paper'
-          ),
-          xaxis = list(
-            title = x_title,
-            showgrid = FALSE,
-            autotick = T,
-            range = x_range
-          ),
-          yaxis = list(
-            title = input$variable,
-            showgrid = FALSE,
-            rangemode = "tozero"
-          )
-        ) %>%
-        config(displayModeBar = F)
+        basic_stats %>% 
+          filter(label == id()) %>% 
+          line_plot( input$variable, x_title, x_range) %>% 
+          layout( 
+              title = list(
+                text = id(),
+                x = 0.1,
+                y = 0.9,
+                xref = "paper",
+                yref = 'paper'
+              )) 
+        
       }else if(  input$variable == 'New cases' ){ 
+        
         basic_stats %>%
           filter(label == id()) %>%
-          filter(variable == input$variable) %>%
-          plot_ly(
-            x = ~ date,
-            y = ~ value,
-            type = 'bar',
-            text = ~ date,
-            hovertemplate = paste(
-              "<b>%{text}</b><br><br>",
-              "%{yaxis.title.text}: %{y:.0f}<br>",
-              "<extra></extra>"),
-            marker = list(size = 8, color = "red")) %>%
-          layout(
-            title = list(
-              text = id(),
-              x = 0.1,
-              y = 0.9,
-              xref = "paper",
-              yref = 'paper'
-            ),
-            xaxis = list(
-              title = x_title,
-              showgrid = FALSE,
-              autotick = T,
-              range = x_range
-            ),
-            yaxis = list(title = input$variable, showgrid = FALSE)
-          ) %>%
-          config(displayModeBar = F)
+          bar_plot(input$variable, x_title, x_range) %>%
+            layout(
+              title = list(
+                text = id(),
+                x = 0.1,
+                y = 0.9,
+                xref = "paper",
+                yref = 'paper'
+              ))
+        
+      }else if(  input$variable == 'Growth rate' ){ 
+        
+        sel_loc <- 
+          basic_stats %>% 
+          filter( label == id(), variable == input$variable)  
+    
+        any_growth_data <- sum(sel_loc$value, na.rm = T)
+        
+        if( !is.na(any_growth_data) & any_growth_data > 0 ) { 
+          basic_stats %>%
+            filter(label == id()) %>%
+            line_plot(input$variable, x_title, x_range, hoverformat =  "%{yaxis.title.text}: %{y:.2f}<br>" ) %>%
+            layout(
+              title = list(
+                text = id(),
+                x = 0.1,
+                y = 0.9,
+                xref = "paper",
+                yref = 'paper'
+              ))
+        }else{
+          empty_plot(sprintf("Insufficient growth rate data for %s", id()))
+        }
       }
-    } else{
+    }else{
       empty_plot(sprintf("There are no data for %s", id()))
     }
   })
 }
+
 
 shinyApp(ui = ui, server = server)
