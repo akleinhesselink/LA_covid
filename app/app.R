@@ -46,7 +46,7 @@ line_plot <- function( my_data, my_variable, x_title, x_range, hoverformat = "%{
           width = 3,
           color = "red"
         )
-      ) %>% 
+      ) %>%
       layout(
         xaxis = list(
           title = x_title,
@@ -69,7 +69,7 @@ bar_plot <- function( my_data, my_variable, x_title, x_range, hoverformat = "%{y
       x = ~ date,
       y = ~ value,
       type = 'bar',
-      text = ~ date,
+      text = ~ plot_note,
       hovertemplate = paste(
         "<b>%{text}</b><br><br>",
         hoverformat,
@@ -273,7 +273,8 @@ server <- function(input, output) {
     
     la_county %>% 
       bar_plot(input$variable, x_title, x_range)
-    
+
+      
   }else if( input$variable == 'Growth rate' ){ 
     
     la_county %>% 

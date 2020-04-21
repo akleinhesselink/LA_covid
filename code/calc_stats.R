@@ -96,6 +96,14 @@ basic_stats <-
          countywide = value.y) %>% 
   distinct()
 
+la_county <- 
+  la_county %>% 
+  mutate( plot_note = '') %>% 
+  mutate( plot_note = ifelse (date == '2020-04-20', "*Case backlog added*", plot_note))
 
+basic_stats <- 
+  basic_stats %>% 
+  mutate( plot_note = '') 
+  
 save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
 save(la_county, basic_stats, file = 'data/temp/case_data_copy.rda')
