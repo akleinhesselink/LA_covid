@@ -130,7 +130,7 @@ cases_dat[[26]] <-
            sep = '\\t',
            extra = 'drop')
 
-for( i in 27:length(updates)){ 
+for( i in 27:36){ 
 
   cases_dat[[i]] <- 
     read_html(updates[i]) %>%
@@ -152,6 +152,19 @@ cases_dat[[37]] <-
   filter(!str_detect(cases , 'Investigat')) %>% 
   filter( row_number() >= 40) %>% 
   filter( row_number() < 346) %>% 
+  separate(cases,
+           c('community', 'cases'),
+           sep = '\\t',
+           extra = 'drop')
+
+cases_dat[[38]] <- 
+  read_html(updates[38])  %>% 
+  html_nodes(css =  "p+ li, p, li") %>%
+  html_text() %>%
+  data.frame(cases = .) %>% 
+  filter(!str_detect(cases , 'Investigat')) %>% 
+  filter( row_number() >= 40) %>% 
+  filter( row_number() < 347) %>% 
   separate(cases,
            c('community', 'cases'),
            sep = '\\t',
