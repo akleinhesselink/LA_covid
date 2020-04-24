@@ -6,7 +6,6 @@ library(rvest)
 library(lubridate)
 
 updates <- dir( 'data/update_archive', '*.html', full.names = T)
-
 cases_dat <- list() 
 
 # Format inconsistent for first 8 updates, 
@@ -14,8 +13,7 @@ cases_dat <- list()
 
 # filter out other updates: 
 skip <- c('2269')
-
-updates <- updates[ -which( str_extract(updates, '(?<=prid=)\\d+') %in% skip) ] 
+updates <- updates[ !str_extract(updates, '(?<=prid=)\\d+') %in% skip ] 
 
 # update 1 and 2: 
 for ( i in 1:2 ) { 
@@ -144,32 +142,65 @@ for( i in 27:36){
              extra = 'drop')
 }
 
-cases_dat[[37]] <- 
+# change to html on April 21st 
+cases_dat[[37]] <-
+  bind_rows(
   read_html(updates[37])  %>% 
-  html_nodes(css =  "p+ li, p, li") %>%
-  html_text() %>%
-  data.frame(cases = .) %>% 
-  filter(!str_detect(cases , 'Investigat')) %>% 
-  filter( row_number() >= 40) %>% 
-  filter( row_number() < 346) %>% 
+            html_nodes(xpath = "//td/p") %>%
+            html_text() %>% 
+            data.frame(cases = .) %>% 
+            tail( 1) %>%
+            separate(cases,
+                     c('community', 'cases'),
+                     sep = '\t',
+                     extra = 'drop') %>% 
+    mutate( community = str_trim(community)), 
+  read_html(updates[37])  %>% 
+  html_nodes(xpath = "//td/li") %>%
+  html_text() %>% 
+  data.frame(cases = .) %>%
+  filter(!str_detect(cases , 'Investigat')) %>%
   separate(cases,
            c('community', 'cases'),
            sep = '\\t',
-           extra = 'drop')
+           extra = 'drop'))
+
 
 cases_dat[[38]] <- 
-  read_html(updates[38])  %>% 
-  html_nodes(css =  "p+ li, p, li") %>%
-  html_text() %>%
-  data.frame(cases = .) %>% 
-  filter(!str_detect(cases , 'Investigat')) %>% 
-  filter( row_number() >= 40) %>% 
-  filter( row_number() < 347) %>% 
+  bind_rows(read_html(updates[38])  %>% 
+              html_nodes(xpath = "//td/p") %>%
+              html_text() %>% 
+              data.frame(cases = .) %>% 
+              tail( 1) %>%
+              separate(cases,
+                       c('community', 'cases'),
+                       sep = '\t',
+                       extra = 'drop')  %>% 
+              mutate( community = str_trim(community)) , 
+            read_html(updates[38])  %>% 
+              html_nodes(xpath = "//td//li") %>% 
+              html_text() %>%  
+              data.frame(cases = .) %>% 
+              filter( row_number() > 28, row_number() < 373)  %>% 
+              filter(!str_detect(cases , 'Investigat')) %>%
+              separate(cases,
+                     c('community', 'cases'),
+                     sep = '\\t',
+                     extra = 'drop') 
+  )
+
+
+cases_dat[[39]] <- 
+  read_html(updates[39])  %>% 
+  html_nodes(xpath = "//td//ul//li") %>%
+  html_text() %>% 
+  data.frame(cases = .) %>%
+  filter( row_number() > 27, row_number() < 375 ) %>% 
+  filter(!str_detect(cases , 'Investigat')) %>%
   separate(cases,
            c('community', 'cases'),
            sep = '\\t',
            extra = 'drop')
-
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
@@ -196,7 +227,7 @@ for( i in 3:26){
     mutate( cases = as.numeric(str_extract( cases, '\\d+')))
 }  
 
-for( i in 27:length(updates)){ 
+for( i in 27:36){ 
   LA_LBC_PASADENA_cases[[i]] <- 
     read_html(updates[i]) %>%
     html_nodes(xpath ="//body//table[2]//td//ul[1]//li") %>%
@@ -216,6 +247,27 @@ LA_LBC_PASADENA_cases[[37]] <-
   separate(cases, c('community', 'cases'), sep = '--') %>% 
   mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
   mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+
+LA_LBC_PASADENA_cases[[38]] <- 
+  read_html(updates[38]) %>%
+  html_nodes(xpath = "//body//table[2]//td//ul[1]//li") %>% 
+  html_text() %>% 
+  data.frame( cases = . )  %>% 
+  filter( row_number() < 4 ) %>% 
+  separate(cases, c('community', 'cases'), sep = '--') %>% 
+  mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
+  mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+
+LA_LBC_PASADENA_cases[[39]] <- 
+  read_html(updates[39]) %>%
+  html_nodes(xpath = "//body//table[2]//td//ul[1]//li") %>% 
+  html_text() %>% 
+  data.frame( cases = . )  %>% 
+  filter( row_number() < 4 ) %>% 
+  separate(cases, c('community', 'cases'), sep = '--') %>% 
+  mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
+  mutate( cases = as.numeric(str_extract( cases, '\\d+')))
+
 
 
 # ---------- Get dates ---------------------- # 

@@ -17,6 +17,7 @@ most_recent_update <- max( cases$date  )
 
 la_county <- 
   cases  %>% 
+  mutate( community = str_trim(str_squish(community))) %>%  
   filter( community %in% c('LOS ANGELES COUNTY (EXCL. LB AND PAS)', 'PASADENA', 'LONG BEACH')) %>% 
   left_join(BASA %>% st_drop_geometry() %>% select( OBJECTID, region, community, POPULATION )) %>% 
   group_by( date ) %>%
