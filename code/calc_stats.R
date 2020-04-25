@@ -100,7 +100,7 @@ basic_stats <-
 la_county <- 
   la_county %>% 
   mutate( plot_note = '') %>% 
-  mutate( plot_note = ifelse (date >= '2020-04-20', "*Includes case backlog", plot_note))
+  mutate( plot_note = ifelse (date >= '2020-04-20' & date < '2020-04-22', "*Includes case backlog", plot_note))
 
 basic_stats <- 
   basic_stats %>% 
