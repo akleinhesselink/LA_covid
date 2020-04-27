@@ -54,6 +54,7 @@ basic_stats <-
   basic_stats %>% 
   mutate( label = ifelse( region == "UNINCORPORATED", paste( community, "Unincorporated", sep = ' --\n'), community) ) %>% 
   mutate( label = str_to_title(label)) %>% 
+  mutate( label = ifelse( label == 'West La --\nUnincorporated', 'V.A. Medical Center', label)) %>% 
   group_by( label) %>% 
   arrange(label, date) %>% 
   mutate( new_cases = cases - lag(cases)) %>%
@@ -62,6 +63,7 @@ basic_stats <-
           `New cases` = new_cases, 
           `Cases per thousand` = cases_per_1k, 
           "Population" = POPULATION) 
+
 
 map_data <- 
   BASA %>% 
@@ -105,6 +107,6 @@ la_county <-
 basic_stats <- 
   basic_stats %>% 
   mutate( plot_note = '') 
-  
+
 save(la_county, basic_stats, map_data, file = 'app/data/case_data.rda')
 save(la_county, basic_stats, file = 'data/temp/case_data_copy.rda')

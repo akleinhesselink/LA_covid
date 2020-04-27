@@ -162,23 +162,25 @@ y_title <- "Cases"
 x_range <-
   c(as.character(first_date - 1), as.character(latest_update + 1))
 
-# library(classInt)
-# my_breaks <- classInt::classIntervals(map_data$`Cases per thousand`, style = 'jenks')$brks
-# my_breaks <- c( 0, 0.01, round( my_breaks, 1)[-1] )
+library(classInt)
+my_breaks <- classInt::classIntervals(map_data$`Cases per thousand`, style = 'jenks')$brks
+my_breaks <- c( 0, 0.01, round( my_breaks, 1)[-1] )
+my_breaks <- my_breaks[c(1:10, 12)]
 
-rc2 <-
-  colorRampPalette(colors = c("white", "red", "blue"), space = "Lab")(180)
+rc2 <- colorRampPalette(colors = c("white", "pink", "red"), space = "Lab")(length(my_breaks))
+pal_cases_per_thousand <-colorBin(palette=rc2, domain = map_data$`Cases per thousand`, bins = my_breaks,  na.color = 'lightgrey')
 
-pal_cases_per_thousand <-
-  colorNumeric(
-    palette = rc2,
-    domain = map_data$`Cases per thousand`,
-    na.color = 'lightgrey'
-  )
+# rc2 <-
+#   colorRampPalette(colors = c("white", "red", "blue", "orange"), space = "Lab")(180)
+
+# pal_cases_per_thousand <-
+#   colorNumeric(
+#     palette = rc2,
+#     domain = map_data$`Cases per thousand`,
+#     na.color = 'lightgrey'
+#   )
 
 # pal_cases <-colorNumeric(palette = rc2, domain = map_data$Cases, na.color = 'lightgrey')
-# rc2 <- colorRampPalette(colors = c("white", "red"), space = "Lab")(length(my_breaks))
-# pal_cases_per_thousand <-colorBin(palette=rc2, domain = map_data$`Cases per thousand`, bins = my_breaks,  na.color = 'lightgrey')
 # pal_cases <-colorNumeric(palette = rc2, domain = map_data$Cases, na.color = 'lightgrey')
 
 ## --------------------------------------- #

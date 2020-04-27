@@ -143,6 +143,8 @@ for( i in 27:36){
 }
 
 # change to html on April 21st 
+# Two parts, Agoura Hills is out of place 
+
 cases_dat[[37]] <-
   bind_rows(
   read_html(updates[37])  %>% 
@@ -165,6 +167,7 @@ cases_dat[[37]] <-
            sep = '\\t',
            extra = 'drop'))
 
+# Two parts, Agoura Hills is out of place 
 
 cases_dat[[38]] <- 
   bind_rows(read_html(updates[38])  %>% 
@@ -213,6 +216,41 @@ cases_dat[[40]] <-
            sep = '\\t',
            extra = 'drop')
 
+cases_dat[[41]] <- 
+  read_html(updates[41])  %>% 
+  html_nodes(xpath = "//ul[9]//li") %>%
+  html_text() %>% 
+  data.frame(cases = .) %>%
+  filter(!str_detect(cases , 'Investigat')) %>%
+  separate(cases,
+           c('community', 'cases'),
+           sep = '\\t',
+           extra = 'drop')
+
+# Two parts, Agoura Hills is out of place 
+
+cases_dat[[42]] <- 
+  bind_rows(read_html(updates[42])  %>% 
+              html_nodes(xpath = "//td/p") %>%
+              html_text() %>% 
+              data.frame(cases = .) %>% 
+              tail( 1) %>%
+              separate(cases,
+                       c('community', 'cases'),
+                       sep = '\t',
+                       extra = 'drop')  %>% 
+              mutate( community = str_trim(community)),
+            read_html(updates[42])  %>% 
+              html_nodes(xpath = "//td//li") %>% 
+              html_text() %>%  
+              data.frame(cases = .) %>% 
+              filter( row_number() > 31, row_number() < 377)  %>% 
+              filter(!str_detect(cases , 'Investigat')) %>%
+              separate(cases,
+                       c('community', 'cases'),
+                       sep = '\\t',
+                       extra = 'drop')  
+  ) 
 
 # Process Long Beach, Pasadena and LA County Separately --- # 
 LA_LBC_PASADENA_cases <- list()
@@ -289,6 +327,28 @@ LA_LBC_PASADENA_cases[[40]] <-
   mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
   mutate( cases = as.numeric(str_extract( cases, '\\d+'))) 
 
+
+LA_LBC_PASADENA_cases[[41]] <- 
+  read_html(updates[41]) %>%
+  html_nodes(xpath ="//body//table[2]//td//ul[2]//li") %>%
+  html_text() %>% 
+  data.frame( cases = . )  %>%  
+  separate(cases, c('community', 'cases'), sep = '--') %>% 
+  mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
+  mutate( cases = as.numeric(str_extract( cases, '\\d+'))) 
+
+
+LA_LBC_PASADENA_cases[[42]] <- 
+    read_html(updates[42]) %>%
+    html_nodes(xpath ="//body//table[2]//td//ul[1]//li") %>%
+    html_text() %>% 
+    data.frame( cases = . )  %>%  
+    filter( row_number() < 4) %>% 
+    separate(cases, c('community', 'cases'), sep = '--') %>% 
+    mutate_all( .fun = function(x) str_squish(str_trim(str_to_upper(str_remove(x, ','))))) %>% 
+    mutate( cases = as.numeric(str_extract( cases, '\\d+'))) 
+  
+  
 
 # ---------- Get dates ---------------------- # 
 release_date <- NA
